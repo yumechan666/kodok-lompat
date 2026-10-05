@@ -1,0 +1,965 @@
+{
+  "image": "/generated-assets/creature_sheet_16-transparent.webp",
+  "grid": {
+    "cols": 3,
+    "rows": 8,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "space_station_fly_1",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 122,
+        "y": 38,
+        "w": 201,
+        "h": 311
+      },
+      "anchor": {
+        "x": 223,
+        "y": 348
+      }
+    },
+    {
+      "name": "space_station_fly_2",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 403,
+        "y": 103,
+        "w": 363,
+        "h": 243
+      },
+      "anchor": {
+        "x": 585,
+        "y": 345
+      }
+    },
+    {
+      "name": "space_station_fly_3",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 889,
+        "y": 118,
+        "w": 197,
+        "h": 271
+      },
+      "anchor": {
+        "x": 988,
+        "y": 388
+      }
+    },
+    {
+      "name": "space_station_bird_1",
+      "source": {
+        "x": 56,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 83,
+        "y": 416,
+        "w": 288,
+        "h": 252
+      },
+      "anchor": {
+        "x": 227,
+        "y": 667
+      }
+    },
+    {
+      "name": "space_station_bird_2",
+      "source": {
+        "x": 440,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 391,
+        "y": 547,
+        "w": 377,
+        "h": 122
+      },
+      "anchor": {
+        "x": 580,
+        "y": 668
+      }
+    },
+    {
+      "name": "space_station_bird_3",
+      "source": {
+        "x": 824,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 876,
+        "y": 576,
+        "w": 269,
+        "h": 166
+      },
+      "anchor": {
+        "x": 1011,
+        "y": 741
+      }
+    },
+    {
+      "name": "alien_jungle_fly_1",
+      "source": {
+        "x": 56,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 85,
+        "y": 748,
+        "w": 255,
+        "h": 334
+      },
+      "anchor": {
+        "x": 213,
+        "y": 1081
+      }
+    },
+    {
+      "name": "alien_jungle_fly_2",
+      "source": {
+        "x": 440,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 398,
+        "y": 898,
+        "w": 336,
+        "h": 174
+      },
+      "anchor": {
+        "x": 566,
+        "y": 1071
+      }
+    },
+    {
+      "name": "alien_jungle_fly_3",
+      "source": {
+        "x": 824,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 865,
+        "y": 923,
+        "w": 246,
+        "h": 160
+      },
+      "anchor": {
+        "x": 988,
+        "y": 1082
+      }
+    },
+    {
+      "name": "alien_jungle_bird_1",
+      "source": {
+        "x": 56,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 62,
+        "y": 1129,
+        "w": 277,
+        "h": 340
+      },
+      "anchor": {
+        "x": 201,
+        "y": 1468
+      }
+    },
+    {
+      "name": "alien_jungle_bird_2",
+      "source": {
+        "x": 440,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 399,
+        "y": 1297,
+        "w": 350,
+        "h": 158
+      },
+      "anchor": {
+        "x": 574,
+        "y": 1454
+      }
+    },
+    {
+      "name": "alien_jungle_bird_3",
+      "source": {
+        "x": 824,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 842,
+        "y": 1301,
+        "w": 270,
+        "h": 165
+      },
+      "anchor": {
+        "x": 977,
+        "y": 1465
+      }
+    },
+    {
+      "name": "saturn_rings_fly_1",
+      "source": {
+        "x": 56,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 70,
+        "y": 1553,
+        "w": 272,
+        "h": 308
+      },
+      "anchor": {
+        "x": 206,
+        "y": 1860
+      }
+    },
+    {
+      "name": "saturn_rings_fly_2",
+      "source": {
+        "x": 440,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 402,
+        "y": 1667,
+        "w": 344,
+        "h": 181
+      },
+      "anchor": {
+        "x": 574,
+        "y": 1847
+      }
+    },
+    {
+      "name": "saturn_rings_fly_3",
+      "source": {
+        "x": 824,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 860,
+        "y": 1699,
+        "w": 255,
+        "h": 162
+      },
+      "anchor": {
+        "x": 988,
+        "y": 1860
+      }
+    },
+    {
+      "name": "saturn_rings_bird_1",
+      "source": {
+        "x": 56,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 51,
+        "y": 1908,
+        "w": 316,
+        "h": 304
+      },
+      "anchor": {
+        "x": 209,
+        "y": 2211
+      }
+    },
+    {
+      "name": "saturn_rings_bird_2",
+      "source": {
+        "x": 440,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 394,
+        "y": 2025,
+        "w": 373,
+        "h": 184
+      },
+      "anchor": {
+        "x": 581,
+        "y": 2208
+      }
+    },
+    {
+      "name": "saturn_rings_bird_3",
+      "source": {
+        "x": 824,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 805,
+        "y": 2041,
+        "w": 342,
+        "h": 167
+      },
+      "anchor": {
+        "x": 976,
+        "y": 2207
+      }
+    },
+    {
+      "name": "meteor_shower_fly_1",
+      "source": {
+        "x": 56,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 69,
+        "y": 2298,
+        "w": 288,
+        "h": 303
+      },
+      "anchor": {
+        "x": 213,
+        "y": 2600
+      }
+    },
+    {
+      "name": "meteor_shower_fly_2",
+      "source": {
+        "x": 440,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 391,
+        "y": 2405,
+        "w": 368,
+        "h": 181
+      },
+      "anchor": {
+        "x": 575,
+        "y": 2585
+      }
+    },
+    {
+      "name": "meteor_shower_fly_3",
+      "source": {
+        "x": 824,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 855,
+        "y": 2431,
+        "w": 277,
+        "h": 162
+      },
+      "anchor": {
+        "x": 994,
+        "y": 2592
+      }
+    },
+    {
+      "name": "meteor_shower_bird_1",
+      "source": {
+        "x": 56,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 59,
+        "y": 2659,
+        "w": 289,
+        "h": 400
+      },
+      "anchor": {
+        "x": 204,
+        "y": 3058
+      }
+    },
+    {
+      "name": "meteor_shower_bird_2",
+      "source": {
+        "x": 440,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 385,
+        "y": 2742,
+        "w": 353,
+        "h": 302
+      },
+      "anchor": {
+        "x": 562,
+        "y": 3043
+      }
+    },
+    {
+      "name": "meteor_shower_bird_3",
+      "source": {
+        "x": 824,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 814,
+        "y": 2820,
+        "w": 338,
+        "h": 247
+      },
+      "anchor": {
+        "x": 983,
+        "y": 3066
+      }
+    }
+  ],
+  "animations": [
+    {
+      "name": "space_station_fly",
+      "frames": [
+        {
+          "name": "space_station_fly_1",
+          "source": {
+            "x": 56,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 122,
+            "y": 38,
+            "w": 201,
+            "h": 311
+          },
+          "anchor": {
+            "x": 223,
+            "y": 348
+          }
+        },
+        {
+          "name": "space_station_fly_2",
+          "source": {
+            "x": 440,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 403,
+            "y": 103,
+            "w": 363,
+            "h": 243
+          },
+          "anchor": {
+            "x": 585,
+            "y": 345
+          }
+        },
+        {
+          "name": "space_station_fly_3",
+          "source": {
+            "x": 824,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 889,
+            "y": 118,
+            "w": 197,
+            "h": 271
+          },
+          "anchor": {
+            "x": 988,
+            "y": 388
+          }
+        }
+      ]
+    },
+    {
+      "name": "space_station_bird",
+      "frames": [
+        {
+          "name": "space_station_bird_1",
+          "source": {
+            "x": 56,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 83,
+            "y": 416,
+            "w": 288,
+            "h": 252
+          },
+          "anchor": {
+            "x": 227,
+            "y": 667
+          }
+        },
+        {
+          "name": "space_station_bird_2",
+          "source": {
+            "x": 440,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 391,
+            "y": 547,
+            "w": 377,
+            "h": 122
+          },
+          "anchor": {
+            "x": 580,
+            "y": 668
+          }
+        },
+        {
+          "name": "space_station_bird_3",
+          "source": {
+            "x": 824,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 876,
+            "y": 576,
+            "w": 269,
+            "h": 166
+          },
+          "anchor": {
+            "x": 1011,
+            "y": 741
+          }
+        }
+      ]
+    },
+    {
+      "name": "alien_jungle_fly",
+      "frames": [
+        {
+          "name": "alien_jungle_fly_1",
+          "source": {
+            "x": 56,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 85,
+            "y": 748,
+            "w": 255,
+            "h": 334
+          },
+          "anchor": {
+            "x": 213,
+            "y": 1081
+          }
+        },
+        {
+          "name": "alien_jungle_fly_2",
+          "source": {
+            "x": 440,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 398,
+            "y": 898,
+            "w": 336,
+            "h": 174
+          },
+          "anchor": {
+            "x": 566,
+            "y": 1071
+          }
+        },
+        {
+          "name": "alien_jungle_fly_3",
+          "source": {
+            "x": 824,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 865,
+            "y": 923,
+            "w": 246,
+            "h": 160
+          },
+          "anchor": {
+            "x": 988,
+            "y": 1082
+          }
+        }
+      ]
+    },
+    {
+      "name": "alien_jungle_bird",
+      "frames": [
+        {
+          "name": "alien_jungle_bird_1",
+          "source": {
+            "x": 56,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 62,
+            "y": 1129,
+            "w": 277,
+            "h": 340
+          },
+          "anchor": {
+            "x": 201,
+            "y": 1468
+          }
+        },
+        {
+          "name": "alien_jungle_bird_2",
+          "source": {
+            "x": 440,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 399,
+            "y": 1297,
+            "w": 350,
+            "h": 158
+          },
+          "anchor": {
+            "x": 574,
+            "y": 1454
+          }
+        },
+        {
+          "name": "alien_jungle_bird_3",
+          "source": {
+            "x": 824,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 842,
+            "y": 1301,
+            "w": 270,
+            "h": 165
+          },
+          "anchor": {
+            "x": 977,
+            "y": 1465
+          }
+        }
+      ]
+    },
+    {
+      "name": "saturn_rings_fly",
+      "frames": [
+        {
+          "name": "saturn_rings_fly_1",
+          "source": {
+            "x": 56,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 70,
+            "y": 1553,
+            "w": 272,
+            "h": 308
+          },
+          "anchor": {
+            "x": 206,
+            "y": 1860
+          }
+        },
+        {
+          "name": "saturn_rings_fly_2",
+          "source": {
+            "x": 440,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 402,
+            "y": 1667,
+            "w": 344,
+            "h": 181
+          },
+          "anchor": {
+            "x": 574,
+            "y": 1847
+          }
+        },
+        {
+          "name": "saturn_rings_fly_3",
+          "source": {
+            "x": 824,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 860,
+            "y": 1699,
+            "w": 255,
+            "h": 162
+          },
+          "anchor": {
+            "x": 988,
+            "y": 1860
+          }
+        }
+      ]
+    },
+    {
+      "name": "saturn_rings_bird",
+      "frames": [
+        {
+          "name": "saturn_rings_bird_1",
+          "source": {
+            "x": 56,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 51,
+            "y": 1908,
+            "w": 316,
+            "h": 304
+          },
+          "anchor": {
+            "x": 209,
+            "y": 2211
+          }
+        },
+        {
+          "name": "saturn_rings_bird_2",
+          "source": {
+            "x": 440,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 394,
+            "y": 2025,
+            "w": 373,
+            "h": 184
+          },
+          "anchor": {
+            "x": 581,
+            "y": 2208
+          }
+        },
+        {
+          "name": "saturn_rings_bird_3",
+          "source": {
+            "x": 824,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 805,
+            "y": 2041,
+            "w": 342,
+            "h": 167
+          },
+          "anchor": {
+            "x": 976,
+            "y": 2207
+          }
+        }
+      ]
+    },
+    {
+      "name": "meteor_shower_fly",
+      "frames": [
+        {
+          "name": "meteor_shower_fly_1",
+          "source": {
+            "x": 56,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 69,
+            "y": 2298,
+            "w": 288,
+            "h": 303
+          },
+          "anchor": {
+            "x": 213,
+            "y": 2600
+          }
+        },
+        {
+          "name": "meteor_shower_fly_2",
+          "source": {
+            "x": 440,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 391,
+            "y": 2405,
+            "w": 368,
+            "h": 181
+          },
+          "anchor": {
+            "x": 575,
+            "y": 2585
+          }
+        },
+        {
+          "name": "meteor_shower_fly_3",
+          "source": {
+            "x": 824,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 855,
+            "y": 2431,
+            "w": 277,
+            "h": 162
+          },
+          "anchor": {
+            "x": 994,
+            "y": 2592
+          }
+        }
+      ]
+    },
+    {
+      "name": "meteor_shower_bird",
+      "frames": [
+        {
+          "name": "meteor_shower_bird_1",
+          "source": {
+            "x": 56,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 59,
+            "y": 2659,
+            "w": 289,
+            "h": 400
+          },
+          "anchor": {
+            "x": 204,
+            "y": 3058
+          }
+        },
+        {
+          "name": "meteor_shower_bird_2",
+          "source": {
+            "x": 440,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 385,
+            "y": 2742,
+            "w": 353,
+            "h": 302
+          },
+          "anchor": {
+            "x": 562,
+            "y": 3043
+          }
+        },
+        {
+          "name": "meteor_shower_bird_3",
+          "source": {
+            "x": 824,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 814,
+            "y": 2820,
+            "w": 338,
+            "h": 247
+          },
+          "anchor": {
+            "x": 983,
+            "y": 3066
+          }
+        }
+      ]
+    }
+  ]
+}

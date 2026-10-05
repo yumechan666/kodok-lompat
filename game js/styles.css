@@ -1,0 +1,861 @@
+/* Template contract — keep this sizing block intact when re-theming.
+   The game runs in an iframe inside iOS/Android WebViews, where viewport
+   units (100vh/100dvh/100vw) go stale after the view scrolls or hides and
+   leave blank bands; this container-percentage chain is what sizes the game
+   reliably. Restyle colors, fonts, and visuals freely, but do not replace
+   these sizing/overflow rules or size any root container in viewport units. */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Low-specificity flex/grid shrink floor: intrinsic content must not widen or
+   deepen a layout track beyond the handheld frame. Component minimums win. */
+:where(#app *) {
+  min-width: 0;
+  min-height: 0;
+}
+
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+  overscroll-behavior: none;
+  background: #0e0e10;
+  color: #f5f5f5;
+  font-family: Nunito, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+
+body {
+  position: fixed;
+  inset: 0;
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+  /* Text strokes are centered on glyph contours. Paint the fill last so an
+     outline stays outside instead of cutting into counters and thin strokes. */
+  paint-order: stroke fill;
+  /* Size container: children size type/spacing in cqw/cqh/cqmin units,
+     which track the actual game frame (viewport units are banned above). */
+  container-type: size;
+}
+
+/* Do not inherit the HTML text safeguard into SVG artwork, whose fill/stroke
+   layering may intentionally use the SVG default. */
+#app svg {
+  paint-order: normal;
+}
+
+canvas,
+.game-surface {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  touch-action: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+button,
+[role="button"] {
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Template contract — fit-mechanics primitives. Layout is top-down: the
+   frame is the budget and content adapts to its box, so overflow is
+   impossible by construction. These classes carry ONLY fit mechanics —
+   shrink/wrap behavior, min-width: 0 (flex children otherwise refuse to
+   shrink below their text), truncation, container-query type scaling, 44px
+   touch minimums, and gaps. They are deliberately unstyled: their look
+   (colors, backgrounds, radii, borders, fonts) is yours to build from the
+   game's art direction. Custom controls and layouts are welcome too — keep
+   the same fit rules. Do not remove the sizing/min/max/overflow/gap rules. */
+
+/* Horizontal band of HUD stats. Wraps as a final containment fallback;
+   compact handheld frames can be short as well as narrow, so keep the
+   primary row iconic and hide/truncate secondary labels before relying on a
+   second line. Grid-track friendly: use as the `auto` rows of a
+   `grid-template-rows: auto minmax(0, 1fr) auto` page layout. */
+.hud-row {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-width: 0;
+  gap: clamp(6px, 2cqw, 14px);
+  padding: clamp(6px, 2cqmin, 12px);
+}
+
+/* Compact HUD stat (score, timer, lives). Truncates rather than breaking
+   layout as a last resort; add `flex-shrink: 0` to a badge that must never
+   truncate (score, timer) so decorative neighbors compress first. */
+.badge {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  min-width: 0;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-inline: 0.4em;
+  font-size: clamp(12px, 3.5cqw, 18px);
+  line-height: 1.2;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Discrete status pips (hearts, lives, stars, ammo). Pips are fixed-size
+   flex items, NEVER repeated glyphs inside a truncating text run: glyphs
+   like ♥ resolve through different fallback fonts per browser, take
+   different widths, and get clipped by ellipsis in Firefox/Safari but not
+   Chrome. The fixed box is what makes a pip safe — its content can be
+   whatever fits the game: a glyph centered in the box (the box neutralizes
+   glyph-width differences), a generated sprite via `background: url(...)
+   center/contain no-repeat`, or an SVG/mask shape. */
+.pip-row {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  gap: clamp(2px, 0.8cqw, 6px);
+}
+
+.pip {
+  flex: 0 0 auto;
+  width: clamp(12px, 4cqw, 20px);
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+/* Touch-control band. */
+.controls-row {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-width: 0;
+  gap: clamp(12px, 3cqw, 20px);
+  padding: clamp(8px, 2cqmin, 14px);
+}
+
+/* Finger-sized control. 44px is the minimum touch target; the gap above is
+   the minimum separation. flex: 0 1 auto lets a crowded row shrink buttons
+   down to (but never below) the minimum. overflow keeps legacy raw-text
+   buttons contained; wrap text in .control-label for a visible ellipsis. */
+.control-btn {
+  box-sizing: border-box;
+  flex: 0 1 auto;
+  min-width: 44px;
+  max-width: 100%;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0.5em 1em;
+  font-size: clamp(13px, 3.5cqw, 18px);
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.control-label {
+  min-width: 0;
+  max-width: 100%;
+  padding-inline: 0.4em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+:root {
+  --ink: #173b36;
+  --paper: #fff7d9;
+  --paper-deep: #f3e6bb;
+  --leaf: #3f7b46;
+  --leaf-light: #87b85d;
+  --gold: #e9b742;
+  --coral: #dc776d;
+}
+
+button {
+  border: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.game-shell {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+  background: #173f3c;
+  isolation: isolate;
+}
+
+.game-canvas {
+  position: absolute;
+  inset: 0;
+}
+
+.hud {
+  position: absolute;
+  z-index: 4;
+  inset-block-start: 0;
+  inset-inline: 0;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto 44px;
+  align-items: start;
+  gap: clamp(4px, 1.4cqw, 10px);
+  padding: clamp(7px, 1.8cqmin, 12px);
+  pointer-events: none;
+}
+
+.hud-badge,
+.hud-center,
+.icon-btn {
+  color: var(--ink);
+  background: rgba(255, 247, 217, 0.9);
+  border: 2px solid rgba(23, 59, 54, 0.22);
+  box-shadow: 0 3px 0 rgba(23, 59, 54, 0.22);
+}
+
+.hud-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  min-height: 38px;
+  padding-inline: 0.55em;
+  border-radius: 15px;
+  font-size: clamp(12px, 3.3cqw, 17px);
+  font-variant-numeric: tabular-nums;
+  flex-shrink: 0;
+}
+
+.hud-icon {
+  color: #ef775e;
+}
+
+.coin-dot {
+  width: 1em;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--gold);
+  border: 2px solid #a96f27;
+}
+
+.hud-center {
+  display: grid;
+  justify-items: center;
+  gap: 1px;
+  padding: 0.35em 0.6em;
+  border-radius: 15px;
+  overflow: hidden;
+  font-size: clamp(10px, 2.8cqw, 14px);
+  white-space: nowrap;
+}
+
+.hud-center > span:not(.progress-track) {
+  max-width: 100%;
+  overflow: hidden;
+  color: rgba(23, 59, 54, 0.7);
+  text-overflow: ellipsis;
+}
+
+.progress-track {
+  width: min(100%, 130px);
+  height: 4px;
+  margin-block-start: 2px;
+  overflow: hidden;
+  border-radius: 99px;
+  background: rgba(23, 59, 54, 0.15);
+}
+
+.progress-track i {
+  display: block;
+  width: 0;
+  height: 100%;
+  background: var(--coral);
+  transition: width 180ms ease-out;
+}
+
+.icon-btn {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  min-width: 44px;
+  height: 44px;
+  min-height: 44px;
+  padding: 0;
+  border-radius: 50%;
+  font-weight: 900;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.game-controls {
+  position: absolute;
+  z-index: 5;
+  inset-inline: 0;
+  inset-block-end: 0;
+  justify-content: space-between;
+  padding: clamp(8px, 2cqmin, 14px) clamp(15px, 5cqw, 32px);
+  pointer-events: none;
+}
+
+.leaf-control {
+  pointer-events: auto;
+  width: clamp(62px, 19cqw, 94px);
+  height: clamp(54px, 15cqw, 78px);
+  padding: 0;
+  border: 2px solid rgba(255, 255, 225, 0.48);
+  border-radius: 70% 28% 70% 28%;
+  background: rgba(221, 238, 196, 0.45);
+  box-shadow: inset 0 0 0 2px rgba(40, 89, 67, 0.18), 0 4px 0 rgba(20, 70, 55, 0.28);
+  color: rgba(255, 255, 235, 0.92);
+  font-family: "Bree Serif", serif;
+  font-size: clamp(28px, 9cqw, 45px);
+  backdrop-filter: blur(4px);
+  transform: rotate(-8deg);
+  transition: transform 80ms ease, background 80ms ease;
+}
+
+.leaf-right {
+  border-radius: 28% 70% 28% 70%;
+  transform: rotate(8deg);
+}
+
+.leaf-control.is-pressed {
+  background: rgba(255, 247, 203, 0.67);
+  transform: rotate(-8deg) translateY(3px) scale(0.96);
+}
+
+.leaf-right.is-pressed {
+  transform: rotate(8deg) translateY(3px) scale(0.96);
+}
+
+.toast {
+  position: absolute;
+  z-index: 6;
+  inset-block-start: 20%;
+  left: 50%;
+  width: max-content;
+  max-width: 82%;
+  transform: translateX(-50%);
+  padding: 0.45em 0.85em;
+  border: 2px solid rgba(23, 59, 54, 0.25);
+  border-radius: 999px;
+  background: rgba(255, 247, 217, 0.94);
+  color: var(--ink);
+  font-family: "Bree Serif", serif;
+  font-size: clamp(16px, 5cqw, 26px);
+  white-space: nowrap;
+  box-shadow: 0 4px 0 rgba(23, 59, 54, 0.22);
+  pointer-events: none;
+}
+
+.overlay {
+  position: absolute;
+  z-index: 10;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  min-width: 0;
+  min-height: 0;
+  padding: clamp(10px, 3cqmin, 22px);
+  overflow: hidden;
+  background: rgba(10, 45, 40, 0.35);
+  backdrop-filter: blur(3px);
+}
+
+.loading-panel,
+.modal-panel,
+.main-menu {
+  width: min(100%, 390px);
+  max-height: 100%;
+  overflow: auto;
+}
+
+.loading-panel {
+  display: grid;
+  justify-items: center;
+  gap: 1em;
+  color: var(--paper);
+  font-size: clamp(14px, 4cqw, 20px);
+}
+
+.loading-frog {
+  width: clamp(42px, 13cqw, 70px);
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  border-radius: 50% 50% 42% 42%;
+  background: var(--leaf-light);
+  border: 4px solid var(--ink);
+  color: var(--paper);
+  animation: loading-hop 900ms ease-in-out infinite;
+}
+
+@keyframes loading-hop {
+  0%, 100% { transform: translateY(0) scaleY(0.92); }
+  50% { transform: translateY(-13px) scaleY(1.07); }
+}
+
+.main-menu {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  gap: clamp(7px, 2cqh, 16px);
+  min-height: min(100%, 570px);
+  color: var(--paper);
+}
+
+.game-logo {
+  display: flex;
+  align-items: baseline;
+  gap: 0.12em;
+  font-family: "Bree Serif", Georgia, serif;
+  line-height: 0.82;
+  font-size: min(15cqw, 18cqh, 72px);
+  letter-spacing: -0.04em;
+}
+
+.game-logo strong {
+  color: #f2cf58;
+}
+
+.tagline {
+  margin: 0;
+  font-size: clamp(10px, 2.8cqw, 13px);
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  color: rgba(255, 247, 217, 0.8);
+}
+
+.menu-actions,
+.stack-actions {
+  display: grid;
+  width: min(100%, 310px);
+  gap: clamp(7px, 1.8cqmin, 11px);
+}
+
+.menu-btn {
+  min-height: 46px;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0.55em 1em;
+  border: 2px solid rgba(23, 59, 54, 0.35);
+  border-radius: 16px;
+  background: var(--paper);
+  box-shadow: 0 4px 0 rgba(23, 59, 54, 0.3);
+  color: var(--ink);
+  font-size: clamp(13px, 3.7cqw, 18px);
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.menu-btn:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 rgba(23, 59, 54, 0.3);
+}
+
+.menu-btn.secondary {
+  background: rgba(222, 239, 197, 0.95);
+}
+
+.menu-btn.quiet {
+  background: rgba(255, 247, 217, 0.68);
+}
+
+.menu-btn.danger {
+  background: #f2c3ad;
+  color: #6b2e2b;
+}
+
+.menu-btn:disabled {
+  opacity: 0.48;
+  cursor: default;
+}
+
+.menu-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(8px, 2cqw, 12px);
+}
+
+.continue-copy {
+  margin: -0.2em 0 0;
+  color: rgba(255, 247, 217, 0.84);
+  font-size: clamp(10px, 2.8cqw, 13px);
+  text-align: center;
+}
+
+.menu-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5em 1em;
+  font-size: clamp(10px, 2.8cqw, 13px);
+  color: rgba(255, 247, 217, 0.82);
+}
+
+.modal-panel,
+.collection-panel {
+  border: 2px solid rgba(23, 59, 54, 0.3);
+  border-radius: 24px;
+  background: rgba(255, 247, 217, 0.96);
+  color: var(--ink);
+  box-shadow: 0 8px 0 rgba(23, 59, 54, 0.28);
+}
+
+.modal-panel {
+  padding: clamp(16px, 5cqmin, 28px);
+}
+
+.compact-panel {
+  display: grid;
+  justify-items: center;
+  gap: clamp(9px, 2.4cqmin, 16px);
+  text-align: center;
+}
+
+.modal-panel h2,
+.collection-panel h2 {
+  margin: 0;
+  font-family: "Bree Serif", Georgia, serif;
+  font-size: min(10cqw, 11cqh, 44px);
+  line-height: 1;
+}
+
+.modal-panel p {
+  margin: 0;
+  max-width: 28em;
+  color: rgba(23, 59, 54, 0.72);
+  font-size: clamp(12px, 3.3cqw, 16px);
+}
+
+.eyebrow {
+  font-size: clamp(10px, 2.7cqw, 13px);
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  color: #6c8c5c;
+}
+
+.result-line,
+.reward-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.7em;
+  padding: 0.5em 0.9em;
+  border-radius: 999px;
+  background: #e1ebc5;
+}
+
+.reward-row strong {
+  color: #b27821;
+  font-family: "Bree Serif", serif;
+  font-size: clamp(24px, 7cqw, 34px);
+}
+
+.collection-panel {
+  width: min(100%, 620px);
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  overflow: hidden;
+}
+
+.panel-header {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.7em;
+  padding: clamp(10px, 2.5cqmin, 16px);
+  border-block-end: 2px solid rgba(23, 59, 54, 0.12);
+}
+
+.panel-header > div {
+  overflow: hidden;
+}
+
+.panel-header h2 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: clamp(22px, 6cqw, 34px);
+}
+
+.world-grid,
+.skin-grid {
+  overflow: auto;
+  overscroll-behavior: contain;
+  touch-action: pan-y;
+  scrollbar-width: thin;
+  padding: clamp(9px, 2.4cqmin, 16px);
+}
+
+.world-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-content: start;
+  gap: clamp(7px, 1.8cqmin, 11px);
+}
+
+.world-node,
+.skin-chip {
+  display: grid;
+  min-height: 62px;
+  padding: 0.6em;
+  border: 2px solid rgba(23, 59, 54, 0.14);
+  border-radius: 14px;
+  background: #f5eabe;
+  color: var(--ink);
+  text-align: start;
+  cursor: pointer;
+}
+
+.world-node {
+  grid-template-columns: auto minmax(0, 1fr);
+  grid-template-rows: auto auto;
+  align-items: center;
+  gap: 0.15em 0.55em;
+}
+
+.world-node > strong {
+  grid-row: 1 / 3;
+  font-family: "Bree Serif", serif;
+  font-size: clamp(22px, 6cqw, 32px);
+  color: #4f7c50;
+}
+
+.world-node span,
+.skin-chip strong {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: clamp(11px, 3cqw, 15px);
+}
+
+.world-node i,
+.skin-chip i {
+  font-style: normal;
+  font-size: clamp(8px, 2.2cqw, 11px);
+  color: rgba(23, 59, 54, 0.58);
+}
+
+.world-node.is-perfect {
+  background: #ffefb4;
+  border-color: #d9a536;
+}
+
+.world-node.is-locked {
+  opacity: 0.48;
+}
+
+.shop-panel {
+  grid-template-rows: auto minmax(72px, 18cqh) auto minmax(0, 1fr);
+}
+
+.shop-preview {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 72px;
+}
+
+.preview-wrap {
+  position: relative;
+  min-height: 72px;
+  overflow: hidden;
+}
+
+.frame-strip {
+  position: absolute;
+  inset-inline: 8%;
+  inset-block-end: 3px;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 3px;
+  pointer-events: none;
+}
+
+.frame-strip span {
+  overflow: hidden;
+  padding: 0.2em;
+  border-radius: 999px;
+  background: rgba(23, 59, 54, 0.7);
+  color: #fff7d9;
+  font-size: clamp(7px, 1.8cqw, 10px);
+  font-weight: 900;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.shop-action {
+  padding: 0 clamp(10px, 3cqmin, 18px) clamp(8px, 2cqmin, 12px);
+}
+
+.shop-action .menu-btn {
+  width: 100%;
+}
+
+.skin-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-content: start;
+  gap: clamp(6px, 1.6cqmin, 9px);
+  border-block-start: 2px solid rgba(23, 59, 54, 0.1);
+}
+
+.skin-chip {
+  justify-items: center;
+  min-height: 88px;
+  gap: 0.2em;
+  text-align: center;
+}
+
+.skin-chip.is-selected {
+  border-color: #db9f35;
+  background: #ffedac;
+}
+
+.skin-thumb {
+  display: block;
+  width: clamp(42px, 12cqw, 58px);
+  height: clamp(42px, 12cqw, 58px);
+  border-radius: 12px;
+  background: rgba(111, 156, 98, 0.12);
+}
+
+.settings-panel {
+  display: grid;
+  gap: 8px;
+}
+
+.settings-panel .panel-header {
+  margin: calc(clamp(16px, 5cqmin, 28px) * -1);
+  margin-block-end: 10px;
+}
+
+.setting-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 52px;
+  padding: 0.6em 0.8em;
+  border-radius: 14px;
+  background: #efe7c8;
+  color: var(--ink);
+  font-size: clamp(13px, 3.5cqw, 17px);
+  font-weight: 800;
+}
+
+.toggle {
+  position: relative;
+  width: 44px;
+  height: 26px;
+  border-radius: 99px;
+  background: #b5b59f;
+  transition: background 140ms ease;
+}
+
+.toggle b {
+  position: absolute;
+  inset-block-start: 3px;
+  inset-inline-start: 3px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff9df;
+  transition: transform 140ms ease;
+}
+
+.toggle.is-on {
+  background: #5e9859;
+}
+
+.toggle.is-on b {
+  transform: translateX(18px);
+}
+
+.tiny-help {
+  padding-block-start: 0.8em;
+  text-align: center;
+}
+
+@container (max-height: 430px) {
+  .tagline,
+  .menu-stats,
+  .continue-copy {
+    display: none;
+  }
+
+  .main-menu {
+    gap: 6px;
+  }
+
+  .menu-btn {
+    min-height: 44px;
+    padding-block: 0.35em;
+  }
+
+  .shop-panel {
+    grid-template-rows: auto 72px auto minmax(0, 1fr);
+  }
+}
+
+@container (max-width: 340px) {
+  .hud {
+    grid-template-columns: auto minmax(0, 1fr) 44px;
+  }
+
+  .hud-coins {
+    display: none;
+  }
+
+  .skin-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .loading-frog,
+  .progress-track i,
+  .toggle,
+  .toggle b,
+  .leaf-control {
+    animation: none;
+    transition: none;
+  }
+}

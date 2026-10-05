@@ -1,0 +1,965 @@
+{
+  "image": "/generated-assets/creature_sheet_13-transparent.webp",
+  "grid": {
+    "cols": 3,
+    "rows": 8,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "atlantis_palace_fly_1",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 40,
+        "y": 96,
+        "w": 352,
+        "h": 244
+      },
+      "anchor": {
+        "x": 216,
+        "y": 339
+      }
+    },
+    {
+      "name": "atlantis_palace_fly_2",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 417,
+        "y": 106,
+        "w": 355,
+        "h": 238
+      },
+      "anchor": {
+        "x": 595,
+        "y": 343
+      }
+    },
+    {
+      "name": "atlantis_palace_fly_3",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 825,
+        "y": 139,
+        "w": 320,
+        "h": 275
+      },
+      "anchor": {
+        "x": 985,
+        "y": 413
+      }
+    },
+    {
+      "name": "atlantis_palace_bird_1",
+      "source": {
+        "x": 56,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 41,
+        "y": 482,
+        "w": 358,
+        "h": 215
+      },
+      "anchor": {
+        "x": 220,
+        "y": 696
+      }
+    },
+    {
+      "name": "atlantis_palace_bird_2",
+      "source": {
+        "x": 440,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 417,
+        "y": 561,
+        "w": 362,
+        "h": 118
+      },
+      "anchor": {
+        "x": 598,
+        "y": 678
+      }
+    },
+    {
+      "name": "atlantis_palace_bird_3",
+      "source": {
+        "x": 824,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 792,
+        "y": 545,
+        "w": 370,
+        "h": 244
+      },
+      "anchor": {
+        "x": 977,
+        "y": 788
+      }
+    },
+    {
+      "name": "grand_canyon_fly_1",
+      "source": {
+        "x": 56,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 119,
+        "y": 756,
+        "w": 271,
+        "h": 328
+      },
+      "anchor": {
+        "x": 255,
+        "y": 1083
+      }
+    },
+    {
+      "name": "grand_canyon_fly_2",
+      "source": {
+        "x": 440,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 441,
+        "y": 868,
+        "w": 332,
+        "h": 217
+      },
+      "anchor": {
+        "x": 607,
+        "y": 1084
+      }
+    },
+    {
+      "name": "grand_canyon_fly_3",
+      "source": {
+        "x": 824,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 839,
+        "y": 902,
+        "w": 326,
+        "h": 170
+      },
+      "anchor": {
+        "x": 1002,
+        "y": 1071
+      }
+    },
+    {
+      "name": "grand_canyon_bird_1",
+      "source": {
+        "x": 56,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 41,
+        "y": 1130,
+        "w": 362,
+        "h": 311
+      },
+      "anchor": {
+        "x": 222,
+        "y": 1440
+      }
+    },
+    {
+      "name": "grand_canyon_bird_2",
+      "source": {
+        "x": 440,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 391,
+        "y": 1235,
+        "w": 397,
+        "h": 189
+      },
+      "anchor": {
+        "x": 590,
+        "y": 1423
+      }
+    },
+    {
+      "name": "grand_canyon_bird_3",
+      "source": {
+        "x": 824,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 801,
+        "y": 1254,
+        "w": 366,
+        "h": 265
+      },
+      "anchor": {
+        "x": 984,
+        "y": 1518
+      }
+    },
+    {
+      "name": "foggy_swamp_fly_1",
+      "source": {
+        "x": 56,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 109,
+        "y": 1550,
+        "w": 291,
+        "h": 288
+      },
+      "anchor": {
+        "x": 255,
+        "y": 1837
+      }
+    },
+    {
+      "name": "foggy_swamp_fly_2",
+      "source": {
+        "x": 440,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 450,
+        "y": 1621,
+        "w": 338,
+        "h": 217
+      },
+      "anchor": {
+        "x": 619,
+        "y": 1837
+      }
+    },
+    {
+      "name": "foggy_swamp_fly_3",
+      "source": {
+        "x": 824,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 864,
+        "y": 1663,
+        "w": 300,
+        "h": 230
+      },
+      "anchor": {
+        "x": 1014,
+        "y": 1892
+      }
+    },
+    {
+      "name": "foggy_swamp_bird_1",
+      "source": {
+        "x": 56,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 38,
+        "y": 1915,
+        "w": 393,
+        "h": 331
+      },
+      "anchor": {
+        "x": 235,
+        "y": 2245
+      }
+    },
+    {
+      "name": "foggy_swamp_bird_2",
+      "source": {
+        "x": 440,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 414,
+        "y": 2001,
+        "w": 400,
+        "h": 207
+      },
+      "anchor": {
+        "x": 614,
+        "y": 2207
+      }
+    },
+    {
+      "name": "foggy_swamp_bird_3",
+      "source": {
+        "x": 824,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 800,
+        "y": 2050,
+        "w": 378,
+        "h": 256
+      },
+      "anchor": {
+        "x": 989,
+        "y": 2305
+      }
+    },
+    {
+      "name": "bamboo_forest_fly_1",
+      "source": {
+        "x": 56,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 85,
+        "y": 2315,
+        "w": 293,
+        "h": 291
+      },
+      "anchor": {
+        "x": 232,
+        "y": 2605
+      }
+    },
+    {
+      "name": "bamboo_forest_fly_2",
+      "source": {
+        "x": 440,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 433,
+        "y": 2373,
+        "w": 334,
+        "h": 231
+      },
+      "anchor": {
+        "x": 600,
+        "y": 2603
+      }
+    },
+    {
+      "name": "bamboo_forest_fly_3",
+      "source": {
+        "x": 824,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 826,
+        "y": 2431,
+        "w": 322,
+        "h": 179
+      },
+      "anchor": {
+        "x": 987,
+        "y": 2609
+      }
+    },
+    {
+      "name": "bamboo_forest_bird_1",
+      "source": {
+        "x": 56,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 40,
+        "y": 2657,
+        "w": 410,
+        "h": 355
+      },
+      "anchor": {
+        "x": 245,
+        "y": 3011
+      }
+    },
+    {
+      "name": "bamboo_forest_bird_2",
+      "source": {
+        "x": 440,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 408,
+        "y": 2722,
+        "w": 408,
+        "h": 212
+      },
+      "anchor": {
+        "x": 612,
+        "y": 2933
+      }
+    },
+    {
+      "name": "bamboo_forest_bird_3",
+      "source": {
+        "x": 824,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 779,
+        "y": 2794,
+        "w": 399,
+        "h": 269
+      },
+      "anchor": {
+        "x": 979,
+        "y": 3062
+      }
+    }
+  ],
+  "animations": [
+    {
+      "name": "atlantis_palace_fly",
+      "frames": [
+        {
+          "name": "atlantis_palace_fly_1",
+          "source": {
+            "x": 56,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 40,
+            "y": 96,
+            "w": 352,
+            "h": 244
+          },
+          "anchor": {
+            "x": 216,
+            "y": 339
+          }
+        },
+        {
+          "name": "atlantis_palace_fly_2",
+          "source": {
+            "x": 440,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 417,
+            "y": 106,
+            "w": 355,
+            "h": 238
+          },
+          "anchor": {
+            "x": 595,
+            "y": 343
+          }
+        },
+        {
+          "name": "atlantis_palace_fly_3",
+          "source": {
+            "x": 824,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 825,
+            "y": 139,
+            "w": 320,
+            "h": 275
+          },
+          "anchor": {
+            "x": 985,
+            "y": 413
+          }
+        }
+      ]
+    },
+    {
+      "name": "atlantis_palace_bird",
+      "frames": [
+        {
+          "name": "atlantis_palace_bird_1",
+          "source": {
+            "x": 56,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 41,
+            "y": 482,
+            "w": 358,
+            "h": 215
+          },
+          "anchor": {
+            "x": 220,
+            "y": 696
+          }
+        },
+        {
+          "name": "atlantis_palace_bird_2",
+          "source": {
+            "x": 440,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 417,
+            "y": 561,
+            "w": 362,
+            "h": 118
+          },
+          "anchor": {
+            "x": 598,
+            "y": 678
+          }
+        },
+        {
+          "name": "atlantis_palace_bird_3",
+          "source": {
+            "x": 824,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 792,
+            "y": 545,
+            "w": 370,
+            "h": 244
+          },
+          "anchor": {
+            "x": 977,
+            "y": 788
+          }
+        }
+      ]
+    },
+    {
+      "name": "grand_canyon_fly",
+      "frames": [
+        {
+          "name": "grand_canyon_fly_1",
+          "source": {
+            "x": 56,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 119,
+            "y": 756,
+            "w": 271,
+            "h": 328
+          },
+          "anchor": {
+            "x": 255,
+            "y": 1083
+          }
+        },
+        {
+          "name": "grand_canyon_fly_2",
+          "source": {
+            "x": 440,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 441,
+            "y": 868,
+            "w": 332,
+            "h": 217
+          },
+          "anchor": {
+            "x": 607,
+            "y": 1084
+          }
+        },
+        {
+          "name": "grand_canyon_fly_3",
+          "source": {
+            "x": 824,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 839,
+            "y": 902,
+            "w": 326,
+            "h": 170
+          },
+          "anchor": {
+            "x": 1002,
+            "y": 1071
+          }
+        }
+      ]
+    },
+    {
+      "name": "grand_canyon_bird",
+      "frames": [
+        {
+          "name": "grand_canyon_bird_1",
+          "source": {
+            "x": 56,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 41,
+            "y": 1130,
+            "w": 362,
+            "h": 311
+          },
+          "anchor": {
+            "x": 222,
+            "y": 1440
+          }
+        },
+        {
+          "name": "grand_canyon_bird_2",
+          "source": {
+            "x": 440,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 391,
+            "y": 1235,
+            "w": 397,
+            "h": 189
+          },
+          "anchor": {
+            "x": 590,
+            "y": 1423
+          }
+        },
+        {
+          "name": "grand_canyon_bird_3",
+          "source": {
+            "x": 824,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 801,
+            "y": 1254,
+            "w": 366,
+            "h": 265
+          },
+          "anchor": {
+            "x": 984,
+            "y": 1518
+          }
+        }
+      ]
+    },
+    {
+      "name": "foggy_swamp_fly",
+      "frames": [
+        {
+          "name": "foggy_swamp_fly_1",
+          "source": {
+            "x": 56,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 109,
+            "y": 1550,
+            "w": 291,
+            "h": 288
+          },
+          "anchor": {
+            "x": 255,
+            "y": 1837
+          }
+        },
+        {
+          "name": "foggy_swamp_fly_2",
+          "source": {
+            "x": 440,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 450,
+            "y": 1621,
+            "w": 338,
+            "h": 217
+          },
+          "anchor": {
+            "x": 619,
+            "y": 1837
+          }
+        },
+        {
+          "name": "foggy_swamp_fly_3",
+          "source": {
+            "x": 824,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 864,
+            "y": 1663,
+            "w": 300,
+            "h": 230
+          },
+          "anchor": {
+            "x": 1014,
+            "y": 1892
+          }
+        }
+      ]
+    },
+    {
+      "name": "foggy_swamp_bird",
+      "frames": [
+        {
+          "name": "foggy_swamp_bird_1",
+          "source": {
+            "x": 56,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 38,
+            "y": 1915,
+            "w": 393,
+            "h": 331
+          },
+          "anchor": {
+            "x": 235,
+            "y": 2245
+          }
+        },
+        {
+          "name": "foggy_swamp_bird_2",
+          "source": {
+            "x": 440,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 414,
+            "y": 2001,
+            "w": 400,
+            "h": 207
+          },
+          "anchor": {
+            "x": 614,
+            "y": 2207
+          }
+        },
+        {
+          "name": "foggy_swamp_bird_3",
+          "source": {
+            "x": 824,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 800,
+            "y": 2050,
+            "w": 378,
+            "h": 256
+          },
+          "anchor": {
+            "x": 989,
+            "y": 2305
+          }
+        }
+      ]
+    },
+    {
+      "name": "bamboo_forest_fly",
+      "frames": [
+        {
+          "name": "bamboo_forest_fly_1",
+          "source": {
+            "x": 56,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 85,
+            "y": 2315,
+            "w": 293,
+            "h": 291
+          },
+          "anchor": {
+            "x": 232,
+            "y": 2605
+          }
+        },
+        {
+          "name": "bamboo_forest_fly_2",
+          "source": {
+            "x": 440,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 433,
+            "y": 2373,
+            "w": 334,
+            "h": 231
+          },
+          "anchor": {
+            "x": 600,
+            "y": 2603
+          }
+        },
+        {
+          "name": "bamboo_forest_fly_3",
+          "source": {
+            "x": 824,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 826,
+            "y": 2431,
+            "w": 322,
+            "h": 179
+          },
+          "anchor": {
+            "x": 987,
+            "y": 2609
+          }
+        }
+      ]
+    },
+    {
+      "name": "bamboo_forest_bird",
+      "frames": [
+        {
+          "name": "bamboo_forest_bird_1",
+          "source": {
+            "x": 56,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 40,
+            "y": 2657,
+            "w": 410,
+            "h": 355
+          },
+          "anchor": {
+            "x": 245,
+            "y": 3011
+          }
+        },
+        {
+          "name": "bamboo_forest_bird_2",
+          "source": {
+            "x": 440,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 408,
+            "y": 2722,
+            "w": 408,
+            "h": 212
+          },
+          "anchor": {
+            "x": 612,
+            "y": 2933
+          }
+        },
+        {
+          "name": "bamboo_forest_bird_3",
+          "source": {
+            "x": 824,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 779,
+            "y": 2794,
+            "w": 399,
+            "h": 269
+          },
+          "anchor": {
+            "x": 979,
+            "y": 3062
+          }
+        }
+      ]
+    }
+  ]
+}

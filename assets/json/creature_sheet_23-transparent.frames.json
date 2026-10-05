@@ -1,0 +1,965 @@
+{
+  "image": "/generated-assets/creature_sheet_23-transparent.webp",
+  "grid": {
+    "cols": 3,
+    "rows": 8,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "nuclear_wasteland_fly_1",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 69,
+        "y": 39,
+        "w": 301,
+        "h": 320
+      },
+      "anchor": {
+        "x": 220,
+        "y": 358
+      }
+    },
+    {
+      "name": "nuclear_wasteland_fly_2",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 400,
+        "y": 106,
+        "w": 358,
+        "h": 231
+      },
+      "anchor": {
+        "x": 579,
+        "y": 336
+      }
+    },
+    {
+      "name": "nuclear_wasteland_fly_3",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 828,
+        "y": 142,
+        "w": 308,
+        "h": 206
+      },
+      "anchor": {
+        "x": 982,
+        "y": 347
+      }
+    },
+    {
+      "name": "nuclear_wasteland_bird_1",
+      "source": {
+        "x": 56,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 36,
+        "y": 384,
+        "w": 346,
+        "h": 369
+      },
+      "anchor": {
+        "x": 209,
+        "y": 752
+      }
+    },
+    {
+      "name": "nuclear_wasteland_bird_2",
+      "source": {
+        "x": 440,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 392,
+        "y": 479,
+        "w": 403,
+        "h": 248
+      },
+      "anchor": {
+        "x": 594,
+        "y": 726
+      }
+    },
+    {
+      "name": "nuclear_wasteland_bird_3",
+      "source": {
+        "x": 824,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 824,
+        "y": 514,
+        "w": 352,
+        "h": 265
+      },
+      "anchor": {
+        "x": 1000,
+        "y": 778
+      }
+    },
+    {
+      "name": "mega_tsunami_fly_1",
+      "source": {
+        "x": 56,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 87,
+        "y": 786,
+        "w": 279,
+        "h": 336
+      },
+      "anchor": {
+        "x": 227,
+        "y": 1121
+      }
+    },
+    {
+      "name": "mega_tsunami_fly_2",
+      "source": {
+        "x": 440,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 404,
+        "y": 872,
+        "w": 381,
+        "h": 229
+      },
+      "anchor": {
+        "x": 595,
+        "y": 1100
+      }
+    },
+    {
+      "name": "mega_tsunami_fly_3",
+      "source": {
+        "x": 824,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 816,
+        "y": 893,
+        "w": 344,
+        "h": 206
+      },
+      "anchor": {
+        "x": 988,
+        "y": 1098
+      }
+    },
+    {
+      "name": "mega_tsunami_bird_1",
+      "source": {
+        "x": 56,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 50,
+        "y": 1186,
+        "w": 334,
+        "h": 283
+      },
+      "anchor": {
+        "x": 217,
+        "y": 1468
+      }
+    },
+    {
+      "name": "mega_tsunami_bird_2",
+      "source": {
+        "x": 440,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 405,
+        "y": 1233,
+        "w": 381,
+        "h": 223
+      },
+      "anchor": {
+        "x": 596,
+        "y": 1455
+      }
+    },
+    {
+      "name": "mega_tsunami_bird_3",
+      "source": {
+        "x": 824,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 836,
+        "y": 1251,
+        "w": 308,
+        "h": 227
+      },
+      "anchor": {
+        "x": 990,
+        "y": 1477
+      }
+    },
+    {
+      "name": "doomsday_volcano_fly_1",
+      "source": {
+        "x": 56,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 62,
+        "y": 1508,
+        "w": 311,
+        "h": 331
+      },
+      "anchor": {
+        "x": 218,
+        "y": 1838
+      }
+    },
+    {
+      "name": "doomsday_volcano_fly_2",
+      "source": {
+        "x": 440,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 401,
+        "y": 1591,
+        "w": 386,
+        "h": 236
+      },
+      "anchor": {
+        "x": 594,
+        "y": 1826
+      }
+    },
+    {
+      "name": "doomsday_volcano_fly_3",
+      "source": {
+        "x": 824,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 835,
+        "y": 1615,
+        "w": 308,
+        "h": 226
+      },
+      "anchor": {
+        "x": 989,
+        "y": 1840
+      }
+    },
+    {
+      "name": "doomsday_volcano_bird_1",
+      "source": {
+        "x": 56,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 51,
+        "y": 1859,
+        "w": 323,
+        "h": 395
+      },
+      "anchor": {
+        "x": 213,
+        "y": 2253
+      }
+    },
+    {
+      "name": "doomsday_volcano_bird_2",
+      "source": {
+        "x": 440,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 402,
+        "y": 1893,
+        "w": 357,
+        "h": 312
+      },
+      "anchor": {
+        "x": 581,
+        "y": 2204
+      }
+    },
+    {
+      "name": "doomsday_volcano_bird_3",
+      "source": {
+        "x": 824,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 804,
+        "y": 1913,
+        "w": 335,
+        "h": 301
+      },
+      "anchor": {
+        "x": 972,
+        "y": 2213
+      }
+    },
+    {
+      "name": "glacial_age_fly_1",
+      "source": {
+        "x": 56,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 33,
+        "y": 2297,
+        "w": 335,
+        "h": 354
+      },
+      "anchor": {
+        "x": 201,
+        "y": 2650
+      }
+    },
+    {
+      "name": "glacial_age_fly_2",
+      "source": {
+        "x": 440,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 397,
+        "y": 2353,
+        "w": 394,
+        "h": 260
+      },
+      "anchor": {
+        "x": 594,
+        "y": 2612
+      }
+    },
+    {
+      "name": "glacial_age_fly_3",
+      "source": {
+        "x": 824,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 815,
+        "y": 2386,
+        "w": 321,
+        "h": 221
+      },
+      "anchor": {
+        "x": 976,
+        "y": 2606
+      }
+    },
+    {
+      "name": "glacial_age_bird_1",
+      "source": {
+        "x": 56,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 35,
+        "y": 2666,
+        "w": 330,
+        "h": 410
+      },
+      "anchor": {
+        "x": 200,
+        "y": 3075
+      }
+    },
+    {
+      "name": "glacial_age_bird_2",
+      "source": {
+        "x": 440,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 397,
+        "y": 2737,
+        "w": 394,
+        "h": 291
+      },
+      "anchor": {
+        "x": 594,
+        "y": 3027
+      }
+    },
+    {
+      "name": "glacial_age_bird_3",
+      "source": {
+        "x": 824,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 807,
+        "y": 2787,
+        "w": 359,
+        "h": 241
+      },
+      "anchor": {
+        "x": 987,
+        "y": 3027
+      }
+    }
+  ],
+  "animations": [
+    {
+      "name": "nuclear_wasteland_fly",
+      "frames": [
+        {
+          "name": "nuclear_wasteland_fly_1",
+          "source": {
+            "x": 56,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 69,
+            "y": 39,
+            "w": 301,
+            "h": 320
+          },
+          "anchor": {
+            "x": 220,
+            "y": 358
+          }
+        },
+        {
+          "name": "nuclear_wasteland_fly_2",
+          "source": {
+            "x": 440,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 400,
+            "y": 106,
+            "w": 358,
+            "h": 231
+          },
+          "anchor": {
+            "x": 579,
+            "y": 336
+          }
+        },
+        {
+          "name": "nuclear_wasteland_fly_3",
+          "source": {
+            "x": 824,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 828,
+            "y": 142,
+            "w": 308,
+            "h": 206
+          },
+          "anchor": {
+            "x": 982,
+            "y": 347
+          }
+        }
+      ]
+    },
+    {
+      "name": "nuclear_wasteland_bird",
+      "frames": [
+        {
+          "name": "nuclear_wasteland_bird_1",
+          "source": {
+            "x": 56,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 36,
+            "y": 384,
+            "w": 346,
+            "h": 369
+          },
+          "anchor": {
+            "x": 209,
+            "y": 752
+          }
+        },
+        {
+          "name": "nuclear_wasteland_bird_2",
+          "source": {
+            "x": 440,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 392,
+            "y": 479,
+            "w": 403,
+            "h": 248
+          },
+          "anchor": {
+            "x": 594,
+            "y": 726
+          }
+        },
+        {
+          "name": "nuclear_wasteland_bird_3",
+          "source": {
+            "x": 824,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 824,
+            "y": 514,
+            "w": 352,
+            "h": 265
+          },
+          "anchor": {
+            "x": 1000,
+            "y": 778
+          }
+        }
+      ]
+    },
+    {
+      "name": "mega_tsunami_fly",
+      "frames": [
+        {
+          "name": "mega_tsunami_fly_1",
+          "source": {
+            "x": 56,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 87,
+            "y": 786,
+            "w": 279,
+            "h": 336
+          },
+          "anchor": {
+            "x": 227,
+            "y": 1121
+          }
+        },
+        {
+          "name": "mega_tsunami_fly_2",
+          "source": {
+            "x": 440,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 404,
+            "y": 872,
+            "w": 381,
+            "h": 229
+          },
+          "anchor": {
+            "x": 595,
+            "y": 1100
+          }
+        },
+        {
+          "name": "mega_tsunami_fly_3",
+          "source": {
+            "x": 824,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 816,
+            "y": 893,
+            "w": 344,
+            "h": 206
+          },
+          "anchor": {
+            "x": 988,
+            "y": 1098
+          }
+        }
+      ]
+    },
+    {
+      "name": "mega_tsunami_bird",
+      "frames": [
+        {
+          "name": "mega_tsunami_bird_1",
+          "source": {
+            "x": 56,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 50,
+            "y": 1186,
+            "w": 334,
+            "h": 283
+          },
+          "anchor": {
+            "x": 217,
+            "y": 1468
+          }
+        },
+        {
+          "name": "mega_tsunami_bird_2",
+          "source": {
+            "x": 440,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 405,
+            "y": 1233,
+            "w": 381,
+            "h": 223
+          },
+          "anchor": {
+            "x": 596,
+            "y": 1455
+          }
+        },
+        {
+          "name": "mega_tsunami_bird_3",
+          "source": {
+            "x": 824,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 836,
+            "y": 1251,
+            "w": 308,
+            "h": 227
+          },
+          "anchor": {
+            "x": 990,
+            "y": 1477
+          }
+        }
+      ]
+    },
+    {
+      "name": "doomsday_volcano_fly",
+      "frames": [
+        {
+          "name": "doomsday_volcano_fly_1",
+          "source": {
+            "x": 56,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 62,
+            "y": 1508,
+            "w": 311,
+            "h": 331
+          },
+          "anchor": {
+            "x": 218,
+            "y": 1838
+          }
+        },
+        {
+          "name": "doomsday_volcano_fly_2",
+          "source": {
+            "x": 440,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 401,
+            "y": 1591,
+            "w": 386,
+            "h": 236
+          },
+          "anchor": {
+            "x": 594,
+            "y": 1826
+          }
+        },
+        {
+          "name": "doomsday_volcano_fly_3",
+          "source": {
+            "x": 824,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 835,
+            "y": 1615,
+            "w": 308,
+            "h": 226
+          },
+          "anchor": {
+            "x": 989,
+            "y": 1840
+          }
+        }
+      ]
+    },
+    {
+      "name": "doomsday_volcano_bird",
+      "frames": [
+        {
+          "name": "doomsday_volcano_bird_1",
+          "source": {
+            "x": 56,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 51,
+            "y": 1859,
+            "w": 323,
+            "h": 395
+          },
+          "anchor": {
+            "x": 213,
+            "y": 2253
+          }
+        },
+        {
+          "name": "doomsday_volcano_bird_2",
+          "source": {
+            "x": 440,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 402,
+            "y": 1893,
+            "w": 357,
+            "h": 312
+          },
+          "anchor": {
+            "x": 581,
+            "y": 2204
+          }
+        },
+        {
+          "name": "doomsday_volcano_bird_3",
+          "source": {
+            "x": 824,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 804,
+            "y": 1913,
+            "w": 335,
+            "h": 301
+          },
+          "anchor": {
+            "x": 972,
+            "y": 2213
+          }
+        }
+      ]
+    },
+    {
+      "name": "glacial_age_fly",
+      "frames": [
+        {
+          "name": "glacial_age_fly_1",
+          "source": {
+            "x": 56,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 33,
+            "y": 2297,
+            "w": 335,
+            "h": 354
+          },
+          "anchor": {
+            "x": 201,
+            "y": 2650
+          }
+        },
+        {
+          "name": "glacial_age_fly_2",
+          "source": {
+            "x": 440,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 397,
+            "y": 2353,
+            "w": 394,
+            "h": 260
+          },
+          "anchor": {
+            "x": 594,
+            "y": 2612
+          }
+        },
+        {
+          "name": "glacial_age_fly_3",
+          "source": {
+            "x": 824,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 815,
+            "y": 2386,
+            "w": 321,
+            "h": 221
+          },
+          "anchor": {
+            "x": 976,
+            "y": 2606
+          }
+        }
+      ]
+    },
+    {
+      "name": "glacial_age_bird",
+      "frames": [
+        {
+          "name": "glacial_age_bird_1",
+          "source": {
+            "x": 56,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 35,
+            "y": 2666,
+            "w": 330,
+            "h": 410
+          },
+          "anchor": {
+            "x": 200,
+            "y": 3075
+          }
+        },
+        {
+          "name": "glacial_age_bird_2",
+          "source": {
+            "x": 440,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 397,
+            "y": 2737,
+            "w": 394,
+            "h": 291
+          },
+          "anchor": {
+            "x": 594,
+            "y": 3027
+          }
+        },
+        {
+          "name": "glacial_age_bird_3",
+          "source": {
+            "x": 824,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 807,
+            "y": 2787,
+            "w": 359,
+            "h": 241
+          },
+          "anchor": {
+            "x": 987,
+            "y": 3027
+          }
+        }
+      ]
+    }
+  ]
+}

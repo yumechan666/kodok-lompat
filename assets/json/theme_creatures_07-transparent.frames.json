@@ -1,0 +1,391 @@
+{
+  "image": "/generated-assets/theme_creatures_07-transparent.webp",
+  "grid": {
+    "cols": 5,
+    "rows": 4,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "space_station_fly",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 36,
+        "y": 65,
+        "w": 333,
+        "h": 259
+      },
+      "anchor": {
+        "x": 203,
+        "y": 323
+      }
+    },
+    {
+      "name": "space_station_bird",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 417,
+        "y": 37,
+        "w": 350,
+        "h": 302
+      },
+      "anchor": {
+        "x": 592,
+        "y": 338
+      }
+    },
+    {
+      "name": "alien_jungle_fly",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 841,
+        "y": 45,
+        "w": 314,
+        "h": 305
+      },
+      "anchor": {
+        "x": 998,
+        "y": 349
+      }
+    },
+    {
+      "name": "alien_jungle_bird",
+      "source": {
+        "x": 1208,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1191,
+        "y": 18,
+        "w": 368,
+        "h": 335
+      },
+      "anchor": {
+        "x": 1375,
+        "y": 352
+      }
+    },
+    {
+      "name": "saturn_rings_fly",
+      "source": {
+        "x": 1592,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1600,
+        "y": 46,
+        "w": 315,
+        "h": 306
+      },
+      "anchor": {
+        "x": 1758,
+        "y": 351
+      }
+    },
+    {
+      "name": "saturn_rings_bird",
+      "source": {
+        "x": 56,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 21,
+        "y": 418,
+        "w": 369,
+        "h": 309
+      },
+      "anchor": {
+        "x": 206,
+        "y": 726
+      }
+    },
+    {
+      "name": "meteor_shower_fly",
+      "source": {
+        "x": 440,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 424,
+        "y": 421,
+        "w": 324,
+        "h": 303
+      },
+      "anchor": {
+        "x": 586,
+        "y": 723
+      }
+    },
+    {
+      "name": "meteor_shower_bird",
+      "source": {
+        "x": 824,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 796,
+        "y": 389,
+        "w": 369,
+        "h": 363
+      },
+      "anchor": {
+        "x": 981,
+        "y": 751
+      }
+    },
+    {
+      "name": "virtual_matrix_fly",
+      "source": {
+        "x": 1208,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1208,
+        "y": 425,
+        "w": 323,
+        "h": 309
+      },
+      "anchor": {
+        "x": 1370,
+        "y": 733
+      }
+    },
+    {
+      "name": "virtual_matrix_bird",
+      "source": {
+        "x": 1592,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1589,
+        "y": 394,
+        "w": 359,
+        "h": 356
+      },
+      "anchor": {
+        "x": 1769,
+        "y": 749
+      }
+    },
+    {
+      "name": "power_core_fly",
+      "source": {
+        "x": 56,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 23,
+        "y": 836,
+        "w": 350,
+        "h": 289
+      },
+      "anchor": {
+        "x": 198,
+        "y": 1124
+      }
+    },
+    {
+      "name": "power_core_bird",
+      "source": {
+        "x": 440,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 421,
+        "y": 786,
+        "w": 343,
+        "h": 345
+      },
+      "anchor": {
+        "x": 593,
+        "y": 1130
+      }
+    },
+    {
+      "name": "mars_colony_fly",
+      "source": {
+        "x": 824,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 816,
+        "y": 844,
+        "w": 305,
+        "h": 277
+      },
+      "anchor": {
+        "x": 969,
+        "y": 1120
+      }
+    },
+    {
+      "name": "mars_colony_bird",
+      "source": {
+        "x": 1208,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1177,
+        "y": 786,
+        "w": 358,
+        "h": 348
+      },
+      "anchor": {
+        "x": 1356,
+        "y": 1133
+      }
+    },
+    {
+      "name": "cheese_mountain_fly",
+      "source": {
+        "x": 1592,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1603,
+        "y": 832,
+        "w": 318,
+        "h": 301
+      },
+      "anchor": {
+        "x": 1762,
+        "y": 1132
+      }
+    },
+    {
+      "name": "cheese_mountain_bird",
+      "source": {
+        "x": 56,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 22,
+        "y": 1206,
+        "w": 362,
+        "h": 302
+      },
+      "anchor": {
+        "x": 203,
+        "y": 1507
+      }
+    },
+    {
+      "name": "dessert_desert_fly",
+      "source": {
+        "x": 440,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 437,
+        "y": 1211,
+        "w": 296,
+        "h": 294
+      },
+      "anchor": {
+        "x": 585,
+        "y": 1504
+      }
+    },
+    {
+      "name": "dessert_desert_bird",
+      "source": {
+        "x": 824,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 801,
+        "y": 1192,
+        "w": 358,
+        "h": 300
+      },
+      "anchor": {
+        "x": 980,
+        "y": 1491
+      }
+    },
+    {
+      "name": "fruit_orchard_fly",
+      "source": {
+        "x": 1208,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1205,
+        "y": 1185,
+        "w": 336,
+        "h": 328
+      },
+      "anchor": {
+        "x": 1373,
+        "y": 1512
+      }
+    },
+    {
+      "name": "fruit_orchard_bird",
+      "source": {
+        "x": 1592,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1575,
+        "y": 1169,
+        "w": 373,
+        "h": 343
+      },
+      "anchor": {
+        "x": 1762,
+        "y": 1511
+      }
+    }
+  ]
+}

@@ -1,0 +1,965 @@
+{
+  "image": "/generated-assets/creature_sheet_15-transparent.webp",
+  "grid": {
+    "cols": 3,
+    "rows": 8,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "lightning_ridge_fly_1",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 105,
+        "y": 40,
+        "w": 246,
+        "h": 342
+      },
+      "anchor": {
+        "x": 228,
+        "y": 381
+      }
+    },
+    {
+      "name": "lightning_ridge_fly_2",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 427,
+        "y": 148,
+        "w": 321,
+        "h": 233
+      },
+      "anchor": {
+        "x": 588,
+        "y": 380
+      }
+    },
+    {
+      "name": "lightning_ridge_fly_3",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 818,
+        "y": 152,
+        "w": 320,
+        "h": 230
+      },
+      "anchor": {
+        "x": 978,
+        "y": 381
+      }
+    },
+    {
+      "name": "lightning_ridge_bird_1",
+      "source": {
+        "x": 56,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 61,
+        "y": 421,
+        "w": 303,
+        "h": 380
+      },
+      "anchor": {
+        "x": 213,
+        "y": 800
+      }
+    },
+    {
+      "name": "lightning_ridge_bird_2",
+      "source": {
+        "x": 440,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 431,
+        "y": 518,
+        "w": 325,
+        "h": 285
+      },
+      "anchor": {
+        "x": 594,
+        "y": 802
+      }
+    },
+    {
+      "name": "lightning_ridge_bird_3",
+      "source": {
+        "x": 824,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 822,
+        "y": 562,
+        "w": 329,
+        "h": 241
+      },
+      "anchor": {
+        "x": 987,
+        "y": 802
+      }
+    },
+    {
+      "name": "deep_sea_trench_fly_1",
+      "source": {
+        "x": 56,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 56,
+        "y": 874,
+        "w": 297,
+        "h": 304
+      },
+      "anchor": {
+        "x": 205,
+        "y": 1177
+      }
+    },
+    {
+      "name": "deep_sea_trench_fly_2",
+      "source": {
+        "x": 440,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 424,
+        "y": 929,
+        "w": 324,
+        "h": 247
+      },
+      "anchor": {
+        "x": 586,
+        "y": 1175
+      }
+    },
+    {
+      "name": "deep_sea_trench_fly_3",
+      "source": {
+        "x": 824,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 822,
+        "y": 938,
+        "w": 315,
+        "h": 239
+      },
+      "anchor": {
+        "x": 980,
+        "y": 1176
+      }
+    },
+    {
+      "name": "deep_sea_trench_bird_1",
+      "source": {
+        "x": 56,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 50,
+        "y": 1286,
+        "w": 311,
+        "h": 254
+      },
+      "anchor": {
+        "x": 206,
+        "y": 1539
+      }
+    },
+    {
+      "name": "deep_sea_trench_bird_2",
+      "source": {
+        "x": 440,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 433,
+        "y": 1286,
+        "w": 322,
+        "h": 256
+      },
+      "anchor": {
+        "x": 594,
+        "y": 1541
+      }
+    },
+    {
+      "name": "deep_sea_trench_bird_3",
+      "source": {
+        "x": 824,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 827,
+        "y": 1286,
+        "w": 321,
+        "h": 250
+      },
+      "anchor": {
+        "x": 988,
+        "y": 1535
+      }
+    },
+    {
+      "name": "sunflower_field_fly_1",
+      "source": {
+        "x": 56,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 104,
+        "y": 1589,
+        "w": 248,
+        "h": 338
+      },
+      "anchor": {
+        "x": 228,
+        "y": 1926
+      }
+    },
+    {
+      "name": "sunflower_field_fly_2",
+      "source": {
+        "x": 440,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 436,
+        "y": 1671,
+        "w": 310,
+        "h": 255
+      },
+      "anchor": {
+        "x": 591,
+        "y": 1925
+      }
+    },
+    {
+      "name": "sunflower_field_fly_3",
+      "source": {
+        "x": 824,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 833,
+        "y": 1681,
+        "w": 302,
+        "h": 250
+      },
+      "anchor": {
+        "x": 984,
+        "y": 1930
+      }
+    },
+    {
+      "name": "sunflower_field_bird_1",
+      "source": {
+        "x": 56,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 74,
+        "y": 1995,
+        "w": 281,
+        "h": 326
+      },
+      "anchor": {
+        "x": 215,
+        "y": 2320
+      }
+    },
+    {
+      "name": "sunflower_field_bird_2",
+      "source": {
+        "x": 440,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 439,
+        "y": 2091,
+        "w": 307,
+        "h": 230
+      },
+      "anchor": {
+        "x": 593,
+        "y": 2320
+      }
+    },
+    {
+      "name": "sunflower_field_bird_3",
+      "source": {
+        "x": 824,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 831,
+        "y": 2095,
+        "w": 309,
+        "h": 226
+      },
+      "anchor": {
+        "x": 986,
+        "y": 2320
+      }
+    },
+    {
+      "name": "geyser_basin_fly_1",
+      "source": {
+        "x": 56,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 78,
+        "y": 2404,
+        "w": 264,
+        "h": 276
+      },
+      "anchor": {
+        "x": 210,
+        "y": 2679
+      }
+    },
+    {
+      "name": "geyser_basin_fly_2",
+      "source": {
+        "x": 440,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 450,
+        "y": 2451,
+        "w": 286,
+        "h": 226
+      },
+      "anchor": {
+        "x": 593,
+        "y": 2676
+      }
+    },
+    {
+      "name": "geyser_basin_fly_3",
+      "source": {
+        "x": 824,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 844,
+        "y": 2479,
+        "w": 287,
+        "h": 207
+      },
+      "anchor": {
+        "x": 988,
+        "y": 2685
+      }
+    },
+    {
+      "name": "geyser_basin_bird_1",
+      "source": {
+        "x": 56,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 50,
+        "y": 2732,
+        "w": 328,
+        "h": 370
+      },
+      "anchor": {
+        "x": 214,
+        "y": 3101
+      }
+    },
+    {
+      "name": "geyser_basin_bird_2",
+      "source": {
+        "x": 440,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 420,
+        "y": 2780,
+        "w": 343,
+        "h": 322
+      },
+      "anchor": {
+        "x": 592,
+        "y": 3101
+      }
+    },
+    {
+      "name": "geyser_basin_bird_3",
+      "source": {
+        "x": 824,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 820,
+        "y": 2780,
+        "w": 338,
+        "h": 322
+      },
+      "anchor": {
+        "x": 989,
+        "y": 3101
+      }
+    }
+  ],
+  "animations": [
+    {
+      "name": "lightning_ridge_fly",
+      "frames": [
+        {
+          "name": "lightning_ridge_fly_1",
+          "source": {
+            "x": 56,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 105,
+            "y": 40,
+            "w": 246,
+            "h": 342
+          },
+          "anchor": {
+            "x": 228,
+            "y": 381
+          }
+        },
+        {
+          "name": "lightning_ridge_fly_2",
+          "source": {
+            "x": 440,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 427,
+            "y": 148,
+            "w": 321,
+            "h": 233
+          },
+          "anchor": {
+            "x": 588,
+            "y": 380
+          }
+        },
+        {
+          "name": "lightning_ridge_fly_3",
+          "source": {
+            "x": 824,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 818,
+            "y": 152,
+            "w": 320,
+            "h": 230
+          },
+          "anchor": {
+            "x": 978,
+            "y": 381
+          }
+        }
+      ]
+    },
+    {
+      "name": "lightning_ridge_bird",
+      "frames": [
+        {
+          "name": "lightning_ridge_bird_1",
+          "source": {
+            "x": 56,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 61,
+            "y": 421,
+            "w": 303,
+            "h": 380
+          },
+          "anchor": {
+            "x": 213,
+            "y": 800
+          }
+        },
+        {
+          "name": "lightning_ridge_bird_2",
+          "source": {
+            "x": 440,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 431,
+            "y": 518,
+            "w": 325,
+            "h": 285
+          },
+          "anchor": {
+            "x": 594,
+            "y": 802
+          }
+        },
+        {
+          "name": "lightning_ridge_bird_3",
+          "source": {
+            "x": 824,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 822,
+            "y": 562,
+            "w": 329,
+            "h": 241
+          },
+          "anchor": {
+            "x": 987,
+            "y": 802
+          }
+        }
+      ]
+    },
+    {
+      "name": "deep_sea_trench_fly",
+      "frames": [
+        {
+          "name": "deep_sea_trench_fly_1",
+          "source": {
+            "x": 56,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 56,
+            "y": 874,
+            "w": 297,
+            "h": 304
+          },
+          "anchor": {
+            "x": 205,
+            "y": 1177
+          }
+        },
+        {
+          "name": "deep_sea_trench_fly_2",
+          "source": {
+            "x": 440,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 424,
+            "y": 929,
+            "w": 324,
+            "h": 247
+          },
+          "anchor": {
+            "x": 586,
+            "y": 1175
+          }
+        },
+        {
+          "name": "deep_sea_trench_fly_3",
+          "source": {
+            "x": 824,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 822,
+            "y": 938,
+            "w": 315,
+            "h": 239
+          },
+          "anchor": {
+            "x": 980,
+            "y": 1176
+          }
+        }
+      ]
+    },
+    {
+      "name": "deep_sea_trench_bird",
+      "frames": [
+        {
+          "name": "deep_sea_trench_bird_1",
+          "source": {
+            "x": 56,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 50,
+            "y": 1286,
+            "w": 311,
+            "h": 254
+          },
+          "anchor": {
+            "x": 206,
+            "y": 1539
+          }
+        },
+        {
+          "name": "deep_sea_trench_bird_2",
+          "source": {
+            "x": 440,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 433,
+            "y": 1286,
+            "w": 322,
+            "h": 256
+          },
+          "anchor": {
+            "x": 594,
+            "y": 1541
+          }
+        },
+        {
+          "name": "deep_sea_trench_bird_3",
+          "source": {
+            "x": 824,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 827,
+            "y": 1286,
+            "w": 321,
+            "h": 250
+          },
+          "anchor": {
+            "x": 988,
+            "y": 1535
+          }
+        }
+      ]
+    },
+    {
+      "name": "sunflower_field_fly",
+      "frames": [
+        {
+          "name": "sunflower_field_fly_1",
+          "source": {
+            "x": 56,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 104,
+            "y": 1589,
+            "w": 248,
+            "h": 338
+          },
+          "anchor": {
+            "x": 228,
+            "y": 1926
+          }
+        },
+        {
+          "name": "sunflower_field_fly_2",
+          "source": {
+            "x": 440,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 436,
+            "y": 1671,
+            "w": 310,
+            "h": 255
+          },
+          "anchor": {
+            "x": 591,
+            "y": 1925
+          }
+        },
+        {
+          "name": "sunflower_field_fly_3",
+          "source": {
+            "x": 824,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 833,
+            "y": 1681,
+            "w": 302,
+            "h": 250
+          },
+          "anchor": {
+            "x": 984,
+            "y": 1930
+          }
+        }
+      ]
+    },
+    {
+      "name": "sunflower_field_bird",
+      "frames": [
+        {
+          "name": "sunflower_field_bird_1",
+          "source": {
+            "x": 56,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 74,
+            "y": 1995,
+            "w": 281,
+            "h": 326
+          },
+          "anchor": {
+            "x": 215,
+            "y": 2320
+          }
+        },
+        {
+          "name": "sunflower_field_bird_2",
+          "source": {
+            "x": 440,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 439,
+            "y": 2091,
+            "w": 307,
+            "h": 230
+          },
+          "anchor": {
+            "x": 593,
+            "y": 2320
+          }
+        },
+        {
+          "name": "sunflower_field_bird_3",
+          "source": {
+            "x": 824,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 831,
+            "y": 2095,
+            "w": 309,
+            "h": 226
+          },
+          "anchor": {
+            "x": 986,
+            "y": 2320
+          }
+        }
+      ]
+    },
+    {
+      "name": "geyser_basin_fly",
+      "frames": [
+        {
+          "name": "geyser_basin_fly_1",
+          "source": {
+            "x": 56,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 78,
+            "y": 2404,
+            "w": 264,
+            "h": 276
+          },
+          "anchor": {
+            "x": 210,
+            "y": 2679
+          }
+        },
+        {
+          "name": "geyser_basin_fly_2",
+          "source": {
+            "x": 440,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 450,
+            "y": 2451,
+            "w": 286,
+            "h": 226
+          },
+          "anchor": {
+            "x": 593,
+            "y": 2676
+          }
+        },
+        {
+          "name": "geyser_basin_fly_3",
+          "source": {
+            "x": 824,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 844,
+            "y": 2479,
+            "w": 287,
+            "h": 207
+          },
+          "anchor": {
+            "x": 988,
+            "y": 2685
+          }
+        }
+      ]
+    },
+    {
+      "name": "geyser_basin_bird",
+      "frames": [
+        {
+          "name": "geyser_basin_bird_1",
+          "source": {
+            "x": 56,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 50,
+            "y": 2732,
+            "w": 328,
+            "h": 370
+          },
+          "anchor": {
+            "x": 214,
+            "y": 3101
+          }
+        },
+        {
+          "name": "geyser_basin_bird_2",
+          "source": {
+            "x": 440,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 420,
+            "y": 2780,
+            "w": 343,
+            "h": 322
+          },
+          "anchor": {
+            "x": 592,
+            "y": 3101
+          }
+        },
+        {
+          "name": "geyser_basin_bird_3",
+          "source": {
+            "x": 824,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 820,
+            "y": 2780,
+            "w": 338,
+            "h": 322
+          },
+          "anchor": {
+            "x": 989,
+            "y": 3101
+          }
+        }
+      ]
+    }
+  ]
+}

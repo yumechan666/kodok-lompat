@@ -1,0 +1,391 @@
+{
+  "image": "/generated-assets/theme_creatures_05-transparent.webp",
+  "grid": {
+    "cols": 5,
+    "rows": 4,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "candy_land_fly",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 40,
+        "y": 38,
+        "w": 319,
+        "h": 303
+      },
+      "anchor": {
+        "x": 200,
+        "y": 340
+      }
+    },
+    {
+      "name": "candy_land_bird",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 427,
+        "y": 26,
+        "w": 344,
+        "h": 337
+      },
+      "anchor": {
+        "x": 599,
+        "y": 362
+      }
+    },
+    {
+      "name": "toy_workshop_fly",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 842,
+        "y": 50,
+        "w": 277,
+        "h": 284
+      },
+      "anchor": {
+        "x": 981,
+        "y": 333
+      }
+    },
+    {
+      "name": "toy_workshop_bird",
+      "source": {
+        "x": 1208,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1206,
+        "y": 19,
+        "w": 339,
+        "h": 325
+      },
+      "anchor": {
+        "x": 1376,
+        "y": 343
+      }
+    },
+    {
+      "name": "clockwork_realm_fly",
+      "source": {
+        "x": 1592,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1613,
+        "y": 32,
+        "w": 287,
+        "h": 319
+      },
+      "anchor": {
+        "x": 1757,
+        "y": 350
+      }
+    },
+    {
+      "name": "clockwork_realm_bird",
+      "source": {
+        "x": 56,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 37,
+        "y": 386,
+        "w": 359,
+        "h": 371
+      },
+      "anchor": {
+        "x": 217,
+        "y": 756
+      }
+    },
+    {
+      "name": "shadow_realm_fly",
+      "source": {
+        "x": 440,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 415,
+        "y": 393,
+        "w": 323,
+        "h": 348
+      },
+      "anchor": {
+        "x": 577,
+        "y": 740
+      }
+    },
+    {
+      "name": "shadow_realm_bird",
+      "source": {
+        "x": 824,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 808,
+        "y": 387,
+        "w": 355,
+        "h": 367
+      },
+      "anchor": {
+        "x": 986,
+        "y": 753
+      }
+    },
+    {
+      "name": "mirror_maze_fly",
+      "source": {
+        "x": 1208,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1217,
+        "y": 403,
+        "w": 291,
+        "h": 327
+      },
+      "anchor": {
+        "x": 1363,
+        "y": 729
+      }
+    },
+    {
+      "name": "mirror_maze_bird",
+      "source": {
+        "x": 1592,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1593,
+        "y": 390,
+        "w": 317,
+        "h": 358
+      },
+      "anchor": {
+        "x": 1752,
+        "y": 747
+      }
+    },
+    {
+      "name": "bone_graveyard_fly",
+      "source": {
+        "x": 56,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 43,
+        "y": 820,
+        "w": 300,
+        "h": 297
+      },
+      "anchor": {
+        "x": 193,
+        "y": 1116
+      }
+    },
+    {
+      "name": "bone_graveyard_bird",
+      "source": {
+        "x": 440,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 405,
+        "y": 794,
+        "w": 372,
+        "h": 320
+      },
+      "anchor": {
+        "x": 591,
+        "y": 1113
+      }
+    },
+    {
+      "name": "dragon_nest_fly",
+      "source": {
+        "x": 824,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 804,
+        "y": 793,
+        "w": 352,
+        "h": 343
+      },
+      "anchor": {
+        "x": 980,
+        "y": 1135
+      }
+    },
+    {
+      "name": "dragon_nest_bird",
+      "source": {
+        "x": 1208,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1191,
+        "y": 777,
+        "w": 373,
+        "h": 366
+      },
+      "anchor": {
+        "x": 1378,
+        "y": 1142
+      }
+    },
+    {
+      "name": "witch_cabin_fly",
+      "source": {
+        "x": 1592,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1621,
+        "y": 785,
+        "w": 293,
+        "h": 348
+      },
+      "anchor": {
+        "x": 1768,
+        "y": 1132
+      }
+    },
+    {
+      "name": "witch_cabin_bird",
+      "source": {
+        "x": 56,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 33,
+        "y": 1158,
+        "w": 363,
+        "h": 385
+      },
+      "anchor": {
+        "x": 215,
+        "y": 1542
+      }
+    },
+    {
+      "name": "atlantis_palace_fly",
+      "source": {
+        "x": 440,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 437,
+        "y": 1191,
+        "w": 312,
+        "h": 342
+      },
+      "anchor": {
+        "x": 593,
+        "y": 1532
+      }
+    },
+    {
+      "name": "atlantis_palace_bird",
+      "source": {
+        "x": 824,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 808,
+        "y": 1212,
+        "w": 353,
+        "h": 279
+      },
+      "anchor": {
+        "x": 985,
+        "y": 1490
+      }
+    },
+    {
+      "name": "grand_canyon_fly",
+      "source": {
+        "x": 1208,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1214,
+        "y": 1189,
+        "w": 316,
+        "h": 336
+      },
+      "anchor": {
+        "x": 1372,
+        "y": 1524
+      }
+    },
+    {
+      "name": "grand_canyon_bird",
+      "source": {
+        "x": 1592,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1564,
+        "y": 1154,
+        "w": 392,
+        "h": 365
+      },
+      "anchor": {
+        "x": 1760,
+        "y": 1518
+      }
+    }
+  ]
+}

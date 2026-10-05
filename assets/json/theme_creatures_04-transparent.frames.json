@@ -1,0 +1,391 @@
+{
+  "image": "/generated-assets/theme_creatures_04-transparent.webp",
+  "grid": {
+    "cols": 5,
+    "rows": 4,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "amusement_park_fly",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 36,
+        "y": 34,
+        "w": 341,
+        "h": 304
+      },
+      "anchor": {
+        "x": 207,
+        "y": 337
+      }
+    },
+    {
+      "name": "amusement_park_bird",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 425,
+        "y": 16,
+        "w": 375,
+        "h": 333
+      },
+      "anchor": {
+        "x": 613,
+        "y": 348
+      }
+    },
+    {
+      "name": "neon_alley_fly",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 842,
+        "y": 32,
+        "w": 302,
+        "h": 307
+      },
+      "anchor": {
+        "x": 993,
+        "y": 338
+      }
+    },
+    {
+      "name": "neon_alley_bird",
+      "source": {
+        "x": 1208,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1185,
+        "y": 18,
+        "w": 362,
+        "h": 330
+      },
+      "anchor": {
+        "x": 1366,
+        "y": 347
+      }
+    },
+    {
+      "name": "scrap_junkyard_fly",
+      "source": {
+        "x": 1592,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1598,
+        "y": 39,
+        "w": 328,
+        "h": 298
+      },
+      "anchor": {
+        "x": 1762,
+        "y": 336
+      }
+    },
+    {
+      "name": "scrap_junkyard_bird",
+      "source": {
+        "x": 56,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 22,
+        "y": 381,
+        "w": 381,
+        "h": 341
+      },
+      "anchor": {
+        "x": 213,
+        "y": 721
+      }
+    },
+    {
+      "name": "greek_temple_fly",
+      "source": {
+        "x": 440,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 431,
+        "y": 398,
+        "w": 337,
+        "h": 324
+      },
+      "anchor": {
+        "x": 600,
+        "y": 721
+      }
+    },
+    {
+      "name": "greek_temple_bird",
+      "source": {
+        "x": 824,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 802,
+        "y": 378,
+        "w": 344,
+        "h": 351
+      },
+      "anchor": {
+        "x": 974,
+        "y": 728
+      }
+    },
+    {
+      "name": "egypt_pyramid_fly",
+      "source": {
+        "x": 1208,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1205,
+        "y": 394,
+        "w": 343,
+        "h": 321
+      },
+      "anchor": {
+        "x": 1377,
+        "y": 714
+      }
+    },
+    {
+      "name": "egypt_pyramid_bird",
+      "source": {
+        "x": 1592,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1574,
+        "y": 378,
+        "w": 372,
+        "h": 346
+      },
+      "anchor": {
+        "x": 1760,
+        "y": 723
+      }
+    },
+    {
+      "name": "aztec_ruins_fly",
+      "source": {
+        "x": 56,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 31,
+        "y": 778,
+        "w": 359,
+        "h": 330
+      },
+      "anchor": {
+        "x": 211,
+        "y": 1107
+      }
+    },
+    {
+      "name": "aztec_ruins_bird",
+      "source": {
+        "x": 440,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 371,
+        "y": 752,
+        "w": 410,
+        "h": 379
+      },
+      "anchor": {
+        "x": 576,
+        "y": 1130
+      }
+    },
+    {
+      "name": "gothic_cathedral_fly",
+      "source": {
+        "x": 824,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 819,
+        "y": 777,
+        "w": 315,
+        "h": 334
+      },
+      "anchor": {
+        "x": 977,
+        "y": 1110
+      }
+    },
+    {
+      "name": "gothic_cathedral_bird",
+      "source": {
+        "x": 1208,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1175,
+        "y": 769,
+        "w": 371,
+        "h": 343
+      },
+      "anchor": {
+        "x": 1361,
+        "y": 1111
+      }
+    },
+    {
+      "name": "sunken_shipwreck_fly",
+      "source": {
+        "x": 1592,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1572,
+        "y": 762,
+        "w": 371,
+        "h": 356
+      },
+      "anchor": {
+        "x": 1758,
+        "y": 1117
+      }
+    },
+    {
+      "name": "sunken_shipwreck_bird",
+      "source": {
+        "x": 56,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 26,
+        "y": 1169,
+        "w": 371,
+        "h": 360
+      },
+      "anchor": {
+        "x": 212,
+        "y": 1528
+      }
+    },
+    {
+      "name": "stone_labyrinth_fly",
+      "source": {
+        "x": 440,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 448,
+        "y": 1157,
+        "w": 317,
+        "h": 356
+      },
+      "anchor": {
+        "x": 607,
+        "y": 1512
+      }
+    },
+    {
+      "name": "stone_labyrinth_bird",
+      "source": {
+        "x": 824,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 802,
+        "y": 1169,
+        "w": 374,
+        "h": 351
+      },
+      "anchor": {
+        "x": 989,
+        "y": 1519
+      }
+    },
+    {
+      "name": "ancient_library_fly",
+      "source": {
+        "x": 1208,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1193,
+        "y": 1173,
+        "w": 336,
+        "h": 351
+      },
+      "anchor": {
+        "x": 1361,
+        "y": 1523
+      }
+    },
+    {
+      "name": "ancient_library_bird",
+      "source": {
+        "x": 1592,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1570,
+        "y": 1150,
+        "w": 365,
+        "h": 390
+      },
+      "anchor": {
+        "x": 1753,
+        "y": 1539
+      }
+    }
+  ]
+}

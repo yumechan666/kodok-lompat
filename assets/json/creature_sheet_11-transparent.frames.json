@@ -1,0 +1,965 @@
+{
+  "image": "/generated-assets/creature_sheet_11-transparent.webp",
+  "grid": {
+    "cols": 3,
+    "rows": 8,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "candy_land_fly_1",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 67,
+        "y": 27,
+        "w": 277,
+        "h": 330
+      },
+      "anchor": {
+        "x": 206,
+        "y": 356
+      }
+    },
+    {
+      "name": "candy_land_fly_2",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 419,
+        "y": 94,
+        "w": 357,
+        "h": 262
+      },
+      "anchor": {
+        "x": 598,
+        "y": 355
+      }
+    },
+    {
+      "name": "candy_land_fly_3",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 831,
+        "y": 105,
+        "w": 290,
+        "h": 251
+      },
+      "anchor": {
+        "x": 976,
+        "y": 355
+      }
+    },
+    {
+      "name": "candy_land_bird_1",
+      "source": {
+        "x": 56,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 62,
+        "y": 390,
+        "w": 317,
+        "h": 276
+      },
+      "anchor": {
+        "x": 221,
+        "y": 665
+      }
+    },
+    {
+      "name": "candy_land_bird_2",
+      "source": {
+        "x": 440,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 426,
+        "y": 457,
+        "w": 360,
+        "h": 208
+      },
+      "anchor": {
+        "x": 606,
+        "y": 664
+      }
+    },
+    {
+      "name": "candy_land_bird_3",
+      "source": {
+        "x": 824,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 837,
+        "y": 476,
+        "w": 334,
+        "h": 190
+      },
+      "anchor": {
+        "x": 1004,
+        "y": 665
+      }
+    },
+    {
+      "name": "toy_workshop_fly_1",
+      "source": {
+        "x": 56,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 65,
+        "y": 739,
+        "w": 277,
+        "h": 328
+      },
+      "anchor": {
+        "x": 204,
+        "y": 1066
+      }
+    },
+    {
+      "name": "toy_workshop_fly_2",
+      "source": {
+        "x": 440,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 417,
+        "y": 801,
+        "w": 356,
+        "h": 269
+      },
+      "anchor": {
+        "x": 595,
+        "y": 1069
+      }
+    },
+    {
+      "name": "toy_workshop_fly_3",
+      "source": {
+        "x": 824,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 826,
+        "y": 807,
+        "w": 293,
+        "h": 262
+      },
+      "anchor": {
+        "x": 973,
+        "y": 1068
+      }
+    },
+    {
+      "name": "toy_workshop_bird_1",
+      "source": {
+        "x": 56,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 56,
+        "y": 1104,
+        "w": 298,
+        "h": 357
+      },
+      "anchor": {
+        "x": 205,
+        "y": 1460
+      }
+    },
+    {
+      "name": "toy_workshop_bird_2",
+      "source": {
+        "x": 440,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 419,
+        "y": 1156,
+        "w": 339,
+        "h": 374
+      },
+      "anchor": {
+        "x": 589,
+        "y": 1529
+      }
+    },
+    {
+      "name": "toy_workshop_bird_3",
+      "source": {
+        "x": 824,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 838,
+        "y": 1166,
+        "w": 304,
+        "h": 297
+      },
+      "anchor": {
+        "x": 990,
+        "y": 1462
+      }
+    },
+    {
+      "name": "clockwork_realm_fly_1",
+      "source": {
+        "x": 56,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 58,
+        "y": 1499,
+        "w": 285,
+        "h": 324
+      },
+      "anchor": {
+        "x": 201,
+        "y": 1822
+      }
+    },
+    {
+      "name": "clockwork_realm_fly_2",
+      "source": {
+        "x": 440,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 422,
+        "y": 1530,
+        "w": 317,
+        "h": 293
+      },
+      "anchor": {
+        "x": 581,
+        "y": 1822
+      }
+    },
+    {
+      "name": "clockwork_realm_fly_3",
+      "source": {
+        "x": 824,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 828,
+        "y": 1534,
+        "w": 291,
+        "h": 291
+      },
+      "anchor": {
+        "x": 974,
+        "y": 1824
+      }
+    },
+    {
+      "name": "clockwork_realm_bird_1",
+      "source": {
+        "x": 56,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 47,
+        "y": 1864,
+        "w": 310,
+        "h": 363
+      },
+      "anchor": {
+        "x": 202,
+        "y": 2226
+      }
+    },
+    {
+      "name": "clockwork_realm_bird_2",
+      "source": {
+        "x": 440,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 414,
+        "y": 1933,
+        "w": 365,
+        "h": 291
+      },
+      "anchor": {
+        "x": 597,
+        "y": 2223
+      }
+    },
+    {
+      "name": "clockwork_realm_bird_3",
+      "source": {
+        "x": 824,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 832,
+        "y": 1931,
+        "w": 318,
+        "h": 295
+      },
+      "anchor": {
+        "x": 991,
+        "y": 2225
+      }
+    },
+    {
+      "name": "shadow_realm_fly_1",
+      "source": {
+        "x": 56,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 41,
+        "y": 2261,
+        "w": 308,
+        "h": 404
+      },
+      "anchor": {
+        "x": 195,
+        "y": 2664
+      }
+    },
+    {
+      "name": "shadow_realm_fly_2",
+      "source": {
+        "x": 440,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 413,
+        "y": 2267,
+        "w": 339,
+        "h": 397
+      },
+      "anchor": {
+        "x": 583,
+        "y": 2663
+      }
+    },
+    {
+      "name": "shadow_realm_fly_3",
+      "source": {
+        "x": 824,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 833,
+        "y": 2277,
+        "w": 303,
+        "h": 388
+      },
+      "anchor": {
+        "x": 985,
+        "y": 2664
+      }
+    },
+    {
+      "name": "shadow_realm_bird_1",
+      "source": {
+        "x": 56,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 32,
+        "y": 2701,
+        "w": 334,
+        "h": 386
+      },
+      "anchor": {
+        "x": 199,
+        "y": 3086
+      }
+    },
+    {
+      "name": "shadow_realm_bird_2",
+      "source": {
+        "x": 440,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 414,
+        "y": 2752,
+        "w": 367,
+        "h": 328
+      },
+      "anchor": {
+        "x": 598,
+        "y": 3079
+      }
+    },
+    {
+      "name": "shadow_realm_bird_3",
+      "source": {
+        "x": 824,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 825,
+        "y": 2757,
+        "w": 327,
+        "h": 321
+      },
+      "anchor": {
+        "x": 989,
+        "y": 3077
+      }
+    }
+  ],
+  "animations": [
+    {
+      "name": "candy_land_fly",
+      "frames": [
+        {
+          "name": "candy_land_fly_1",
+          "source": {
+            "x": 56,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 67,
+            "y": 27,
+            "w": 277,
+            "h": 330
+          },
+          "anchor": {
+            "x": 206,
+            "y": 356
+          }
+        },
+        {
+          "name": "candy_land_fly_2",
+          "source": {
+            "x": 440,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 419,
+            "y": 94,
+            "w": 357,
+            "h": 262
+          },
+          "anchor": {
+            "x": 598,
+            "y": 355
+          }
+        },
+        {
+          "name": "candy_land_fly_3",
+          "source": {
+            "x": 824,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 831,
+            "y": 105,
+            "w": 290,
+            "h": 251
+          },
+          "anchor": {
+            "x": 976,
+            "y": 355
+          }
+        }
+      ]
+    },
+    {
+      "name": "candy_land_bird",
+      "frames": [
+        {
+          "name": "candy_land_bird_1",
+          "source": {
+            "x": 56,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 62,
+            "y": 390,
+            "w": 317,
+            "h": 276
+          },
+          "anchor": {
+            "x": 221,
+            "y": 665
+          }
+        },
+        {
+          "name": "candy_land_bird_2",
+          "source": {
+            "x": 440,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 426,
+            "y": 457,
+            "w": 360,
+            "h": 208
+          },
+          "anchor": {
+            "x": 606,
+            "y": 664
+          }
+        },
+        {
+          "name": "candy_land_bird_3",
+          "source": {
+            "x": 824,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 837,
+            "y": 476,
+            "w": 334,
+            "h": 190
+          },
+          "anchor": {
+            "x": 1004,
+            "y": 665
+          }
+        }
+      ]
+    },
+    {
+      "name": "toy_workshop_fly",
+      "frames": [
+        {
+          "name": "toy_workshop_fly_1",
+          "source": {
+            "x": 56,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 65,
+            "y": 739,
+            "w": 277,
+            "h": 328
+          },
+          "anchor": {
+            "x": 204,
+            "y": 1066
+          }
+        },
+        {
+          "name": "toy_workshop_fly_2",
+          "source": {
+            "x": 440,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 417,
+            "y": 801,
+            "w": 356,
+            "h": 269
+          },
+          "anchor": {
+            "x": 595,
+            "y": 1069
+          }
+        },
+        {
+          "name": "toy_workshop_fly_3",
+          "source": {
+            "x": 824,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 826,
+            "y": 807,
+            "w": 293,
+            "h": 262
+          },
+          "anchor": {
+            "x": 973,
+            "y": 1068
+          }
+        }
+      ]
+    },
+    {
+      "name": "toy_workshop_bird",
+      "frames": [
+        {
+          "name": "toy_workshop_bird_1",
+          "source": {
+            "x": 56,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 56,
+            "y": 1104,
+            "w": 298,
+            "h": 357
+          },
+          "anchor": {
+            "x": 205,
+            "y": 1460
+          }
+        },
+        {
+          "name": "toy_workshop_bird_2",
+          "source": {
+            "x": 440,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 419,
+            "y": 1156,
+            "w": 339,
+            "h": 374
+          },
+          "anchor": {
+            "x": 589,
+            "y": 1529
+          }
+        },
+        {
+          "name": "toy_workshop_bird_3",
+          "source": {
+            "x": 824,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 838,
+            "y": 1166,
+            "w": 304,
+            "h": 297
+          },
+          "anchor": {
+            "x": 990,
+            "y": 1462
+          }
+        }
+      ]
+    },
+    {
+      "name": "clockwork_realm_fly",
+      "frames": [
+        {
+          "name": "clockwork_realm_fly_1",
+          "source": {
+            "x": 56,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 58,
+            "y": 1499,
+            "w": 285,
+            "h": 324
+          },
+          "anchor": {
+            "x": 201,
+            "y": 1822
+          }
+        },
+        {
+          "name": "clockwork_realm_fly_2",
+          "source": {
+            "x": 440,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 422,
+            "y": 1530,
+            "w": 317,
+            "h": 293
+          },
+          "anchor": {
+            "x": 581,
+            "y": 1822
+          }
+        },
+        {
+          "name": "clockwork_realm_fly_3",
+          "source": {
+            "x": 824,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 828,
+            "y": 1534,
+            "w": 291,
+            "h": 291
+          },
+          "anchor": {
+            "x": 974,
+            "y": 1824
+          }
+        }
+      ]
+    },
+    {
+      "name": "clockwork_realm_bird",
+      "frames": [
+        {
+          "name": "clockwork_realm_bird_1",
+          "source": {
+            "x": 56,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 47,
+            "y": 1864,
+            "w": 310,
+            "h": 363
+          },
+          "anchor": {
+            "x": 202,
+            "y": 2226
+          }
+        },
+        {
+          "name": "clockwork_realm_bird_2",
+          "source": {
+            "x": 440,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 414,
+            "y": 1933,
+            "w": 365,
+            "h": 291
+          },
+          "anchor": {
+            "x": 597,
+            "y": 2223
+          }
+        },
+        {
+          "name": "clockwork_realm_bird_3",
+          "source": {
+            "x": 824,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 832,
+            "y": 1931,
+            "w": 318,
+            "h": 295
+          },
+          "anchor": {
+            "x": 991,
+            "y": 2225
+          }
+        }
+      ]
+    },
+    {
+      "name": "shadow_realm_fly",
+      "frames": [
+        {
+          "name": "shadow_realm_fly_1",
+          "source": {
+            "x": 56,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 41,
+            "y": 2261,
+            "w": 308,
+            "h": 404
+          },
+          "anchor": {
+            "x": 195,
+            "y": 2664
+          }
+        },
+        {
+          "name": "shadow_realm_fly_2",
+          "source": {
+            "x": 440,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 413,
+            "y": 2267,
+            "w": 339,
+            "h": 397
+          },
+          "anchor": {
+            "x": 583,
+            "y": 2663
+          }
+        },
+        {
+          "name": "shadow_realm_fly_3",
+          "source": {
+            "x": 824,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 833,
+            "y": 2277,
+            "w": 303,
+            "h": 388
+          },
+          "anchor": {
+            "x": 985,
+            "y": 2664
+          }
+        }
+      ]
+    },
+    {
+      "name": "shadow_realm_bird",
+      "frames": [
+        {
+          "name": "shadow_realm_bird_1",
+          "source": {
+            "x": 56,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 32,
+            "y": 2701,
+            "w": 334,
+            "h": 386
+          },
+          "anchor": {
+            "x": 199,
+            "y": 3086
+          }
+        },
+        {
+          "name": "shadow_realm_bird_2",
+          "source": {
+            "x": 440,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 414,
+            "y": 2752,
+            "w": 367,
+            "h": 328
+          },
+          "anchor": {
+            "x": 598,
+            "y": 3079
+          }
+        },
+        {
+          "name": "shadow_realm_bird_3",
+          "source": {
+            "x": 824,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 825,
+            "y": 2757,
+            "w": 327,
+            "h": 321
+          },
+          "anchor": {
+            "x": 989,
+            "y": 3077
+          }
+        }
+      ]
+    }
+  ]
+}

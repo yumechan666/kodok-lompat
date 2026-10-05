@@ -1,0 +1,106 @@
+{
+  "image": "/generated-assets/frog_sheet-transparent.webp",
+  "grid": {
+    "cols": 3,
+    "rows": 2,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "squat",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 71,
+        "y": 173,
+        "w": 258,
+        "h": 194
+      },
+      "anchor": {
+        "x": 200,
+        "y": 366
+      }
+    },
+    {
+      "name": "jump",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 436,
+        "y": 23,
+        "w": 269,
+        "h": 397
+      },
+      "anchor": {
+        "x": 571,
+        "y": 419
+      }
+    },
+    {
+      "name": "air",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 752,
+        "y": 128,
+        "w": 419,
+        "h": 202
+      },
+      "anchor": {
+        "x": 962,
+        "y": 329
+      }
+    },
+    {
+      "name": "landing",
+      "source": {
+        "x": 248,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 207,
+        "y": 569,
+        "w": 352,
+        "h": 182
+      },
+      "anchor": {
+        "x": 383,
+        "y": 750
+      }
+    },
+    {
+      "name": "bounce",
+      "source": {
+        "x": 632,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 701,
+        "y": 417,
+        "w": 259,
+        "h": 342
+      },
+      "anchor": {
+        "x": 831,
+        "y": 758
+      }
+    }
+  ]
+}

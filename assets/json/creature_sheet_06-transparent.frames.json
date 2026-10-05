@@ -1,0 +1,965 @@
+{
+  "image": "/generated-assets/creature_sheet_06-transparent.webp",
+  "grid": {
+    "cols": 3,
+    "rows": 8,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "crystal_cave_fly_1",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 47,
+        "y": 22,
+        "w": 329,
+        "h": 307
+      },
+      "anchor": {
+        "x": 212,
+        "y": 328
+      }
+    },
+    {
+      "name": "crystal_cave_fly_2",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 421,
+        "y": 124,
+        "w": 349,
+        "h": 205
+      },
+      "anchor": {
+        "x": 596,
+        "y": 328
+      }
+    },
+    {
+      "name": "crystal_cave_fly_3",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 825,
+        "y": 131,
+        "w": 320,
+        "h": 197
+      },
+      "anchor": {
+        "x": 985,
+        "y": 327
+      }
+    },
+    {
+      "name": "crystal_cave_bird_1",
+      "source": {
+        "x": 56,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 54,
+        "y": 347,
+        "w": 314,
+        "h": 343
+      },
+      "anchor": {
+        "x": 211,
+        "y": 689
+      }
+    },
+    {
+      "name": "crystal_cave_bird_2",
+      "source": {
+        "x": 440,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 401,
+        "y": 496,
+        "w": 377,
+        "h": 174
+      },
+      "anchor": {
+        "x": 590,
+        "y": 669
+      }
+    },
+    {
+      "name": "crystal_cave_bird_3",
+      "source": {
+        "x": 824,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 809,
+        "y": 495,
+        "w": 330,
+        "h": 235
+      },
+      "anchor": {
+        "x": 974,
+        "y": 729
+      }
+    },
+    {
+      "name": "volcano_fly_1",
+      "source": {
+        "x": 56,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 48,
+        "y": 753,
+        "w": 326,
+        "h": 289
+      },
+      "anchor": {
+        "x": 211,
+        "y": 1041
+      }
+    },
+    {
+      "name": "volcano_fly_2",
+      "source": {
+        "x": 440,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 424,
+        "y": 818,
+        "w": 349,
+        "h": 224
+      },
+      "anchor": {
+        "x": 599,
+        "y": 1041
+      }
+    },
+    {
+      "name": "volcano_fly_3",
+      "source": {
+        "x": 824,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 827,
+        "y": 844,
+        "w": 321,
+        "h": 200
+      },
+      "anchor": {
+        "x": 988,
+        "y": 1043
+      }
+    },
+    {
+      "name": "volcano_bird_1",
+      "source": {
+        "x": 56,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 51,
+        "y": 1059,
+        "w": 320,
+        "h": 402
+      },
+      "anchor": {
+        "x": 211,
+        "y": 1460
+      }
+    },
+    {
+      "name": "volcano_bird_2",
+      "source": {
+        "x": 440,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 396,
+        "y": 1208,
+        "w": 384,
+        "h": 214
+      },
+      "anchor": {
+        "x": 588,
+        "y": 1421
+      }
+    },
+    {
+      "name": "volcano_bird_3",
+      "source": {
+        "x": 824,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 808,
+        "y": 1195,
+        "w": 334,
+        "h": 255
+      },
+      "anchor": {
+        "x": 975,
+        "y": 1449
+      }
+    },
+    {
+      "name": "sky_kingdom_fly_1",
+      "source": {
+        "x": 56,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 46,
+        "y": 1489,
+        "w": 338,
+        "h": 318
+      },
+      "anchor": {
+        "x": 215,
+        "y": 1806
+      }
+    },
+    {
+      "name": "sky_kingdom_fly_2",
+      "source": {
+        "x": 440,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 425,
+        "y": 1550,
+        "w": 361,
+        "h": 257
+      },
+      "anchor": {
+        "x": 606,
+        "y": 1806
+      }
+    },
+    {
+      "name": "sky_kingdom_fly_3",
+      "source": {
+        "x": 824,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 824,
+        "y": 1588,
+        "w": 330,
+        "h": 219
+      },
+      "anchor": {
+        "x": 989,
+        "y": 1806
+      }
+    },
+    {
+      "name": "sky_kingdom_bird_1",
+      "source": {
+        "x": 56,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 52,
+        "y": 1833,
+        "w": 329,
+        "h": 399
+      },
+      "anchor": {
+        "x": 217,
+        "y": 2231
+      }
+    },
+    {
+      "name": "sky_kingdom_bird_2",
+      "source": {
+        "x": 440,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 403,
+        "y": 1963,
+        "w": 403,
+        "h": 261
+      },
+      "anchor": {
+        "x": 605,
+        "y": 2223
+      }
+    },
+    {
+      "name": "sky_kingdom_bird_3",
+      "source": {
+        "x": 824,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 810,
+        "y": 1938,
+        "w": 326,
+        "h": 310
+      },
+      "anchor": {
+        "x": 973,
+        "y": 2247
+      }
+    },
+    {
+      "name": "rainbow_world_fly_1",
+      "source": {
+        "x": 56,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 47,
+        "y": 2285,
+        "w": 328,
+        "h": 308
+      },
+      "anchor": {
+        "x": 211,
+        "y": 2592
+      }
+    },
+    {
+      "name": "rainbow_world_fly_2",
+      "source": {
+        "x": 440,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 421,
+        "y": 2367,
+        "w": 355,
+        "h": 224
+      },
+      "anchor": {
+        "x": 599,
+        "y": 2590
+      }
+    },
+    {
+      "name": "rainbow_world_fly_3",
+      "source": {
+        "x": 824,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 824,
+        "y": 2380,
+        "w": 327,
+        "h": 216
+      },
+      "anchor": {
+        "x": 988,
+        "y": 2595
+      }
+    },
+    {
+      "name": "rainbow_world_bird_1",
+      "source": {
+        "x": 56,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 46,
+        "y": 2625,
+        "w": 331,
+        "h": 481
+      },
+      "anchor": {
+        "x": 212,
+        "y": 3105
+      }
+    },
+    {
+      "name": "rainbow_world_bird_2",
+      "source": {
+        "x": 440,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 398,
+        "y": 2740,
+        "w": 372,
+        "h": 332
+      },
+      "anchor": {
+        "x": 584,
+        "y": 3071
+      }
+    },
+    {
+      "name": "rainbow_world_bird_3",
+      "source": {
+        "x": 824,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 804,
+        "y": 2768,
+        "w": 335,
+        "h": 305
+      },
+      "anchor": {
+        "x": 972,
+        "y": 3072
+      }
+    }
+  ],
+  "animations": [
+    {
+      "name": "crystal_cave_fly",
+      "frames": [
+        {
+          "name": "crystal_cave_fly_1",
+          "source": {
+            "x": 56,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 47,
+            "y": 22,
+            "w": 329,
+            "h": 307
+          },
+          "anchor": {
+            "x": 212,
+            "y": 328
+          }
+        },
+        {
+          "name": "crystal_cave_fly_2",
+          "source": {
+            "x": 440,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 421,
+            "y": 124,
+            "w": 349,
+            "h": 205
+          },
+          "anchor": {
+            "x": 596,
+            "y": 328
+          }
+        },
+        {
+          "name": "crystal_cave_fly_3",
+          "source": {
+            "x": 824,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 825,
+            "y": 131,
+            "w": 320,
+            "h": 197
+          },
+          "anchor": {
+            "x": 985,
+            "y": 327
+          }
+        }
+      ]
+    },
+    {
+      "name": "crystal_cave_bird",
+      "frames": [
+        {
+          "name": "crystal_cave_bird_1",
+          "source": {
+            "x": 56,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 54,
+            "y": 347,
+            "w": 314,
+            "h": 343
+          },
+          "anchor": {
+            "x": 211,
+            "y": 689
+          }
+        },
+        {
+          "name": "crystal_cave_bird_2",
+          "source": {
+            "x": 440,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 401,
+            "y": 496,
+            "w": 377,
+            "h": 174
+          },
+          "anchor": {
+            "x": 590,
+            "y": 669
+          }
+        },
+        {
+          "name": "crystal_cave_bird_3",
+          "source": {
+            "x": 824,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 809,
+            "y": 495,
+            "w": 330,
+            "h": 235
+          },
+          "anchor": {
+            "x": 974,
+            "y": 729
+          }
+        }
+      ]
+    },
+    {
+      "name": "volcano_fly",
+      "frames": [
+        {
+          "name": "volcano_fly_1",
+          "source": {
+            "x": 56,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 48,
+            "y": 753,
+            "w": 326,
+            "h": 289
+          },
+          "anchor": {
+            "x": 211,
+            "y": 1041
+          }
+        },
+        {
+          "name": "volcano_fly_2",
+          "source": {
+            "x": 440,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 424,
+            "y": 818,
+            "w": 349,
+            "h": 224
+          },
+          "anchor": {
+            "x": 599,
+            "y": 1041
+          }
+        },
+        {
+          "name": "volcano_fly_3",
+          "source": {
+            "x": 824,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 827,
+            "y": 844,
+            "w": 321,
+            "h": 200
+          },
+          "anchor": {
+            "x": 988,
+            "y": 1043
+          }
+        }
+      ]
+    },
+    {
+      "name": "volcano_bird",
+      "frames": [
+        {
+          "name": "volcano_bird_1",
+          "source": {
+            "x": 56,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 51,
+            "y": 1059,
+            "w": 320,
+            "h": 402
+          },
+          "anchor": {
+            "x": 211,
+            "y": 1460
+          }
+        },
+        {
+          "name": "volcano_bird_2",
+          "source": {
+            "x": 440,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 396,
+            "y": 1208,
+            "w": 384,
+            "h": 214
+          },
+          "anchor": {
+            "x": 588,
+            "y": 1421
+          }
+        },
+        {
+          "name": "volcano_bird_3",
+          "source": {
+            "x": 824,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 808,
+            "y": 1195,
+            "w": 334,
+            "h": 255
+          },
+          "anchor": {
+            "x": 975,
+            "y": 1449
+          }
+        }
+      ]
+    },
+    {
+      "name": "sky_kingdom_fly",
+      "frames": [
+        {
+          "name": "sky_kingdom_fly_1",
+          "source": {
+            "x": 56,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 46,
+            "y": 1489,
+            "w": 338,
+            "h": 318
+          },
+          "anchor": {
+            "x": 215,
+            "y": 1806
+          }
+        },
+        {
+          "name": "sky_kingdom_fly_2",
+          "source": {
+            "x": 440,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 425,
+            "y": 1550,
+            "w": 361,
+            "h": 257
+          },
+          "anchor": {
+            "x": 606,
+            "y": 1806
+          }
+        },
+        {
+          "name": "sky_kingdom_fly_3",
+          "source": {
+            "x": 824,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 824,
+            "y": 1588,
+            "w": 330,
+            "h": 219
+          },
+          "anchor": {
+            "x": 989,
+            "y": 1806
+          }
+        }
+      ]
+    },
+    {
+      "name": "sky_kingdom_bird",
+      "frames": [
+        {
+          "name": "sky_kingdom_bird_1",
+          "source": {
+            "x": 56,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 52,
+            "y": 1833,
+            "w": 329,
+            "h": 399
+          },
+          "anchor": {
+            "x": 217,
+            "y": 2231
+          }
+        },
+        {
+          "name": "sky_kingdom_bird_2",
+          "source": {
+            "x": 440,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 403,
+            "y": 1963,
+            "w": 403,
+            "h": 261
+          },
+          "anchor": {
+            "x": 605,
+            "y": 2223
+          }
+        },
+        {
+          "name": "sky_kingdom_bird_3",
+          "source": {
+            "x": 824,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 810,
+            "y": 1938,
+            "w": 326,
+            "h": 310
+          },
+          "anchor": {
+            "x": 973,
+            "y": 2247
+          }
+        }
+      ]
+    },
+    {
+      "name": "rainbow_world_fly",
+      "frames": [
+        {
+          "name": "rainbow_world_fly_1",
+          "source": {
+            "x": 56,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 47,
+            "y": 2285,
+            "w": 328,
+            "h": 308
+          },
+          "anchor": {
+            "x": 211,
+            "y": 2592
+          }
+        },
+        {
+          "name": "rainbow_world_fly_2",
+          "source": {
+            "x": 440,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 421,
+            "y": 2367,
+            "w": 355,
+            "h": 224
+          },
+          "anchor": {
+            "x": 599,
+            "y": 2590
+          }
+        },
+        {
+          "name": "rainbow_world_fly_3",
+          "source": {
+            "x": 824,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 824,
+            "y": 2380,
+            "w": 327,
+            "h": 216
+          },
+          "anchor": {
+            "x": 988,
+            "y": 2595
+          }
+        }
+      ]
+    },
+    {
+      "name": "rainbow_world_bird",
+      "frames": [
+        {
+          "name": "rainbow_world_bird_1",
+          "source": {
+            "x": 56,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 46,
+            "y": 2625,
+            "w": 331,
+            "h": 481
+          },
+          "anchor": {
+            "x": 212,
+            "y": 3105
+          }
+        },
+        {
+          "name": "rainbow_world_bird_2",
+          "source": {
+            "x": 440,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 398,
+            "y": 2740,
+            "w": 372,
+            "h": 332
+          },
+          "anchor": {
+            "x": 584,
+            "y": 3071
+          }
+        },
+        {
+          "name": "rainbow_world_bird_3",
+          "source": {
+            "x": 824,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 804,
+            "y": 2768,
+            "w": 335,
+            "h": 305
+          },
+          "anchor": {
+            "x": 972,
+            "y": 3072
+          }
+        }
+      ]
+    }
+  ]
+}

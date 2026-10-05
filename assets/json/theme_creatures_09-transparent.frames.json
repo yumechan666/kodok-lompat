@@ -1,0 +1,391 @@
+{
+  "image": "/generated-assets/theme_creatures_09-transparent.webp",
+  "grid": {
+    "cols": 5,
+    "rows": 4,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "origami_world_fly",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 33,
+        "y": 34,
+        "w": 321,
+        "h": 333
+      },
+      "anchor": {
+        "x": 194,
+        "y": 366
+      }
+    },
+    {
+      "name": "origami_world_bird",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 415,
+        "y": 32,
+        "w": 346,
+        "h": 312
+      },
+      "anchor": {
+        "x": 588,
+        "y": 343
+      }
+    },
+    {
+      "name": "ink_splash_fly",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 808,
+        "y": 29,
+        "w": 313,
+        "h": 338
+      },
+      "anchor": {
+        "x": 965,
+        "y": 366
+      }
+    },
+    {
+      "name": "ink_splash_bird",
+      "source": {
+        "x": 1208,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1201,
+        "y": 14,
+        "w": 344,
+        "h": 367
+      },
+      "anchor": {
+        "x": 1373,
+        "y": 380
+      }
+    },
+    {
+      "name": "time_rift_fly",
+      "source": {
+        "x": 1592,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1589,
+        "y": 33,
+        "w": 328,
+        "h": 326
+      },
+      "anchor": {
+        "x": 1753,
+        "y": 358
+      }
+    },
+    {
+      "name": "time_rift_bird",
+      "source": {
+        "x": 56,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 31,
+        "y": 403,
+        "w": 352,
+        "h": 360
+      },
+      "anchor": {
+        "x": 207,
+        "y": 762
+      }
+    },
+    {
+      "name": "pillow_fort_fly",
+      "source": {
+        "x": 440,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 446,
+        "y": 409,
+        "w": 315,
+        "h": 343
+      },
+      "anchor": {
+        "x": 604,
+        "y": 751
+      }
+    },
+    {
+      "name": "pillow_fort_bird",
+      "source": {
+        "x": 824,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 835,
+        "y": 406,
+        "w": 278,
+        "h": 354
+      },
+      "anchor": {
+        "x": 974,
+        "y": 759
+      }
+    },
+    {
+      "name": "pixel_world_fly",
+      "source": {
+        "x": 1208,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1204,
+        "y": 454,
+        "w": 322,
+        "h": 284
+      },
+      "anchor": {
+        "x": 1365,
+        "y": 737
+      }
+    },
+    {
+      "name": "pixel_world_bird",
+      "source": {
+        "x": 1592,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1596,
+        "y": 412,
+        "w": 310,
+        "h": 349
+      },
+      "anchor": {
+        "x": 1751,
+        "y": 760
+      }
+    },
+    {
+      "name": "synthwave_sunset_fly",
+      "source": {
+        "x": 56,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 33,
+        "y": 811,
+        "w": 332,
+        "h": 326
+      },
+      "anchor": {
+        "x": 199,
+        "y": 1136
+      }
+    },
+    {
+      "name": "synthwave_sunset_bird",
+      "source": {
+        "x": 440,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 458,
+        "y": 792,
+        "w": 260,
+        "h": 373
+      },
+      "anchor": {
+        "x": 588,
+        "y": 1164
+      }
+    },
+    {
+      "name": "card_casino_fly",
+      "source": {
+        "x": 824,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 822,
+        "y": 810,
+        "w": 318,
+        "h": 328
+      },
+      "anchor": {
+        "x": 981,
+        "y": 1137
+      }
+    },
+    {
+      "name": "card_casino_bird",
+      "source": {
+        "x": 1208,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1217,
+        "y": 804,
+        "w": 318,
+        "h": 344
+      },
+      "anchor": {
+        "x": 1376,
+        "y": 1147
+      }
+    },
+    {
+      "name": "crayon_drawing_fly",
+      "source": {
+        "x": 1592,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1590,
+        "y": 808,
+        "w": 331,
+        "h": 338
+      },
+      "anchor": {
+        "x": 1756,
+        "y": 1145
+      }
+    },
+    {
+      "name": "crayon_drawing_bird",
+      "source": {
+        "x": 56,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 18,
+        "y": 1189,
+        "w": 374,
+        "h": 355
+      },
+      "anchor": {
+        "x": 205,
+        "y": 1543
+      }
+    },
+    {
+      "name": "nuclear_wasteland_fly",
+      "source": {
+        "x": 440,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 416,
+        "y": 1196,
+        "w": 354,
+        "h": 335
+      },
+      "anchor": {
+        "x": 593,
+        "y": 1530
+      }
+    },
+    {
+      "name": "nuclear_wasteland_bird",
+      "source": {
+        "x": 824,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 800,
+        "y": 1190,
+        "w": 366,
+        "h": 345
+      },
+      "anchor": {
+        "x": 983,
+        "y": 1534
+      }
+    },
+    {
+      "name": "mega_tsunami_fly",
+      "source": {
+        "x": 1208,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1201,
+        "y": 1199,
+        "w": 316,
+        "h": 336
+      },
+      "anchor": {
+        "x": 1359,
+        "y": 1534
+      }
+    },
+    {
+      "name": "mega_tsunami_bird",
+      "source": {
+        "x": 1592,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1573,
+        "y": 1184,
+        "w": 383,
+        "h": 363
+      },
+      "anchor": {
+        "x": 1765,
+        "y": 1546
+      }
+    }
+  ]
+}

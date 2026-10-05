@@ -1,0 +1,965 @@
+{
+  "image": "/generated-assets/creature_sheet_24-transparent.webp",
+  "grid": {
+    "cols": 3,
+    "rows": 8,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "bedroom_closet_fly_1",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 70,
+        "y": 69,
+        "w": 280,
+        "h": 289
+      },
+      "anchor": {
+        "x": 210,
+        "y": 357
+      }
+    },
+    {
+      "name": "bedroom_closet_fly_2",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 416,
+        "y": 125,
+        "w": 345,
+        "h": 232
+      },
+      "anchor": {
+        "x": 589,
+        "y": 356
+      }
+    },
+    {
+      "name": "bedroom_closet_fly_3",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 820,
+        "y": 126,
+        "w": 282,
+        "h": 231
+      },
+      "anchor": {
+        "x": 961,
+        "y": 356
+      }
+    },
+    {
+      "name": "bedroom_closet_bird_1",
+      "source": {
+        "x": 56,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 48,
+        "y": 419,
+        "w": 344,
+        "h": 285
+      },
+      "anchor": {
+        "x": 220,
+        "y": 703
+      }
+    },
+    {
+      "name": "bedroom_closet_bird_2",
+      "source": {
+        "x": 440,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 416,
+        "y": 419,
+        "w": 374,
+        "h": 284
+      },
+      "anchor": {
+        "x": 603,
+        "y": 702
+      }
+    },
+    {
+      "name": "bedroom_closet_bird_3",
+      "source": {
+        "x": 824,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 816,
+        "y": 419,
+        "w": 330,
+        "h": 287
+      },
+      "anchor": {
+        "x": 981,
+        "y": 705
+      }
+    },
+    {
+      "name": "honeycomb_hive_fly_1",
+      "source": {
+        "x": 56,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 90,
+        "y": 758,
+        "w": 281,
+        "h": 297
+      },
+      "anchor": {
+        "x": 231,
+        "y": 1054
+      }
+    },
+    {
+      "name": "honeycomb_hive_fly_2",
+      "source": {
+        "x": 440,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 417,
+        "y": 812,
+        "w": 350,
+        "h": 242
+      },
+      "anchor": {
+        "x": 592,
+        "y": 1053
+      }
+    },
+    {
+      "name": "honeycomb_hive_fly_3",
+      "source": {
+        "x": 824,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 824,
+        "y": 811,
+        "w": 300,
+        "h": 240
+      },
+      "anchor": {
+        "x": 974,
+        "y": 1050
+      }
+    },
+    {
+      "name": "honeycomb_hive_bird_1",
+      "source": {
+        "x": 56,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 56,
+        "y": 1121,
+        "w": 312,
+        "h": 314
+      },
+      "anchor": {
+        "x": 212,
+        "y": 1434
+      }
+    },
+    {
+      "name": "honeycomb_hive_bird_2",
+      "source": {
+        "x": 440,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 423,
+        "y": 1172,
+        "w": 346,
+        "h": 260
+      },
+      "anchor": {
+        "x": 596,
+        "y": 1431
+      }
+    },
+    {
+      "name": "honeycomb_hive_bird_3",
+      "source": {
+        "x": 824,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 816,
+        "y": 1181,
+        "w": 315,
+        "h": 247
+      },
+      "anchor": {
+        "x": 974,
+        "y": 1427
+      }
+    },
+    {
+      "name": "biotech_lab_fly_1",
+      "source": {
+        "x": 56,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 61,
+        "y": 1507,
+        "w": 306,
+        "h": 299
+      },
+      "anchor": {
+        "x": 214,
+        "y": 1805
+      }
+    },
+    {
+      "name": "biotech_lab_fly_2",
+      "source": {
+        "x": 440,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 422,
+        "y": 1571,
+        "w": 334,
+        "h": 244
+      },
+      "anchor": {
+        "x": 589,
+        "y": 1814
+      }
+    },
+    {
+      "name": "biotech_lab_fly_3",
+      "source": {
+        "x": 824,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 824,
+        "y": 1580,
+        "w": 303,
+        "h": 226
+      },
+      "anchor": {
+        "x": 976,
+        "y": 1805
+      }
+    },
+    {
+      "name": "biotech_lab_bird_1",
+      "source": {
+        "x": 56,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 70,
+        "y": 1883,
+        "w": 279,
+        "h": 304
+      },
+      "anchor": {
+        "x": 210,
+        "y": 2186
+      }
+    },
+    {
+      "name": "biotech_lab_bird_2",
+      "source": {
+        "x": 440,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 429,
+        "y": 1951,
+        "w": 322,
+        "h": 229
+      },
+      "anchor": {
+        "x": 590,
+        "y": 2179
+      }
+    },
+    {
+      "name": "biotech_lab_bird_3",
+      "source": {
+        "x": 824,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 841,
+        "y": 1931,
+        "w": 294,
+        "h": 249
+      },
+      "anchor": {
+        "x": 988,
+        "y": 2179
+      }
+    },
+    {
+      "name": "spider_lair_fly_1",
+      "source": {
+        "x": 56,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 60,
+        "y": 2269,
+        "w": 297,
+        "h": 347
+      },
+      "anchor": {
+        "x": 209,
+        "y": 2615
+      }
+    },
+    {
+      "name": "spider_lair_fly_2",
+      "source": {
+        "x": 440,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 424,
+        "y": 2318,
+        "w": 330,
+        "h": 298
+      },
+      "anchor": {
+        "x": 589,
+        "y": 2615
+      }
+    },
+    {
+      "name": "spider_lair_fly_3",
+      "source": {
+        "x": 824,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 832,
+        "y": 2340,
+        "w": 297,
+        "h": 276
+      },
+      "anchor": {
+        "x": 981,
+        "y": 2615
+      }
+    },
+    {
+      "name": "spider_lair_bird_1",
+      "source": {
+        "x": 56,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 64,
+        "y": 2690,
+        "w": 298,
+        "h": 323
+      },
+      "anchor": {
+        "x": 213,
+        "y": 3012
+      }
+    },
+    {
+      "name": "spider_lair_bird_2",
+      "source": {
+        "x": 440,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 421,
+        "y": 2730,
+        "w": 362,
+        "h": 280
+      },
+      "anchor": {
+        "x": 602,
+        "y": 3009
+      }
+    },
+    {
+      "name": "spider_lair_bird_3",
+      "source": {
+        "x": 824,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 835,
+        "y": 2780,
+        "w": 306,
+        "h": 221
+      },
+      "anchor": {
+        "x": 988,
+        "y": 3000
+      }
+    }
+  ],
+  "animations": [
+    {
+      "name": "bedroom_closet_fly",
+      "frames": [
+        {
+          "name": "bedroom_closet_fly_1",
+          "source": {
+            "x": 56,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 70,
+            "y": 69,
+            "w": 280,
+            "h": 289
+          },
+          "anchor": {
+            "x": 210,
+            "y": 357
+          }
+        },
+        {
+          "name": "bedroom_closet_fly_2",
+          "source": {
+            "x": 440,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 416,
+            "y": 125,
+            "w": 345,
+            "h": 232
+          },
+          "anchor": {
+            "x": 589,
+            "y": 356
+          }
+        },
+        {
+          "name": "bedroom_closet_fly_3",
+          "source": {
+            "x": 824,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 820,
+            "y": 126,
+            "w": 282,
+            "h": 231
+          },
+          "anchor": {
+            "x": 961,
+            "y": 356
+          }
+        }
+      ]
+    },
+    {
+      "name": "bedroom_closet_bird",
+      "frames": [
+        {
+          "name": "bedroom_closet_bird_1",
+          "source": {
+            "x": 56,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 48,
+            "y": 419,
+            "w": 344,
+            "h": 285
+          },
+          "anchor": {
+            "x": 220,
+            "y": 703
+          }
+        },
+        {
+          "name": "bedroom_closet_bird_2",
+          "source": {
+            "x": 440,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 416,
+            "y": 419,
+            "w": 374,
+            "h": 284
+          },
+          "anchor": {
+            "x": 603,
+            "y": 702
+          }
+        },
+        {
+          "name": "bedroom_closet_bird_3",
+          "source": {
+            "x": 824,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 816,
+            "y": 419,
+            "w": 330,
+            "h": 287
+          },
+          "anchor": {
+            "x": 981,
+            "y": 705
+          }
+        }
+      ]
+    },
+    {
+      "name": "honeycomb_hive_fly",
+      "frames": [
+        {
+          "name": "honeycomb_hive_fly_1",
+          "source": {
+            "x": 56,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 90,
+            "y": 758,
+            "w": 281,
+            "h": 297
+          },
+          "anchor": {
+            "x": 231,
+            "y": 1054
+          }
+        },
+        {
+          "name": "honeycomb_hive_fly_2",
+          "source": {
+            "x": 440,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 417,
+            "y": 812,
+            "w": 350,
+            "h": 242
+          },
+          "anchor": {
+            "x": 592,
+            "y": 1053
+          }
+        },
+        {
+          "name": "honeycomb_hive_fly_3",
+          "source": {
+            "x": 824,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 824,
+            "y": 811,
+            "w": 300,
+            "h": 240
+          },
+          "anchor": {
+            "x": 974,
+            "y": 1050
+          }
+        }
+      ]
+    },
+    {
+      "name": "honeycomb_hive_bird",
+      "frames": [
+        {
+          "name": "honeycomb_hive_bird_1",
+          "source": {
+            "x": 56,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 56,
+            "y": 1121,
+            "w": 312,
+            "h": 314
+          },
+          "anchor": {
+            "x": 212,
+            "y": 1434
+          }
+        },
+        {
+          "name": "honeycomb_hive_bird_2",
+          "source": {
+            "x": 440,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 423,
+            "y": 1172,
+            "w": 346,
+            "h": 260
+          },
+          "anchor": {
+            "x": 596,
+            "y": 1431
+          }
+        },
+        {
+          "name": "honeycomb_hive_bird_3",
+          "source": {
+            "x": 824,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 816,
+            "y": 1181,
+            "w": 315,
+            "h": 247
+          },
+          "anchor": {
+            "x": 974,
+            "y": 1427
+          }
+        }
+      ]
+    },
+    {
+      "name": "biotech_lab_fly",
+      "frames": [
+        {
+          "name": "biotech_lab_fly_1",
+          "source": {
+            "x": 56,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 61,
+            "y": 1507,
+            "w": 306,
+            "h": 299
+          },
+          "anchor": {
+            "x": 214,
+            "y": 1805
+          }
+        },
+        {
+          "name": "biotech_lab_fly_2",
+          "source": {
+            "x": 440,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 422,
+            "y": 1571,
+            "w": 334,
+            "h": 244
+          },
+          "anchor": {
+            "x": 589,
+            "y": 1814
+          }
+        },
+        {
+          "name": "biotech_lab_fly_3",
+          "source": {
+            "x": 824,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 824,
+            "y": 1580,
+            "w": 303,
+            "h": 226
+          },
+          "anchor": {
+            "x": 976,
+            "y": 1805
+          }
+        }
+      ]
+    },
+    {
+      "name": "biotech_lab_bird",
+      "frames": [
+        {
+          "name": "biotech_lab_bird_1",
+          "source": {
+            "x": 56,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 70,
+            "y": 1883,
+            "w": 279,
+            "h": 304
+          },
+          "anchor": {
+            "x": 210,
+            "y": 2186
+          }
+        },
+        {
+          "name": "biotech_lab_bird_2",
+          "source": {
+            "x": 440,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 429,
+            "y": 1951,
+            "w": 322,
+            "h": 229
+          },
+          "anchor": {
+            "x": 590,
+            "y": 2179
+          }
+        },
+        {
+          "name": "biotech_lab_bird_3",
+          "source": {
+            "x": 824,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 841,
+            "y": 1931,
+            "w": 294,
+            "h": 249
+          },
+          "anchor": {
+            "x": 988,
+            "y": 2179
+          }
+        }
+      ]
+    },
+    {
+      "name": "spider_lair_fly",
+      "frames": [
+        {
+          "name": "spider_lair_fly_1",
+          "source": {
+            "x": 56,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 60,
+            "y": 2269,
+            "w": 297,
+            "h": 347
+          },
+          "anchor": {
+            "x": 209,
+            "y": 2615
+          }
+        },
+        {
+          "name": "spider_lair_fly_2",
+          "source": {
+            "x": 440,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 424,
+            "y": 2318,
+            "w": 330,
+            "h": 298
+          },
+          "anchor": {
+            "x": 589,
+            "y": 2615
+          }
+        },
+        {
+          "name": "spider_lair_fly_3",
+          "source": {
+            "x": 824,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 832,
+            "y": 2340,
+            "w": 297,
+            "h": 276
+          },
+          "anchor": {
+            "x": 981,
+            "y": 2615
+          }
+        }
+      ]
+    },
+    {
+      "name": "spider_lair_bird",
+      "frames": [
+        {
+          "name": "spider_lair_bird_1",
+          "source": {
+            "x": 56,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 64,
+            "y": 2690,
+            "w": 298,
+            "h": 323
+          },
+          "anchor": {
+            "x": 213,
+            "y": 3012
+          }
+        },
+        {
+          "name": "spider_lair_bird_2",
+          "source": {
+            "x": 440,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 421,
+            "y": 2730,
+            "w": 362,
+            "h": 280
+          },
+          "anchor": {
+            "x": 602,
+            "y": 3009
+          }
+        },
+        {
+          "name": "spider_lair_bird_3",
+          "source": {
+            "x": 824,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 835,
+            "y": 2780,
+            "w": 306,
+            "h": 221
+          },
+          "anchor": {
+            "x": 988,
+            "y": 3000
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,965 @@
+{
+  "image": "/generated-assets/creature_sheet_01-transparent.webp",
+  "grid": {
+    "cols": 3,
+    "rows": 8,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "river_fly_1",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 152,
+        "y": 27,
+        "w": 212,
+        "h": 294
+      },
+      "anchor": {
+        "x": 258,
+        "y": 320
+      }
+    },
+    {
+      "name": "river_fly_2",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 458,
+        "y": 145,
+        "w": 288,
+        "h": 179
+      },
+      "anchor": {
+        "x": 602,
+        "y": 323
+      }
+    },
+    {
+      "name": "river_fly_3",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 846,
+        "y": 204,
+        "w": 273,
+        "h": 136
+      },
+      "anchor": {
+        "x": 983,
+        "y": 339
+      }
+    },
+    {
+      "name": "river_bird_1",
+      "source": {
+        "x": 56,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 41,
+        "y": 366,
+        "w": 380,
+        "h": 309
+      },
+      "anchor": {
+        "x": 231,
+        "y": 674
+      }
+    },
+    {
+      "name": "river_bird_2",
+      "source": {
+        "x": 440,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 433,
+        "y": 492,
+        "w": 374,
+        "h": 178
+      },
+      "anchor": {
+        "x": 620,
+        "y": 669
+      }
+    },
+    {
+      "name": "river_bird_3",
+      "source": {
+        "x": 824,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 820,
+        "y": 496,
+        "w": 354,
+        "h": 230
+      },
+      "anchor": {
+        "x": 997,
+        "y": 725
+      }
+    },
+    {
+      "name": "green_forest_fly_1",
+      "source": {
+        "x": 56,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 125,
+        "y": 729,
+        "w": 240,
+        "h": 265
+      },
+      "anchor": {
+        "x": 245,
+        "y": 993
+      }
+    },
+    {
+      "name": "green_forest_fly_2",
+      "source": {
+        "x": 440,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 447,
+        "y": 803,
+        "w": 300,
+        "h": 192
+      },
+      "anchor": {
+        "x": 597,
+        "y": 994
+      }
+    },
+    {
+      "name": "green_forest_fly_3",
+      "source": {
+        "x": 824,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 839,
+        "y": 852,
+        "w": 282,
+        "h": 140
+      },
+      "anchor": {
+        "x": 980,
+        "y": 991
+      }
+    },
+    {
+      "name": "green_forest_bird_1",
+      "source": {
+        "x": 56,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 42,
+        "y": 1047,
+        "w": 375,
+        "h": 367
+      },
+      "anchor": {
+        "x": 230,
+        "y": 1413
+      }
+    },
+    {
+      "name": "green_forest_bird_2",
+      "source": {
+        "x": 440,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 440,
+        "y": 1076,
+        "w": 356,
+        "h": 303
+      },
+      "anchor": {
+        "x": 618,
+        "y": 1378
+      }
+    },
+    {
+      "name": "green_forest_bird_3",
+      "source": {
+        "x": 824,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 818,
+        "y": 1203,
+        "w": 339,
+        "h": 250
+      },
+      "anchor": {
+        "x": 988,
+        "y": 1452
+      }
+    },
+    {
+      "name": "mushroom_woods_fly_1",
+      "source": {
+        "x": 56,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 129,
+        "y": 1488,
+        "w": 235,
+        "h": 287
+      },
+      "anchor": {
+        "x": 247,
+        "y": 1774
+      }
+    },
+    {
+      "name": "mushroom_woods_fly_2",
+      "source": {
+        "x": 440,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 447,
+        "y": 1586,
+        "w": 297,
+        "h": 190
+      },
+      "anchor": {
+        "x": 596,
+        "y": 1775
+      }
+    },
+    {
+      "name": "mushroom_woods_fly_3",
+      "source": {
+        "x": 824,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 838,
+        "y": 1632,
+        "w": 281,
+        "h": 142
+      },
+      "anchor": {
+        "x": 979,
+        "y": 1773
+      }
+    },
+    {
+      "name": "mushroom_woods_bird_1",
+      "source": {
+        "x": 56,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 46,
+        "y": 1840,
+        "w": 373,
+        "h": 389
+      },
+      "anchor": {
+        "x": 233,
+        "y": 2228
+      }
+    },
+    {
+      "name": "mushroom_woods_bird_2",
+      "source": {
+        "x": 440,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 431,
+        "y": 1972,
+        "w": 367,
+        "h": 217
+      },
+      "anchor": {
+        "x": 615,
+        "y": 2188
+      }
+    },
+    {
+      "name": "mushroom_woods_bird_3",
+      "source": {
+        "x": 824,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 809,
+        "y": 1996,
+        "w": 355,
+        "h": 263
+      },
+      "anchor": {
+        "x": 987,
+        "y": 2258
+      }
+    },
+    {
+      "name": "rainy_forest_fly_1",
+      "source": {
+        "x": 56,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 126,
+        "y": 2294,
+        "w": 239,
+        "h": 296
+      },
+      "anchor": {
+        "x": 246,
+        "y": 2589
+      }
+    },
+    {
+      "name": "rainy_forest_fly_2",
+      "source": {
+        "x": 440,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 445,
+        "y": 2402,
+        "w": 301,
+        "h": 189
+      },
+      "anchor": {
+        "x": 596,
+        "y": 2590
+      }
+    },
+    {
+      "name": "rainy_forest_fly_3",
+      "source": {
+        "x": 824,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 840,
+        "y": 2443,
+        "w": 279,
+        "h": 149
+      },
+      "anchor": {
+        "x": 980,
+        "y": 2591
+      }
+    },
+    {
+      "name": "rainy_forest_bird_1",
+      "source": {
+        "x": 56,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 41,
+        "y": 2669,
+        "w": 364,
+        "h": 409
+      },
+      "anchor": {
+        "x": 223,
+        "y": 3077
+      }
+    },
+    {
+      "name": "rainy_forest_bird_2",
+      "source": {
+        "x": 440,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 429,
+        "y": 2808,
+        "w": 348,
+        "h": 247
+      },
+      "anchor": {
+        "x": 603,
+        "y": 3054
+      }
+    },
+    {
+      "name": "rainy_forest_bird_3",
+      "source": {
+        "x": 824,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 809,
+        "y": 2826,
+        "w": 340,
+        "h": 272
+      },
+      "anchor": {
+        "x": 979,
+        "y": 3097
+      }
+    }
+  ],
+  "animations": [
+    {
+      "name": "river_fly",
+      "frames": [
+        {
+          "name": "river_fly_1",
+          "source": {
+            "x": 56,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 152,
+            "y": 27,
+            "w": 212,
+            "h": 294
+          },
+          "anchor": {
+            "x": 258,
+            "y": 320
+          }
+        },
+        {
+          "name": "river_fly_2",
+          "source": {
+            "x": 440,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 458,
+            "y": 145,
+            "w": 288,
+            "h": 179
+          },
+          "anchor": {
+            "x": 602,
+            "y": 323
+          }
+        },
+        {
+          "name": "river_fly_3",
+          "source": {
+            "x": 824,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 846,
+            "y": 204,
+            "w": 273,
+            "h": 136
+          },
+          "anchor": {
+            "x": 983,
+            "y": 339
+          }
+        }
+      ]
+    },
+    {
+      "name": "river_bird",
+      "frames": [
+        {
+          "name": "river_bird_1",
+          "source": {
+            "x": 56,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 41,
+            "y": 366,
+            "w": 380,
+            "h": 309
+          },
+          "anchor": {
+            "x": 231,
+            "y": 674
+          }
+        },
+        {
+          "name": "river_bird_2",
+          "source": {
+            "x": 440,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 433,
+            "y": 492,
+            "w": 374,
+            "h": 178
+          },
+          "anchor": {
+            "x": 620,
+            "y": 669
+          }
+        },
+        {
+          "name": "river_bird_3",
+          "source": {
+            "x": 824,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 820,
+            "y": 496,
+            "w": 354,
+            "h": 230
+          },
+          "anchor": {
+            "x": 997,
+            "y": 725
+          }
+        }
+      ]
+    },
+    {
+      "name": "green_forest_fly",
+      "frames": [
+        {
+          "name": "green_forest_fly_1",
+          "source": {
+            "x": 56,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 125,
+            "y": 729,
+            "w": 240,
+            "h": 265
+          },
+          "anchor": {
+            "x": 245,
+            "y": 993
+          }
+        },
+        {
+          "name": "green_forest_fly_2",
+          "source": {
+            "x": 440,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 447,
+            "y": 803,
+            "w": 300,
+            "h": 192
+          },
+          "anchor": {
+            "x": 597,
+            "y": 994
+          }
+        },
+        {
+          "name": "green_forest_fly_3",
+          "source": {
+            "x": 824,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 839,
+            "y": 852,
+            "w": 282,
+            "h": 140
+          },
+          "anchor": {
+            "x": 980,
+            "y": 991
+          }
+        }
+      ]
+    },
+    {
+      "name": "green_forest_bird",
+      "frames": [
+        {
+          "name": "green_forest_bird_1",
+          "source": {
+            "x": 56,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 42,
+            "y": 1047,
+            "w": 375,
+            "h": 367
+          },
+          "anchor": {
+            "x": 230,
+            "y": 1413
+          }
+        },
+        {
+          "name": "green_forest_bird_2",
+          "source": {
+            "x": 440,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 440,
+            "y": 1076,
+            "w": 356,
+            "h": 303
+          },
+          "anchor": {
+            "x": 618,
+            "y": 1378
+          }
+        },
+        {
+          "name": "green_forest_bird_3",
+          "source": {
+            "x": 824,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 818,
+            "y": 1203,
+            "w": 339,
+            "h": 250
+          },
+          "anchor": {
+            "x": 988,
+            "y": 1452
+          }
+        }
+      ]
+    },
+    {
+      "name": "mushroom_woods_fly",
+      "frames": [
+        {
+          "name": "mushroom_woods_fly_1",
+          "source": {
+            "x": 56,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 129,
+            "y": 1488,
+            "w": 235,
+            "h": 287
+          },
+          "anchor": {
+            "x": 247,
+            "y": 1774
+          }
+        },
+        {
+          "name": "mushroom_woods_fly_2",
+          "source": {
+            "x": 440,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 447,
+            "y": 1586,
+            "w": 297,
+            "h": 190
+          },
+          "anchor": {
+            "x": 596,
+            "y": 1775
+          }
+        },
+        {
+          "name": "mushroom_woods_fly_3",
+          "source": {
+            "x": 824,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 838,
+            "y": 1632,
+            "w": 281,
+            "h": 142
+          },
+          "anchor": {
+            "x": 979,
+            "y": 1773
+          }
+        }
+      ]
+    },
+    {
+      "name": "mushroom_woods_bird",
+      "frames": [
+        {
+          "name": "mushroom_woods_bird_1",
+          "source": {
+            "x": 56,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 46,
+            "y": 1840,
+            "w": 373,
+            "h": 389
+          },
+          "anchor": {
+            "x": 233,
+            "y": 2228
+          }
+        },
+        {
+          "name": "mushroom_woods_bird_2",
+          "source": {
+            "x": 440,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 431,
+            "y": 1972,
+            "w": 367,
+            "h": 217
+          },
+          "anchor": {
+            "x": 615,
+            "y": 2188
+          }
+        },
+        {
+          "name": "mushroom_woods_bird_3",
+          "source": {
+            "x": 824,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 809,
+            "y": 1996,
+            "w": 355,
+            "h": 263
+          },
+          "anchor": {
+            "x": 987,
+            "y": 2258
+          }
+        }
+      ]
+    },
+    {
+      "name": "rainy_forest_fly",
+      "frames": [
+        {
+          "name": "rainy_forest_fly_1",
+          "source": {
+            "x": 56,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 126,
+            "y": 2294,
+            "w": 239,
+            "h": 296
+          },
+          "anchor": {
+            "x": 246,
+            "y": 2589
+          }
+        },
+        {
+          "name": "rainy_forest_fly_2",
+          "source": {
+            "x": 440,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 445,
+            "y": 2402,
+            "w": 301,
+            "h": 189
+          },
+          "anchor": {
+            "x": 596,
+            "y": 2590
+          }
+        },
+        {
+          "name": "rainy_forest_fly_3",
+          "source": {
+            "x": 824,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 840,
+            "y": 2443,
+            "w": 279,
+            "h": 149
+          },
+          "anchor": {
+            "x": 980,
+            "y": 2591
+          }
+        }
+      ]
+    },
+    {
+      "name": "rainy_forest_bird",
+      "frames": [
+        {
+          "name": "rainy_forest_bird_1",
+          "source": {
+            "x": 56,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 41,
+            "y": 2669,
+            "w": 364,
+            "h": 409
+          },
+          "anchor": {
+            "x": 223,
+            "y": 3077
+          }
+        },
+        {
+          "name": "rainy_forest_bird_2",
+          "source": {
+            "x": 440,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 429,
+            "y": 2808,
+            "w": 348,
+            "h": 247
+          },
+          "anchor": {
+            "x": 603,
+            "y": 3054
+          }
+        },
+        {
+          "name": "rainy_forest_bird_3",
+          "source": {
+            "x": 824,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 809,
+            "y": 2826,
+            "w": 340,
+            "h": 272
+          },
+          "anchor": {
+            "x": 979,
+            "y": 3097
+          }
+        }
+      ]
+    }
+  ]
+}

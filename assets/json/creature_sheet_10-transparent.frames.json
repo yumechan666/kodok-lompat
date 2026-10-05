@@ -1,0 +1,965 @@
+{
+  "image": "/generated-assets/creature_sheet_10-transparent.webp",
+  "grid": {
+    "cols": 3,
+    "rows": 8,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "gothic_cathedral_fly_1",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 69,
+        "y": 47,
+        "w": 285,
+        "h": 336
+      },
+      "anchor": {
+        "x": 212,
+        "y": 382
+      }
+    },
+    {
+      "name": "gothic_cathedral_fly_2",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 394,
+        "y": 100,
+        "w": 359,
+        "h": 283
+      },
+      "anchor": {
+        "x": 574,
+        "y": 382
+      }
+    },
+    {
+      "name": "gothic_cathedral_fly_3",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 802,
+        "y": 178,
+        "w": 343,
+        "h": 205
+      },
+      "anchor": {
+        "x": 974,
+        "y": 382
+      }
+    },
+    {
+      "name": "gothic_cathedral_bird_1",
+      "source": {
+        "x": 56,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 53,
+        "y": 423,
+        "w": 304,
+        "h": 354
+      },
+      "anchor": {
+        "x": 205,
+        "y": 776
+      }
+    },
+    {
+      "name": "gothic_cathedral_bird_2",
+      "source": {
+        "x": 440,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 387,
+        "y": 528,
+        "w": 365,
+        "h": 248
+      },
+      "anchor": {
+        "x": 570,
+        "y": 775
+      }
+    },
+    {
+      "name": "gothic_cathedral_bird_3",
+      "source": {
+        "x": 824,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 802,
+        "y": 546,
+        "w": 338,
+        "h": 230
+      },
+      "anchor": {
+        "x": 971,
+        "y": 775
+      }
+    },
+    {
+      "name": "sunken_shipwreck_fly_1",
+      "source": {
+        "x": 56,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 98,
+        "y": 793,
+        "w": 270,
+        "h": 338
+      },
+      "anchor": {
+        "x": 233,
+        "y": 1130
+      }
+    },
+    {
+      "name": "sunken_shipwreck_fly_2",
+      "source": {
+        "x": 440,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 389,
+        "y": 868,
+        "w": 378,
+        "h": 265
+      },
+      "anchor": {
+        "x": 578,
+        "y": 1132
+      }
+    },
+    {
+      "name": "sunken_shipwreck_fly_3",
+      "source": {
+        "x": 824,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 801,
+        "y": 928,
+        "w": 352,
+        "h": 205
+      },
+      "anchor": {
+        "x": 977,
+        "y": 1132
+      }
+    },
+    {
+      "name": "sunken_shipwreck_bird_1",
+      "source": {
+        "x": 56,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 61,
+        "y": 1158,
+        "w": 300,
+        "h": 351
+      },
+      "anchor": {
+        "x": 211,
+        "y": 1508
+      }
+    },
+    {
+      "name": "sunken_shipwreck_bird_2",
+      "source": {
+        "x": 440,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 392,
+        "y": 1215,
+        "w": 373,
+        "h": 277
+      },
+      "anchor": {
+        "x": 579,
+        "y": 1491
+      }
+    },
+    {
+      "name": "sunken_shipwreck_bird_3",
+      "source": {
+        "x": 824,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 828,
+        "y": 1240,
+        "w": 322,
+        "h": 274
+      },
+      "anchor": {
+        "x": 989,
+        "y": 1513
+      }
+    },
+    {
+      "name": "stone_labyrinth_fly_1",
+      "source": {
+        "x": 56,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 54,
+        "y": 1527,
+        "w": 294,
+        "h": 352
+      },
+      "anchor": {
+        "x": 201,
+        "y": 1878
+      }
+    },
+    {
+      "name": "stone_labyrinth_fly_2",
+      "source": {
+        "x": 440,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 393,
+        "y": 1603,
+        "w": 360,
+        "h": 275
+      },
+      "anchor": {
+        "x": 573,
+        "y": 1877
+      }
+    },
+    {
+      "name": "stone_labyrinth_fly_3",
+      "source": {
+        "x": 824,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 802,
+        "y": 1675,
+        "w": 350,
+        "h": 205
+      },
+      "anchor": {
+        "x": 977,
+        "y": 1879
+      }
+    },
+    {
+      "name": "stone_labyrinth_bird_1",
+      "source": {
+        "x": 56,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 62,
+        "y": 1892,
+        "w": 307,
+        "h": 360
+      },
+      "anchor": {
+        "x": 216,
+        "y": 2251
+      }
+    },
+    {
+      "name": "stone_labyrinth_bird_2",
+      "source": {
+        "x": 440,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 389,
+        "y": 1969,
+        "w": 376,
+        "h": 283
+      },
+      "anchor": {
+        "x": 577,
+        "y": 2251
+      }
+    },
+    {
+      "name": "stone_labyrinth_bird_3",
+      "source": {
+        "x": 824,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 853,
+        "y": 1988,
+        "w": 294,
+        "h": 265
+      },
+      "anchor": {
+        "x": 1000,
+        "y": 2252
+      }
+    },
+    {
+      "name": "ancient_library_fly_1",
+      "source": {
+        "x": 56,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 60,
+        "y": 2275,
+        "w": 297,
+        "h": 369
+      },
+      "anchor": {
+        "x": 209,
+        "y": 2643
+      }
+    },
+    {
+      "name": "ancient_library_fly_2",
+      "source": {
+        "x": 440,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 398,
+        "y": 2354,
+        "w": 357,
+        "h": 293
+      },
+      "anchor": {
+        "x": 577,
+        "y": 2646
+      }
+    },
+    {
+      "name": "ancient_library_fly_3",
+      "source": {
+        "x": 824,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 805,
+        "y": 2439,
+        "w": 347,
+        "h": 207
+      },
+      "anchor": {
+        "x": 979,
+        "y": 2645
+      }
+    },
+    {
+      "name": "ancient_library_bird_1",
+      "source": {
+        "x": 56,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 60,
+        "y": 2656,
+        "w": 302,
+        "h": 417
+      },
+      "anchor": {
+        "x": 211,
+        "y": 3072
+      }
+    },
+    {
+      "name": "ancient_library_bird_2",
+      "source": {
+        "x": 440,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 397,
+        "y": 2726,
+        "w": 357,
+        "h": 346
+      },
+      "anchor": {
+        "x": 576,
+        "y": 3071
+      }
+    },
+    {
+      "name": "ancient_library_bird_3",
+      "source": {
+        "x": 824,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 830,
+        "y": 2773,
+        "w": 304,
+        "h": 297
+      },
+      "anchor": {
+        "x": 982,
+        "y": 3069
+      }
+    }
+  ],
+  "animations": [
+    {
+      "name": "gothic_cathedral_fly",
+      "frames": [
+        {
+          "name": "gothic_cathedral_fly_1",
+          "source": {
+            "x": 56,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 69,
+            "y": 47,
+            "w": 285,
+            "h": 336
+          },
+          "anchor": {
+            "x": 212,
+            "y": 382
+          }
+        },
+        {
+          "name": "gothic_cathedral_fly_2",
+          "source": {
+            "x": 440,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 394,
+            "y": 100,
+            "w": 359,
+            "h": 283
+          },
+          "anchor": {
+            "x": 574,
+            "y": 382
+          }
+        },
+        {
+          "name": "gothic_cathedral_fly_3",
+          "source": {
+            "x": 824,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 802,
+            "y": 178,
+            "w": 343,
+            "h": 205
+          },
+          "anchor": {
+            "x": 974,
+            "y": 382
+          }
+        }
+      ]
+    },
+    {
+      "name": "gothic_cathedral_bird",
+      "frames": [
+        {
+          "name": "gothic_cathedral_bird_1",
+          "source": {
+            "x": 56,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 53,
+            "y": 423,
+            "w": 304,
+            "h": 354
+          },
+          "anchor": {
+            "x": 205,
+            "y": 776
+          }
+        },
+        {
+          "name": "gothic_cathedral_bird_2",
+          "source": {
+            "x": 440,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 387,
+            "y": 528,
+            "w": 365,
+            "h": 248
+          },
+          "anchor": {
+            "x": 570,
+            "y": 775
+          }
+        },
+        {
+          "name": "gothic_cathedral_bird_3",
+          "source": {
+            "x": 824,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 802,
+            "y": 546,
+            "w": 338,
+            "h": 230
+          },
+          "anchor": {
+            "x": 971,
+            "y": 775
+          }
+        }
+      ]
+    },
+    {
+      "name": "sunken_shipwreck_fly",
+      "frames": [
+        {
+          "name": "sunken_shipwreck_fly_1",
+          "source": {
+            "x": 56,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 98,
+            "y": 793,
+            "w": 270,
+            "h": 338
+          },
+          "anchor": {
+            "x": 233,
+            "y": 1130
+          }
+        },
+        {
+          "name": "sunken_shipwreck_fly_2",
+          "source": {
+            "x": 440,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 389,
+            "y": 868,
+            "w": 378,
+            "h": 265
+          },
+          "anchor": {
+            "x": 578,
+            "y": 1132
+          }
+        },
+        {
+          "name": "sunken_shipwreck_fly_3",
+          "source": {
+            "x": 824,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 801,
+            "y": 928,
+            "w": 352,
+            "h": 205
+          },
+          "anchor": {
+            "x": 977,
+            "y": 1132
+          }
+        }
+      ]
+    },
+    {
+      "name": "sunken_shipwreck_bird",
+      "frames": [
+        {
+          "name": "sunken_shipwreck_bird_1",
+          "source": {
+            "x": 56,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 61,
+            "y": 1158,
+            "w": 300,
+            "h": 351
+          },
+          "anchor": {
+            "x": 211,
+            "y": 1508
+          }
+        },
+        {
+          "name": "sunken_shipwreck_bird_2",
+          "source": {
+            "x": 440,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 392,
+            "y": 1215,
+            "w": 373,
+            "h": 277
+          },
+          "anchor": {
+            "x": 579,
+            "y": 1491
+          }
+        },
+        {
+          "name": "sunken_shipwreck_bird_3",
+          "source": {
+            "x": 824,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 828,
+            "y": 1240,
+            "w": 322,
+            "h": 274
+          },
+          "anchor": {
+            "x": 989,
+            "y": 1513
+          }
+        }
+      ]
+    },
+    {
+      "name": "stone_labyrinth_fly",
+      "frames": [
+        {
+          "name": "stone_labyrinth_fly_1",
+          "source": {
+            "x": 56,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 54,
+            "y": 1527,
+            "w": 294,
+            "h": 352
+          },
+          "anchor": {
+            "x": 201,
+            "y": 1878
+          }
+        },
+        {
+          "name": "stone_labyrinth_fly_2",
+          "source": {
+            "x": 440,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 393,
+            "y": 1603,
+            "w": 360,
+            "h": 275
+          },
+          "anchor": {
+            "x": 573,
+            "y": 1877
+          }
+        },
+        {
+          "name": "stone_labyrinth_fly_3",
+          "source": {
+            "x": 824,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 802,
+            "y": 1675,
+            "w": 350,
+            "h": 205
+          },
+          "anchor": {
+            "x": 977,
+            "y": 1879
+          }
+        }
+      ]
+    },
+    {
+      "name": "stone_labyrinth_bird",
+      "frames": [
+        {
+          "name": "stone_labyrinth_bird_1",
+          "source": {
+            "x": 56,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 62,
+            "y": 1892,
+            "w": 307,
+            "h": 360
+          },
+          "anchor": {
+            "x": 216,
+            "y": 2251
+          }
+        },
+        {
+          "name": "stone_labyrinth_bird_2",
+          "source": {
+            "x": 440,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 389,
+            "y": 1969,
+            "w": 376,
+            "h": 283
+          },
+          "anchor": {
+            "x": 577,
+            "y": 2251
+          }
+        },
+        {
+          "name": "stone_labyrinth_bird_3",
+          "source": {
+            "x": 824,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 853,
+            "y": 1988,
+            "w": 294,
+            "h": 265
+          },
+          "anchor": {
+            "x": 1000,
+            "y": 2252
+          }
+        }
+      ]
+    },
+    {
+      "name": "ancient_library_fly",
+      "frames": [
+        {
+          "name": "ancient_library_fly_1",
+          "source": {
+            "x": 56,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 60,
+            "y": 2275,
+            "w": 297,
+            "h": 369
+          },
+          "anchor": {
+            "x": 209,
+            "y": 2643
+          }
+        },
+        {
+          "name": "ancient_library_fly_2",
+          "source": {
+            "x": 440,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 398,
+            "y": 2354,
+            "w": 357,
+            "h": 293
+          },
+          "anchor": {
+            "x": 577,
+            "y": 2646
+          }
+        },
+        {
+          "name": "ancient_library_fly_3",
+          "source": {
+            "x": 824,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 805,
+            "y": 2439,
+            "w": 347,
+            "h": 207
+          },
+          "anchor": {
+            "x": 979,
+            "y": 2645
+          }
+        }
+      ]
+    },
+    {
+      "name": "ancient_library_bird",
+      "frames": [
+        {
+          "name": "ancient_library_bird_1",
+          "source": {
+            "x": 56,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 60,
+            "y": 2656,
+            "w": 302,
+            "h": 417
+          },
+          "anchor": {
+            "x": 211,
+            "y": 3072
+          }
+        },
+        {
+          "name": "ancient_library_bird_2",
+          "source": {
+            "x": 440,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 397,
+            "y": 2726,
+            "w": 357,
+            "h": 346
+          },
+          "anchor": {
+            "x": 576,
+            "y": 3071
+          }
+        },
+        {
+          "name": "ancient_library_bird_3",
+          "source": {
+            "x": 824,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 830,
+            "y": 2773,
+            "w": 304,
+            "h": 297
+          },
+          "anchor": {
+            "x": 982,
+            "y": 3069
+          }
+        }
+      ]
+    }
+  ]
+}

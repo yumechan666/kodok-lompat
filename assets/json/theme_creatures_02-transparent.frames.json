@@ -1,0 +1,391 @@
+{
+  "image": "/generated-assets/theme_creatures_02-transparent.webp",
+  "grid": {
+    "cols": 5,
+    "rows": 4,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "autumn_woods_fly",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 23,
+        "y": 35,
+        "w": 310,
+        "h": 323
+      },
+      "anchor": {
+        "x": 178,
+        "y": 357
+      }
+    },
+    {
+      "name": "autumn_woods_bird",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 415,
+        "y": 8,
+        "w": 333,
+        "h": 352
+      },
+      "anchor": {
+        "x": 582,
+        "y": 359
+      }
+    },
+    {
+      "name": "snow_forest_fly",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 808,
+        "y": 45,
+        "w": 294,
+        "h": 306
+      },
+      "anchor": {
+        "x": 955,
+        "y": 350
+      }
+    },
+    {
+      "name": "snow_forest_bird",
+      "source": {
+        "x": 1208,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1158,
+        "y": 10,
+        "w": 376,
+        "h": 352
+      },
+      "anchor": {
+        "x": 1346,
+        "y": 361
+      }
+    },
+    {
+      "name": "frozen_mountain_fly",
+      "source": {
+        "x": 1592,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1592,
+        "y": 31,
+        "w": 299,
+        "h": 329
+      },
+      "anchor": {
+        "x": 1742,
+        "y": 359
+      }
+    },
+    {
+      "name": "frozen_mountain_bird",
+      "source": {
+        "x": 56,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 26,
+        "y": 362,
+        "w": 368,
+        "h": 384
+      },
+      "anchor": {
+        "x": 210,
+        "y": 745
+      }
+    },
+    {
+      "name": "desert_oasis_fly",
+      "source": {
+        "x": 440,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 413,
+        "y": 400,
+        "w": 319,
+        "h": 312
+      },
+      "anchor": {
+        "x": 573,
+        "y": 711
+      }
+    },
+    {
+      "name": "desert_oasis_bird",
+      "source": {
+        "x": 824,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 795,
+        "y": 369,
+        "w": 401,
+        "h": 384
+      },
+      "anchor": {
+        "x": 996,
+        "y": 752
+      }
+    },
+    {
+      "name": "cactus_canyon_fly",
+      "source": {
+        "x": 1208,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1231,
+        "y": 429,
+        "w": 287,
+        "h": 293
+      },
+      "anchor": {
+        "x": 1375,
+        "y": 721
+      }
+    },
+    {
+      "name": "cactus_canyon_bird",
+      "source": {
+        "x": 1592,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1488,
+        "y": 424,
+        "w": 467,
+        "h": 310
+      },
+      "anchor": {
+        "x": 1722,
+        "y": 733
+      }
+    },
+    {
+      "name": "tropical_island_fly",
+      "source": {
+        "x": 56,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 31,
+        "y": 794,
+        "w": 310,
+        "h": 295
+      },
+      "anchor": {
+        "x": 186,
+        "y": 1088
+      }
+    },
+    {
+      "name": "tropical_island_bird",
+      "source": {
+        "x": 440,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 385,
+        "y": 720,
+        "w": 437,
+        "h": 386
+      },
+      "anchor": {
+        "x": 604,
+        "y": 1105
+      }
+    },
+    {
+      "name": "underwater_world_fly",
+      "source": {
+        "x": 824,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 854,
+        "y": 762,
+        "w": 232,
+        "h": 338
+      },
+      "anchor": {
+        "x": 970,
+        "y": 1099
+      }
+    },
+    {
+      "name": "underwater_world_bird",
+      "source": {
+        "x": 1208,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1112,
+        "y": 757,
+        "w": 417,
+        "h": 344
+      },
+      "anchor": {
+        "x": 1321,
+        "y": 1100
+      }
+    },
+    {
+      "name": "coral_garden_fly",
+      "source": {
+        "x": 1592,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1581,
+        "y": 779,
+        "w": 330,
+        "h": 310
+      },
+      "anchor": {
+        "x": 1746,
+        "y": 1088
+      }
+    },
+    {
+      "name": "coral_garden_bird",
+      "source": {
+        "x": 56,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 14,
+        "y": 1103,
+        "w": 397,
+        "h": 369
+      },
+      "anchor": {
+        "x": 213,
+        "y": 1471
+      }
+    },
+    {
+      "name": "fairy_kingdom_fly",
+      "source": {
+        "x": 440,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 446,
+        "y": 1127,
+        "w": 286,
+        "h": 353
+      },
+      "anchor": {
+        "x": 589,
+        "y": 1479
+      }
+    },
+    {
+      "name": "fairy_kingdom_bird",
+      "source": {
+        "x": 824,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 782,
+        "y": 1111,
+        "w": 350,
+        "h": 407
+      },
+      "anchor": {
+        "x": 957,
+        "y": 1517
+      }
+    },
+    {
+      "name": "magic_forest_fly",
+      "source": {
+        "x": 1208,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1155,
+        "y": 1127,
+        "w": 357,
+        "h": 384
+      },
+      "anchor": {
+        "x": 1334,
+        "y": 1510
+      }
+    },
+    {
+      "name": "magic_forest_bird",
+      "source": {
+        "x": 1592,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1548,
+        "y": 1100,
+        "w": 387,
+        "h": 419
+      },
+      "anchor": {
+        "x": 1742,
+        "y": 1518
+      }
+    }
+  ]
+}

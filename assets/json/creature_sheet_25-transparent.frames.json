@@ -1,0 +1,965 @@
+{
+  "image": "/generated-assets/creature_sheet_25-transparent.webp",
+  "grid": {
+    "cols": 3,
+    "rows": 8,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "tribal_village_fly_1",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 89,
+        "y": 42,
+        "w": 277,
+        "h": 356
+      },
+      "anchor": {
+        "x": 228,
+        "y": 397
+      }
+    },
+    {
+      "name": "tribal_village_fly_2",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 421,
+        "y": 153,
+        "w": 346,
+        "h": 244
+      },
+      "anchor": {
+        "x": 594,
+        "y": 396
+      }
+    },
+    {
+      "name": "tribal_village_fly_3",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 829,
+        "y": 215,
+        "w": 293,
+        "h": 183
+      },
+      "anchor": {
+        "x": 976,
+        "y": 397
+      }
+    },
+    {
+      "name": "tribal_village_bird_1",
+      "source": {
+        "x": 56,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 64,
+        "y": 428,
+        "w": 280,
+        "h": 338
+      },
+      "anchor": {
+        "x": 204,
+        "y": 765
+      }
+    },
+    {
+      "name": "tribal_village_bird_2",
+      "source": {
+        "x": 440,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 411,
+        "y": 484,
+        "w": 382,
+        "h": 275
+      },
+      "anchor": {
+        "x": 602,
+        "y": 758
+      }
+    },
+    {
+      "name": "tribal_village_bird_3",
+      "source": {
+        "x": 824,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 859,
+        "y": 513,
+        "w": 278,
+        "h": 250
+      },
+      "anchor": {
+        "x": 998,
+        "y": 762
+      }
+    },
+    {
+      "name": "treasure_vault_fly_1",
+      "source": {
+        "x": 56,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 95,
+        "y": 787,
+        "w": 276,
+        "h": 343
+      },
+      "anchor": {
+        "x": 233,
+        "y": 1129
+      }
+    },
+    {
+      "name": "treasure_vault_fly_2",
+      "source": {
+        "x": 440,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 413,
+        "y": 879,
+        "w": 356,
+        "h": 249
+      },
+      "anchor": {
+        "x": 591,
+        "y": 1127
+      }
+    },
+    {
+      "name": "treasure_vault_fly_3",
+      "source": {
+        "x": 824,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 818,
+        "y": 929,
+        "w": 309,
+        "h": 198
+      },
+      "anchor": {
+        "x": 973,
+        "y": 1126
+      }
+    },
+    {
+      "name": "treasure_vault_bird_1",
+      "source": {
+        "x": 56,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 64,
+        "y": 1141,
+        "w": 323,
+        "h": 364
+      },
+      "anchor": {
+        "x": 226,
+        "y": 1504
+      }
+    },
+    {
+      "name": "treasure_vault_bird_2",
+      "source": {
+        "x": 440,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 409,
+        "y": 1219,
+        "w": 385,
+        "h": 286
+      },
+      "anchor": {
+        "x": 602,
+        "y": 1504
+      }
+    },
+    {
+      "name": "treasure_vault_bird_3",
+      "source": {
+        "x": 824,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 836,
+        "y": 1229,
+        "w": 305,
+        "h": 287
+      },
+      "anchor": {
+        "x": 989,
+        "y": 1515
+      }
+    },
+    {
+      "name": "dust_storm_oasis_fly_1",
+      "source": {
+        "x": 56,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 93,
+        "y": 1542,
+        "w": 273,
+        "h": 335
+      },
+      "anchor": {
+        "x": 230,
+        "y": 1876
+      }
+    },
+    {
+      "name": "dust_storm_oasis_fly_2",
+      "source": {
+        "x": 440,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 421,
+        "y": 1635,
+        "w": 347,
+        "h": 243
+      },
+      "anchor": {
+        "x": 595,
+        "y": 1877
+      }
+    },
+    {
+      "name": "dust_storm_oasis_fly_3",
+      "source": {
+        "x": 824,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 825,
+        "y": 1692,
+        "w": 303,
+        "h": 193
+      },
+      "anchor": {
+        "x": 977,
+        "y": 1884
+      }
+    },
+    {
+      "name": "dust_storm_oasis_bird_1",
+      "source": {
+        "x": 56,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 67,
+        "y": 1890,
+        "w": 302,
+        "h": 351
+      },
+      "anchor": {
+        "x": 218,
+        "y": 2240
+      }
+    },
+    {
+      "name": "dust_storm_oasis_bird_2",
+      "source": {
+        "x": 440,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 406,
+        "y": 1949,
+        "w": 391,
+        "h": 269
+      },
+      "anchor": {
+        "x": 602,
+        "y": 2217
+      }
+    },
+    {
+      "name": "dust_storm_oasis_bird_3",
+      "source": {
+        "x": 824,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 834,
+        "y": 1940,
+        "w": 304,
+        "h": 277
+      },
+      "anchor": {
+        "x": 986,
+        "y": 2216
+      }
+    },
+    {
+      "name": "black_hole_edge_fly_1",
+      "source": {
+        "x": 56,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 91,
+        "y": 2274,
+        "w": 279,
+        "h": 363
+      },
+      "anchor": {
+        "x": 231,
+        "y": 2636
+      }
+    },
+    {
+      "name": "black_hole_edge_fly_2",
+      "source": {
+        "x": 440,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 414,
+        "y": 2380,
+        "w": 374,
+        "h": 256
+      },
+      "anchor": {
+        "x": 601,
+        "y": 2635
+      }
+    },
+    {
+      "name": "black_hole_edge_fly_3",
+      "source": {
+        "x": 824,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 822,
+        "y": 2440,
+        "w": 311,
+        "h": 205
+      },
+      "anchor": {
+        "x": 978,
+        "y": 2644
+      }
+    },
+    {
+      "name": "black_hole_edge_bird_1",
+      "source": {
+        "x": 56,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 69,
+        "y": 2700,
+        "w": 316,
+        "h": 374
+      },
+      "anchor": {
+        "x": 227,
+        "y": 3073
+      }
+    },
+    {
+      "name": "black_hole_edge_bird_2",
+      "source": {
+        "x": 440,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 449,
+        "y": 2719,
+        "w": 331,
+        "h": 341
+      },
+      "anchor": {
+        "x": 615,
+        "y": 3059
+      }
+    },
+    {
+      "name": "black_hole_edge_bird_3",
+      "source": {
+        "x": 824,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 830,
+        "y": 2747,
+        "w": 322,
+        "h": 322
+      },
+      "anchor": {
+        "x": 991,
+        "y": 3068
+      }
+    }
+  ],
+  "animations": [
+    {
+      "name": "tribal_village_fly",
+      "frames": [
+        {
+          "name": "tribal_village_fly_1",
+          "source": {
+            "x": 56,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 89,
+            "y": 42,
+            "w": 277,
+            "h": 356
+          },
+          "anchor": {
+            "x": 228,
+            "y": 397
+          }
+        },
+        {
+          "name": "tribal_village_fly_2",
+          "source": {
+            "x": 440,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 421,
+            "y": 153,
+            "w": 346,
+            "h": 244
+          },
+          "anchor": {
+            "x": 594,
+            "y": 396
+          }
+        },
+        {
+          "name": "tribal_village_fly_3",
+          "source": {
+            "x": 824,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 829,
+            "y": 215,
+            "w": 293,
+            "h": 183
+          },
+          "anchor": {
+            "x": 976,
+            "y": 397
+          }
+        }
+      ]
+    },
+    {
+      "name": "tribal_village_bird",
+      "frames": [
+        {
+          "name": "tribal_village_bird_1",
+          "source": {
+            "x": 56,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 64,
+            "y": 428,
+            "w": 280,
+            "h": 338
+          },
+          "anchor": {
+            "x": 204,
+            "y": 765
+          }
+        },
+        {
+          "name": "tribal_village_bird_2",
+          "source": {
+            "x": 440,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 411,
+            "y": 484,
+            "w": 382,
+            "h": 275
+          },
+          "anchor": {
+            "x": 602,
+            "y": 758
+          }
+        },
+        {
+          "name": "tribal_village_bird_3",
+          "source": {
+            "x": 824,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 859,
+            "y": 513,
+            "w": 278,
+            "h": 250
+          },
+          "anchor": {
+            "x": 998,
+            "y": 762
+          }
+        }
+      ]
+    },
+    {
+      "name": "treasure_vault_fly",
+      "frames": [
+        {
+          "name": "treasure_vault_fly_1",
+          "source": {
+            "x": 56,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 95,
+            "y": 787,
+            "w": 276,
+            "h": 343
+          },
+          "anchor": {
+            "x": 233,
+            "y": 1129
+          }
+        },
+        {
+          "name": "treasure_vault_fly_2",
+          "source": {
+            "x": 440,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 413,
+            "y": 879,
+            "w": 356,
+            "h": 249
+          },
+          "anchor": {
+            "x": 591,
+            "y": 1127
+          }
+        },
+        {
+          "name": "treasure_vault_fly_3",
+          "source": {
+            "x": 824,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 818,
+            "y": 929,
+            "w": 309,
+            "h": 198
+          },
+          "anchor": {
+            "x": 973,
+            "y": 1126
+          }
+        }
+      ]
+    },
+    {
+      "name": "treasure_vault_bird",
+      "frames": [
+        {
+          "name": "treasure_vault_bird_1",
+          "source": {
+            "x": 56,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 64,
+            "y": 1141,
+            "w": 323,
+            "h": 364
+          },
+          "anchor": {
+            "x": 226,
+            "y": 1504
+          }
+        },
+        {
+          "name": "treasure_vault_bird_2",
+          "source": {
+            "x": 440,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 409,
+            "y": 1219,
+            "w": 385,
+            "h": 286
+          },
+          "anchor": {
+            "x": 602,
+            "y": 1504
+          }
+        },
+        {
+          "name": "treasure_vault_bird_3",
+          "source": {
+            "x": 824,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 836,
+            "y": 1229,
+            "w": 305,
+            "h": 287
+          },
+          "anchor": {
+            "x": 989,
+            "y": 1515
+          }
+        }
+      ]
+    },
+    {
+      "name": "dust_storm_oasis_fly",
+      "frames": [
+        {
+          "name": "dust_storm_oasis_fly_1",
+          "source": {
+            "x": 56,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 93,
+            "y": 1542,
+            "w": 273,
+            "h": 335
+          },
+          "anchor": {
+            "x": 230,
+            "y": 1876
+          }
+        },
+        {
+          "name": "dust_storm_oasis_fly_2",
+          "source": {
+            "x": 440,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 421,
+            "y": 1635,
+            "w": 347,
+            "h": 243
+          },
+          "anchor": {
+            "x": 595,
+            "y": 1877
+          }
+        },
+        {
+          "name": "dust_storm_oasis_fly_3",
+          "source": {
+            "x": 824,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 825,
+            "y": 1692,
+            "w": 303,
+            "h": 193
+          },
+          "anchor": {
+            "x": 977,
+            "y": 1884
+          }
+        }
+      ]
+    },
+    {
+      "name": "dust_storm_oasis_bird",
+      "frames": [
+        {
+          "name": "dust_storm_oasis_bird_1",
+          "source": {
+            "x": 56,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 67,
+            "y": 1890,
+            "w": 302,
+            "h": 351
+          },
+          "anchor": {
+            "x": 218,
+            "y": 2240
+          }
+        },
+        {
+          "name": "dust_storm_oasis_bird_2",
+          "source": {
+            "x": 440,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 406,
+            "y": 1949,
+            "w": 391,
+            "h": 269
+          },
+          "anchor": {
+            "x": 602,
+            "y": 2217
+          }
+        },
+        {
+          "name": "dust_storm_oasis_bird_3",
+          "source": {
+            "x": 824,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 834,
+            "y": 1940,
+            "w": 304,
+            "h": 277
+          },
+          "anchor": {
+            "x": 986,
+            "y": 2216
+          }
+        }
+      ]
+    },
+    {
+      "name": "black_hole_edge_fly",
+      "frames": [
+        {
+          "name": "black_hole_edge_fly_1",
+          "source": {
+            "x": 56,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 91,
+            "y": 2274,
+            "w": 279,
+            "h": 363
+          },
+          "anchor": {
+            "x": 231,
+            "y": 2636
+          }
+        },
+        {
+          "name": "black_hole_edge_fly_2",
+          "source": {
+            "x": 440,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 414,
+            "y": 2380,
+            "w": 374,
+            "h": 256
+          },
+          "anchor": {
+            "x": 601,
+            "y": 2635
+          }
+        },
+        {
+          "name": "black_hole_edge_fly_3",
+          "source": {
+            "x": 824,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 822,
+            "y": 2440,
+            "w": 311,
+            "h": 205
+          },
+          "anchor": {
+            "x": 978,
+            "y": 2644
+          }
+        }
+      ]
+    },
+    {
+      "name": "black_hole_edge_bird",
+      "frames": [
+        {
+          "name": "black_hole_edge_bird_1",
+          "source": {
+            "x": 56,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 69,
+            "y": 2700,
+            "w": 316,
+            "h": 374
+          },
+          "anchor": {
+            "x": 227,
+            "y": 3073
+          }
+        },
+        {
+          "name": "black_hole_edge_bird_2",
+          "source": {
+            "x": 440,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 449,
+            "y": 2719,
+            "w": 331,
+            "h": 341
+          },
+          "anchor": {
+            "x": 615,
+            "y": 3059
+          }
+        },
+        {
+          "name": "black_hole_edge_bird_3",
+          "source": {
+            "x": 824,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 830,
+            "y": 2747,
+            "w": 322,
+            "h": 322
+          },
+          "anchor": {
+            "x": 991,
+            "y": 3068
+          }
+        }
+      ]
+    }
+  ]
+}

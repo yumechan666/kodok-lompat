@@ -1,0 +1,965 @@
+{
+  "image": "/generated-assets/creature_sheet_18-transparent.webp",
+  "grid": {
+    "cols": 3,
+    "rows": 8,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "dessert_desert_fly_1",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 80,
+        "y": 39,
+        "w": 293,
+        "h": 342
+      },
+      "anchor": {
+        "x": 227,
+        "y": 380
+      }
+    },
+    {
+      "name": "dessert_desert_fly_2",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 431,
+        "y": 126,
+        "w": 337,
+        "h": 255
+      },
+      "anchor": {
+        "x": 600,
+        "y": 380
+      }
+    },
+    {
+      "name": "dessert_desert_fly_3",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 846,
+        "y": 134,
+        "w": 306,
+        "h": 247
+      },
+      "anchor": {
+        "x": 999,
+        "y": 380
+      }
+    },
+    {
+      "name": "dessert_desert_bird_1",
+      "source": {
+        "x": 56,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 67,
+        "y": 411,
+        "w": 310,
+        "h": 324
+      },
+      "anchor": {
+        "x": 222,
+        "y": 734
+      }
+    },
+    {
+      "name": "dessert_desert_bird_2",
+      "source": {
+        "x": 440,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 431,
+        "y": 477,
+        "w": 340,
+        "h": 258
+      },
+      "anchor": {
+        "x": 601,
+        "y": 734
+      }
+    },
+    {
+      "name": "dessert_desert_bird_3",
+      "source": {
+        "x": 824,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 822,
+        "y": 478,
+        "w": 331,
+        "h": 258
+      },
+      "anchor": {
+        "x": 988,
+        "y": 735
+      }
+    },
+    {
+      "name": "fruit_orchard_fly_1",
+      "source": {
+        "x": 56,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 69,
+        "y": 794,
+        "w": 296,
+        "h": 260
+      },
+      "anchor": {
+        "x": 217,
+        "y": 1053
+      }
+    },
+    {
+      "name": "fruit_orchard_fly_2",
+      "source": {
+        "x": 440,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 424,
+        "y": 790,
+        "w": 334,
+        "h": 261
+      },
+      "anchor": {
+        "x": 591,
+        "y": 1050
+      }
+    },
+    {
+      "name": "fruit_orchard_fly_3",
+      "source": {
+        "x": 824,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 824,
+        "y": 793,
+        "w": 322,
+        "h": 261
+      },
+      "anchor": {
+        "x": 985,
+        "y": 1053
+      }
+    },
+    {
+      "name": "fruit_orchard_bird_1",
+      "source": {
+        "x": 56,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 65,
+        "y": 1094,
+        "w": 350,
+        "h": 351
+      },
+      "anchor": {
+        "x": 240,
+        "y": 1444
+      }
+    },
+    {
+      "name": "fruit_orchard_bird_2",
+      "source": {
+        "x": 440,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 442,
+        "y": 1126,
+        "w": 358,
+        "h": 319
+      },
+      "anchor": {
+        "x": 621,
+        "y": 1444
+      }
+    },
+    {
+      "name": "fruit_orchard_bird_3",
+      "source": {
+        "x": 824,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 825,
+        "y": 1166,
+        "w": 353,
+        "h": 289
+      },
+      "anchor": {
+        "x": 1002,
+        "y": 1454
+      }
+    },
+    {
+      "name": "ramen_bowl_fly_1",
+      "source": {
+        "x": 56,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 99,
+        "y": 1498,
+        "w": 283,
+        "h": 328
+      },
+      "anchor": {
+        "x": 241,
+        "y": 1825
+      }
+    },
+    {
+      "name": "ramen_bowl_fly_2",
+      "source": {
+        "x": 440,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 455,
+        "y": 1570,
+        "w": 318,
+        "h": 254
+      },
+      "anchor": {
+        "x": 614,
+        "y": 1823
+      }
+    },
+    {
+      "name": "ramen_bowl_fly_3",
+      "source": {
+        "x": 824,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 875,
+        "y": 1579,
+        "w": 283,
+        "h": 245
+      },
+      "anchor": {
+        "x": 1017,
+        "y": 1823
+      }
+    },
+    {
+      "name": "ramen_bowl_bird_1",
+      "source": {
+        "x": 56,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 83,
+        "y": 1852,
+        "w": 335,
+        "h": 385
+      },
+      "anchor": {
+        "x": 251,
+        "y": 2236
+      }
+    },
+    {
+      "name": "ramen_bowl_bird_2",
+      "source": {
+        "x": 440,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 438,
+        "y": 1876,
+        "w": 361,
+        "h": 361
+      },
+      "anchor": {
+        "x": 619,
+        "y": 2236
+      }
+    },
+    {
+      "name": "ramen_bowl_bird_3",
+      "source": {
+        "x": 824,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 826,
+        "y": 1882,
+        "w": 352,
+        "h": 356
+      },
+      "anchor": {
+        "x": 1002,
+        "y": 2237
+      }
+    },
+    {
+      "name": "coffee_house_fly_1",
+      "source": {
+        "x": 56,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 73,
+        "y": 2281,
+        "w": 303,
+        "h": 339
+      },
+      "anchor": {
+        "x": 225,
+        "y": 2619
+      }
+    },
+    {
+      "name": "coffee_house_fly_2",
+      "source": {
+        "x": 440,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 427,
+        "y": 2357,
+        "w": 343,
+        "h": 263
+      },
+      "anchor": {
+        "x": 599,
+        "y": 2619
+      }
+    },
+    {
+      "name": "coffee_house_fly_3",
+      "source": {
+        "x": 824,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 830,
+        "y": 2362,
+        "w": 329,
+        "h": 258
+      },
+      "anchor": {
+        "x": 995,
+        "y": 2619
+      }
+    },
+    {
+      "name": "coffee_house_bird_1",
+      "source": {
+        "x": 56,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 45,
+        "y": 2657,
+        "w": 340,
+        "h": 381
+      },
+      "anchor": {
+        "x": 215,
+        "y": 3037
+      }
+    },
+    {
+      "name": "coffee_house_bird_2",
+      "source": {
+        "x": 440,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 430,
+        "y": 2724,
+        "w": 339,
+        "h": 310
+      },
+      "anchor": {
+        "x": 600,
+        "y": 3033
+      }
+    },
+    {
+      "name": "coffee_house_bird_3",
+      "source": {
+        "x": 824,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 825,
+        "y": 2766,
+        "w": 334,
+        "h": 269
+      },
+      "anchor": {
+        "x": 992,
+        "y": 3034
+      }
+    }
+  ],
+  "animations": [
+    {
+      "name": "dessert_desert_fly",
+      "frames": [
+        {
+          "name": "dessert_desert_fly_1",
+          "source": {
+            "x": 56,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 80,
+            "y": 39,
+            "w": 293,
+            "h": 342
+          },
+          "anchor": {
+            "x": 227,
+            "y": 380
+          }
+        },
+        {
+          "name": "dessert_desert_fly_2",
+          "source": {
+            "x": 440,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 431,
+            "y": 126,
+            "w": 337,
+            "h": 255
+          },
+          "anchor": {
+            "x": 600,
+            "y": 380
+          }
+        },
+        {
+          "name": "dessert_desert_fly_3",
+          "source": {
+            "x": 824,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 846,
+            "y": 134,
+            "w": 306,
+            "h": 247
+          },
+          "anchor": {
+            "x": 999,
+            "y": 380
+          }
+        }
+      ]
+    },
+    {
+      "name": "dessert_desert_bird",
+      "frames": [
+        {
+          "name": "dessert_desert_bird_1",
+          "source": {
+            "x": 56,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 67,
+            "y": 411,
+            "w": 310,
+            "h": 324
+          },
+          "anchor": {
+            "x": 222,
+            "y": 734
+          }
+        },
+        {
+          "name": "dessert_desert_bird_2",
+          "source": {
+            "x": 440,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 431,
+            "y": 477,
+            "w": 340,
+            "h": 258
+          },
+          "anchor": {
+            "x": 601,
+            "y": 734
+          }
+        },
+        {
+          "name": "dessert_desert_bird_3",
+          "source": {
+            "x": 824,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 822,
+            "y": 478,
+            "w": 331,
+            "h": 258
+          },
+          "anchor": {
+            "x": 988,
+            "y": 735
+          }
+        }
+      ]
+    },
+    {
+      "name": "fruit_orchard_fly",
+      "frames": [
+        {
+          "name": "fruit_orchard_fly_1",
+          "source": {
+            "x": 56,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 69,
+            "y": 794,
+            "w": 296,
+            "h": 260
+          },
+          "anchor": {
+            "x": 217,
+            "y": 1053
+          }
+        },
+        {
+          "name": "fruit_orchard_fly_2",
+          "source": {
+            "x": 440,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 424,
+            "y": 790,
+            "w": 334,
+            "h": 261
+          },
+          "anchor": {
+            "x": 591,
+            "y": 1050
+          }
+        },
+        {
+          "name": "fruit_orchard_fly_3",
+          "source": {
+            "x": 824,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 824,
+            "y": 793,
+            "w": 322,
+            "h": 261
+          },
+          "anchor": {
+            "x": 985,
+            "y": 1053
+          }
+        }
+      ]
+    },
+    {
+      "name": "fruit_orchard_bird",
+      "frames": [
+        {
+          "name": "fruit_orchard_bird_1",
+          "source": {
+            "x": 56,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 65,
+            "y": 1094,
+            "w": 350,
+            "h": 351
+          },
+          "anchor": {
+            "x": 240,
+            "y": 1444
+          }
+        },
+        {
+          "name": "fruit_orchard_bird_2",
+          "source": {
+            "x": 440,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 442,
+            "y": 1126,
+            "w": 358,
+            "h": 319
+          },
+          "anchor": {
+            "x": 621,
+            "y": 1444
+          }
+        },
+        {
+          "name": "fruit_orchard_bird_3",
+          "source": {
+            "x": 824,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 825,
+            "y": 1166,
+            "w": 353,
+            "h": 289
+          },
+          "anchor": {
+            "x": 1002,
+            "y": 1454
+          }
+        }
+      ]
+    },
+    {
+      "name": "ramen_bowl_fly",
+      "frames": [
+        {
+          "name": "ramen_bowl_fly_1",
+          "source": {
+            "x": 56,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 99,
+            "y": 1498,
+            "w": 283,
+            "h": 328
+          },
+          "anchor": {
+            "x": 241,
+            "y": 1825
+          }
+        },
+        {
+          "name": "ramen_bowl_fly_2",
+          "source": {
+            "x": 440,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 455,
+            "y": 1570,
+            "w": 318,
+            "h": 254
+          },
+          "anchor": {
+            "x": 614,
+            "y": 1823
+          }
+        },
+        {
+          "name": "ramen_bowl_fly_3",
+          "source": {
+            "x": 824,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 875,
+            "y": 1579,
+            "w": 283,
+            "h": 245
+          },
+          "anchor": {
+            "x": 1017,
+            "y": 1823
+          }
+        }
+      ]
+    },
+    {
+      "name": "ramen_bowl_bird",
+      "frames": [
+        {
+          "name": "ramen_bowl_bird_1",
+          "source": {
+            "x": 56,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 83,
+            "y": 1852,
+            "w": 335,
+            "h": 385
+          },
+          "anchor": {
+            "x": 251,
+            "y": 2236
+          }
+        },
+        {
+          "name": "ramen_bowl_bird_2",
+          "source": {
+            "x": 440,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 438,
+            "y": 1876,
+            "w": 361,
+            "h": 361
+          },
+          "anchor": {
+            "x": 619,
+            "y": 2236
+          }
+        },
+        {
+          "name": "ramen_bowl_bird_3",
+          "source": {
+            "x": 824,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 826,
+            "y": 1882,
+            "w": 352,
+            "h": 356
+          },
+          "anchor": {
+            "x": 1002,
+            "y": 2237
+          }
+        }
+      ]
+    },
+    {
+      "name": "coffee_house_fly",
+      "frames": [
+        {
+          "name": "coffee_house_fly_1",
+          "source": {
+            "x": 56,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 73,
+            "y": 2281,
+            "w": 303,
+            "h": 339
+          },
+          "anchor": {
+            "x": 225,
+            "y": 2619
+          }
+        },
+        {
+          "name": "coffee_house_fly_2",
+          "source": {
+            "x": 440,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 427,
+            "y": 2357,
+            "w": 343,
+            "h": 263
+          },
+          "anchor": {
+            "x": 599,
+            "y": 2619
+          }
+        },
+        {
+          "name": "coffee_house_fly_3",
+          "source": {
+            "x": 824,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 830,
+            "y": 2362,
+            "w": 329,
+            "h": 258
+          },
+          "anchor": {
+            "x": 995,
+            "y": 2619
+          }
+        }
+      ]
+    },
+    {
+      "name": "coffee_house_bird",
+      "frames": [
+        {
+          "name": "coffee_house_bird_1",
+          "source": {
+            "x": 56,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 45,
+            "y": 2657,
+            "w": 340,
+            "h": 381
+          },
+          "anchor": {
+            "x": 215,
+            "y": 3037
+          }
+        },
+        {
+          "name": "coffee_house_bird_2",
+          "source": {
+            "x": 440,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 430,
+            "y": 2724,
+            "w": 339,
+            "h": 310
+          },
+          "anchor": {
+            "x": 600,
+            "y": 3033
+          }
+        },
+        {
+          "name": "coffee_house_bird_3",
+          "source": {
+            "x": 824,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 825,
+            "y": 2766,
+            "w": 334,
+            "h": 269
+          },
+          "anchor": {
+            "x": 992,
+            "y": 3034
+          }
+        }
+      ]
+    }
+  ]
+}

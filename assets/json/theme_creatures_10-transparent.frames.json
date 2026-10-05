@@ -1,0 +1,391 @@
+{
+  "image": "/generated-assets/theme_creatures_10-transparent.webp",
+  "grid": {
+    "cols": 5,
+    "rows": 4,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "doomsday_volcano_fly",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 43,
+        "y": 45,
+        "w": 299,
+        "h": 312
+      },
+      "anchor": {
+        "x": 193,
+        "y": 356
+      }
+    },
+    {
+      "name": "doomsday_volcano_bird",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 393,
+        "y": 12,
+        "w": 387,
+        "h": 374
+      },
+      "anchor": {
+        "x": 587,
+        "y": 385
+      }
+    },
+    {
+      "name": "glacial_age_fly",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 835,
+        "y": 44,
+        "w": 286,
+        "h": 314
+      },
+      "anchor": {
+        "x": 978,
+        "y": 357
+      }
+    },
+    {
+      "name": "glacial_age_bird",
+      "source": {
+        "x": 1208,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1169,
+        "y": 12,
+        "w": 378,
+        "h": 372
+      },
+      "anchor": {
+        "x": 1358,
+        "y": 383
+      }
+    },
+    {
+      "name": "bedroom_closet_fly",
+      "source": {
+        "x": 1592,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1604,
+        "y": 84,
+        "w": 317,
+        "h": 284
+      },
+      "anchor": {
+        "x": 1763,
+        "y": 367
+      }
+    },
+    {
+      "name": "bedroom_closet_bird",
+      "source": {
+        "x": 56,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 16,
+        "y": 416,
+        "w": 389,
+        "h": 322
+      },
+      "anchor": {
+        "x": 211,
+        "y": 737
+      }
+    },
+    {
+      "name": "honeycomb_hive_fly",
+      "source": {
+        "x": 440,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 459,
+        "y": 450,
+        "w": 290,
+        "h": 291
+      },
+      "anchor": {
+        "x": 604,
+        "y": 740
+      }
+    },
+    {
+      "name": "honeycomb_hive_bird",
+      "source": {
+        "x": 824,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 813,
+        "y": 416,
+        "w": 336,
+        "h": 350
+      },
+      "anchor": {
+        "x": 981,
+        "y": 765
+      }
+    },
+    {
+      "name": "biotech_lab_fly",
+      "source": {
+        "x": 1208,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1212,
+        "y": 435,
+        "w": 300,
+        "h": 307
+      },
+      "anchor": {
+        "x": 1362,
+        "y": 741
+      }
+    },
+    {
+      "name": "biotech_lab_bird",
+      "source": {
+        "x": 1592,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1585,
+        "y": 415,
+        "w": 352,
+        "h": 352
+      },
+      "anchor": {
+        "x": 1761,
+        "y": 766
+      }
+    },
+    {
+      "name": "spider_lair_fly",
+      "source": {
+        "x": 56,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 53,
+        "y": 834,
+        "w": 290,
+        "h": 289
+      },
+      "anchor": {
+        "x": 198,
+        "y": 1122
+      }
+    },
+    {
+      "name": "spider_lair_bird",
+      "source": {
+        "x": 440,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 386,
+        "y": 799,
+        "w": 387,
+        "h": 354
+      },
+      "anchor": {
+        "x": 580,
+        "y": 1152
+      }
+    },
+    {
+      "name": "tribal_village_fly",
+      "source": {
+        "x": 824,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 831,
+        "y": 829,
+        "w": 288,
+        "h": 297
+      },
+      "anchor": {
+        "x": 975,
+        "y": 1125
+      }
+    },
+    {
+      "name": "tribal_village_bird",
+      "source": {
+        "x": 1208,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1161,
+        "y": 786,
+        "w": 383,
+        "h": 366
+      },
+      "anchor": {
+        "x": 1353,
+        "y": 1151
+      }
+    },
+    {
+      "name": "treasure_vault_fly",
+      "source": {
+        "x": 1592,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1606,
+        "y": 828,
+        "w": 312,
+        "h": 300
+      },
+      "anchor": {
+        "x": 1762,
+        "y": 1127
+      }
+    },
+    {
+      "name": "treasure_vault_bird",
+      "source": {
+        "x": 56,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 27,
+        "y": 1162,
+        "w": 365,
+        "h": 395
+      },
+      "anchor": {
+        "x": 210,
+        "y": 1556
+      }
+    },
+    {
+      "name": "dust_storm_oasis_fly",
+      "source": {
+        "x": 440,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 453,
+        "y": 1223,
+        "w": 299,
+        "h": 286
+      },
+      "anchor": {
+        "x": 603,
+        "y": 1508
+      }
+    },
+    {
+      "name": "dust_storm_oasis_bird",
+      "source": {
+        "x": 824,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 800,
+        "y": 1165,
+        "w": 349,
+        "h": 357
+      },
+      "anchor": {
+        "x": 975,
+        "y": 1521
+      }
+    },
+    {
+      "name": "black_hole_edge_fly",
+      "source": {
+        "x": 1208,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1206,
+        "y": 1197,
+        "w": 307,
+        "h": 315
+      },
+      "anchor": {
+        "x": 1360,
+        "y": 1511
+      }
+    },
+    {
+      "name": "black_hole_edge_bird",
+      "source": {
+        "x": 1592,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1569,
+        "y": 1154,
+        "w": 370,
+        "h": 377
+      },
+      "anchor": {
+        "x": 1754,
+        "y": 1530
+      }
+    }
+  ]
+}

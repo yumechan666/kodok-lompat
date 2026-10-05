@@ -1,0 +1,163 @@
+{
+  "image": "/generated-assets/platform_atlas-transparent.webp",
+  "grid": {
+    "cols": 4,
+    "rows": 2,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "normal_leaf",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 30,
+        "y": 129,
+        "w": 332,
+        "h": 182
+      },
+      "anchor": {
+        "x": 196,
+        "y": 310
+      }
+    },
+    {
+      "name": "normal_log",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 420,
+        "y": 96,
+        "w": 351,
+        "h": 189
+      },
+      "anchor": {
+        "x": 596,
+        "y": 284
+      }
+    },
+    {
+      "name": "small_stone",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 865,
+        "y": 145,
+        "w": 239,
+        "h": 138
+      },
+      "anchor": {
+        "x": 985,
+        "y": 282
+      }
+    },
+    {
+      "name": "moving_moss",
+      "source": {
+        "x": 1208,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1175,
+        "y": 111,
+        "w": 381,
+        "h": 172
+      },
+      "anchor": {
+        "x": 1366,
+        "y": 282
+      }
+    },
+    {
+      "name": "falling_bark",
+      "source": {
+        "x": 56,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 40,
+        "y": 448,
+        "w": 323,
+        "h": 261
+      },
+      "anchor": {
+        "x": 202,
+        "y": 708
+      }
+    },
+    {
+      "name": "bouncy_mushroom",
+      "source": {
+        "x": 440,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 421,
+        "y": 441,
+        "w": 353,
+        "h": 267
+      },
+      "anchor": {
+        "x": 598,
+        "y": 707
+      }
+    },
+    {
+      "name": "checkpoint_flag",
+      "source": {
+        "x": 824,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 845,
+        "y": 407,
+        "w": 252,
+        "h": 340
+      },
+      "anchor": {
+        "x": 971,
+        "y": 746
+      }
+    },
+    {
+      "name": "finish_arch",
+      "source": {
+        "x": 1208,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1170,
+        "y": 417,
+        "w": 385,
+        "h": 328
+      },
+      "anchor": {
+        "x": 1363,
+        "y": 744
+      }
+    }
+  ]
+}

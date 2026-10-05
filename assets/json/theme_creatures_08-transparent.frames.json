@@ -1,0 +1,391 @@
+{
+  "image": "/generated-assets/theme_creatures_08-transparent.webp",
+  "grid": {
+    "cols": 5,
+    "rows": 4,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "ramen_bowl_fly",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 33,
+        "y": 46,
+        "w": 326,
+        "h": 323
+      },
+      "anchor": {
+        "x": 196,
+        "y": 368
+      }
+    },
+    {
+      "name": "ramen_bowl_bird",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 416,
+        "y": 27,
+        "w": 365,
+        "h": 344
+      },
+      "anchor": {
+        "x": 599,
+        "y": 370
+      }
+    },
+    {
+      "name": "coffee_house_fly",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 825,
+        "y": 48,
+        "w": 303,
+        "h": 319
+      },
+      "anchor": {
+        "x": 977,
+        "y": 366
+      }
+    },
+    {
+      "name": "coffee_house_bird",
+      "source": {
+        "x": 1208,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1190,
+        "y": 27,
+        "w": 348,
+        "h": 340
+      },
+      "anchor": {
+        "x": 1364,
+        "y": 366
+      }
+    },
+    {
+      "name": "wild_west_town_fly",
+      "source": {
+        "x": 1592,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1589,
+        "y": 36,
+        "w": 327,
+        "h": 326
+      },
+      "anchor": {
+        "x": 1753,
+        "y": 361
+      }
+    },
+    {
+      "name": "wild_west_town_bird",
+      "source": {
+        "x": 56,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 31,
+        "y": 415,
+        "w": 375,
+        "h": 322
+      },
+      "anchor": {
+        "x": 219,
+        "y": 736
+      }
+    },
+    {
+      "name": "medieval_castle_fly",
+      "source": {
+        "x": 440,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 433,
+        "y": 423,
+        "w": 318,
+        "h": 322
+      },
+      "anchor": {
+        "x": 592,
+        "y": 744
+      }
+    },
+    {
+      "name": "medieval_castle_bird",
+      "source": {
+        "x": 824,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 788,
+        "y": 398,
+        "w": 365,
+        "h": 349
+      },
+      "anchor": {
+        "x": 971,
+        "y": 746
+      }
+    },
+    {
+      "name": "vintage_circus_fly",
+      "source": {
+        "x": 1208,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1204,
+        "y": 420,
+        "w": 317,
+        "h": 321
+      },
+      "anchor": {
+        "x": 1363,
+        "y": 740
+      }
+    },
+    {
+      "name": "vintage_circus_bird",
+      "source": {
+        "x": 1592,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1562,
+        "y": 398,
+        "w": 373,
+        "h": 346
+      },
+      "anchor": {
+        "x": 1749,
+        "y": 743
+      }
+    },
+    {
+      "name": "chinatown_fly",
+      "source": {
+        "x": 56,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 32,
+        "y": 786,
+        "w": 329,
+        "h": 322
+      },
+      "anchor": {
+        "x": 197,
+        "y": 1107
+      }
+    },
+    {
+      "name": "chinatown_bird",
+      "source": {
+        "x": 440,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 404,
+        "y": 798,
+        "w": 385,
+        "h": 321
+      },
+      "anchor": {
+        "x": 597,
+        "y": 1118
+      }
+    },
+    {
+      "name": "viking_village_fly",
+      "source": {
+        "x": 824,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 819,
+        "y": 788,
+        "w": 310,
+        "h": 328
+      },
+      "anchor": {
+        "x": 974,
+        "y": 1115
+      }
+    },
+    {
+      "name": "viking_village_bird",
+      "source": {
+        "x": 1208,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1170,
+        "y": 768,
+        "w": 385,
+        "h": 350
+      },
+      "anchor": {
+        "x": 1363,
+        "y": 1117
+      }
+    },
+    {
+      "name": "venice_canals_fly",
+      "source": {
+        "x": 1592,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1589,
+        "y": 787,
+        "w": 326,
+        "h": 330
+      },
+      "anchor": {
+        "x": 1752,
+        "y": 1116
+      }
+    },
+    {
+      "name": "venice_canals_bird",
+      "source": {
+        "x": 56,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 34,
+        "y": 1142,
+        "w": 358,
+        "h": 360
+      },
+      "anchor": {
+        "x": 213,
+        "y": 1501
+      }
+    },
+    {
+      "name": "chessboard_plain_fly",
+      "source": {
+        "x": 440,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 437,
+        "y": 1161,
+        "w": 317,
+        "h": 313
+      },
+      "anchor": {
+        "x": 596,
+        "y": 1473
+      }
+    },
+    {
+      "name": "chessboard_plain_bird",
+      "source": {
+        "x": 824,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 788,
+        "y": 1143,
+        "w": 359,
+        "h": 365
+      },
+      "anchor": {
+        "x": 968,
+        "y": 1507
+      }
+    },
+    {
+      "name": "geometric_void_fly",
+      "source": {
+        "x": 1208,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1202,
+        "y": 1189,
+        "w": 315,
+        "h": 304
+      },
+      "anchor": {
+        "x": 1360,
+        "y": 1492
+      }
+    },
+    {
+      "name": "geometric_void_bird",
+      "source": {
+        "x": 1592,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1567,
+        "y": 1142,
+        "w": 369,
+        "h": 374
+      },
+      "anchor": {
+        "x": 1752,
+        "y": 1515
+      }
+    }
+  ]
+}

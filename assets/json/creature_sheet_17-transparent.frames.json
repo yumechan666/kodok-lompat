@@ -1,0 +1,965 @@
+{
+  "image": "/generated-assets/creature_sheet_17-transparent.webp",
+  "grid": {
+    "cols": 3,
+    "rows": 8,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "virtual_matrix_fly_1",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 75,
+        "y": 30,
+        "w": 273,
+        "h": 305
+      },
+      "anchor": {
+        "x": 212,
+        "y": 334
+      }
+    },
+    {
+      "name": "virtual_matrix_fly_2",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 419,
+        "y": 148,
+        "w": 364,
+        "h": 187
+      },
+      "anchor": {
+        "x": 601,
+        "y": 334
+      }
+    },
+    {
+      "name": "virtual_matrix_fly_3",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 837,
+        "y": 166,
+        "w": 295,
+        "h": 170
+      },
+      "anchor": {
+        "x": 985,
+        "y": 335
+      }
+    },
+    {
+      "name": "virtual_matrix_bird_1",
+      "source": {
+        "x": 56,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 71,
+        "y": 394,
+        "w": 267,
+        "h": 310
+      },
+      "anchor": {
+        "x": 205,
+        "y": 703
+      }
+    },
+    {
+      "name": "virtual_matrix_bird_2",
+      "source": {
+        "x": 440,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 429,
+        "y": 509,
+        "w": 295,
+        "h": 179
+      },
+      "anchor": {
+        "x": 577,
+        "y": 687
+      }
+    },
+    {
+      "name": "virtual_matrix_bird_3",
+      "source": {
+        "x": 824,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 832,
+        "y": 520,
+        "w": 296,
+        "h": 190
+      },
+      "anchor": {
+        "x": 980,
+        "y": 709
+      }
+    },
+    {
+      "name": "power_core_fly_1",
+      "source": {
+        "x": 56,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 92,
+        "y": 780,
+        "w": 256,
+        "h": 289
+      },
+      "anchor": {
+        "x": 220,
+        "y": 1068
+      }
+    },
+    {
+      "name": "power_core_fly_2",
+      "source": {
+        "x": 440,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 415,
+        "y": 892,
+        "w": 375,
+        "h": 176
+      },
+      "anchor": {
+        "x": 603,
+        "y": 1067
+      }
+    },
+    {
+      "name": "power_core_fly_3",
+      "source": {
+        "x": 824,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 849,
+        "y": 899,
+        "w": 281,
+        "h": 174
+      },
+      "anchor": {
+        "x": 990,
+        "y": 1072
+      }
+    },
+    {
+      "name": "power_core_bird_1",
+      "source": {
+        "x": 56,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 65,
+        "y": 1145,
+        "w": 269,
+        "h": 312
+      },
+      "anchor": {
+        "x": 200,
+        "y": 1456
+      }
+    },
+    {
+      "name": "power_core_bird_2",
+      "source": {
+        "x": 440,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 422,
+        "y": 1273,
+        "w": 364,
+        "h": 184
+      },
+      "anchor": {
+        "x": 604,
+        "y": 1456
+      }
+    },
+    {
+      "name": "power_core_bird_3",
+      "source": {
+        "x": 824,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 843,
+        "y": 1288,
+        "w": 288,
+        "h": 170
+      },
+      "anchor": {
+        "x": 987,
+        "y": 1457
+      }
+    },
+    {
+      "name": "mars_colony_fly_1",
+      "source": {
+        "x": 56,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 72,
+        "y": 1550,
+        "w": 276,
+        "h": 290
+      },
+      "anchor": {
+        "x": 210,
+        "y": 1839
+      }
+    },
+    {
+      "name": "mars_colony_fly_2",
+      "source": {
+        "x": 440,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 427,
+        "y": 1627,
+        "w": 339,
+        "h": 212
+      },
+      "anchor": {
+        "x": 597,
+        "y": 1838
+      }
+    },
+    {
+      "name": "mars_colony_fly_3",
+      "source": {
+        "x": 824,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 844,
+        "y": 1643,
+        "w": 289,
+        "h": 195
+      },
+      "anchor": {
+        "x": 989,
+        "y": 1837
+      }
+    },
+    {
+      "name": "mars_colony_bird_1",
+      "source": {
+        "x": 56,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 70,
+        "y": 1895,
+        "w": 263,
+        "h": 308
+      },
+      "anchor": {
+        "x": 202,
+        "y": 2202
+      }
+    },
+    {
+      "name": "mars_colony_bird_2",
+      "source": {
+        "x": 440,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 426,
+        "y": 2005,
+        "w": 356,
+        "h": 197
+      },
+      "anchor": {
+        "x": 604,
+        "y": 2201
+      }
+    },
+    {
+      "name": "mars_colony_bird_3",
+      "source": {
+        "x": 824,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 829,
+        "y": 2017,
+        "w": 305,
+        "h": 184
+      },
+      "anchor": {
+        "x": 982,
+        "y": 2200
+      }
+    },
+    {
+      "name": "cheese_mountain_fly_1",
+      "source": {
+        "x": 56,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 70,
+        "y": 2317,
+        "w": 275,
+        "h": 280
+      },
+      "anchor": {
+        "x": 208,
+        "y": 2596
+      }
+    },
+    {
+      "name": "cheese_mountain_fly_2",
+      "source": {
+        "x": 440,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 444,
+        "y": 2369,
+        "w": 307,
+        "h": 228
+      },
+      "anchor": {
+        "x": 598,
+        "y": 2596
+      }
+    },
+    {
+      "name": "cheese_mountain_fly_3",
+      "source": {
+        "x": 824,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 834,
+        "y": 2388,
+        "w": 287,
+        "h": 210
+      },
+      "anchor": {
+        "x": 978,
+        "y": 2597
+      }
+    },
+    {
+      "name": "cheese_mountain_bird_1",
+      "source": {
+        "x": 56,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 72,
+        "y": 2691,
+        "w": 273,
+        "h": 298
+      },
+      "anchor": {
+        "x": 209,
+        "y": 2988
+      }
+    },
+    {
+      "name": "cheese_mountain_bird_2",
+      "source": {
+        "x": 440,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 432,
+        "y": 2729,
+        "w": 336,
+        "h": 261
+      },
+      "anchor": {
+        "x": 600,
+        "y": 2989
+      }
+    },
+    {
+      "name": "cheese_mountain_bird_3",
+      "source": {
+        "x": 824,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 827,
+        "y": 2777,
+        "w": 299,
+        "h": 214
+      },
+      "anchor": {
+        "x": 977,
+        "y": 2990
+      }
+    }
+  ],
+  "animations": [
+    {
+      "name": "virtual_matrix_fly",
+      "frames": [
+        {
+          "name": "virtual_matrix_fly_1",
+          "source": {
+            "x": 56,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 75,
+            "y": 30,
+            "w": 273,
+            "h": 305
+          },
+          "anchor": {
+            "x": 212,
+            "y": 334
+          }
+        },
+        {
+          "name": "virtual_matrix_fly_2",
+          "source": {
+            "x": 440,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 419,
+            "y": 148,
+            "w": 364,
+            "h": 187
+          },
+          "anchor": {
+            "x": 601,
+            "y": 334
+          }
+        },
+        {
+          "name": "virtual_matrix_fly_3",
+          "source": {
+            "x": 824,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 837,
+            "y": 166,
+            "w": 295,
+            "h": 170
+          },
+          "anchor": {
+            "x": 985,
+            "y": 335
+          }
+        }
+      ]
+    },
+    {
+      "name": "virtual_matrix_bird",
+      "frames": [
+        {
+          "name": "virtual_matrix_bird_1",
+          "source": {
+            "x": 56,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 71,
+            "y": 394,
+            "w": 267,
+            "h": 310
+          },
+          "anchor": {
+            "x": 205,
+            "y": 703
+          }
+        },
+        {
+          "name": "virtual_matrix_bird_2",
+          "source": {
+            "x": 440,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 429,
+            "y": 509,
+            "w": 295,
+            "h": 179
+          },
+          "anchor": {
+            "x": 577,
+            "y": 687
+          }
+        },
+        {
+          "name": "virtual_matrix_bird_3",
+          "source": {
+            "x": 824,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 832,
+            "y": 520,
+            "w": 296,
+            "h": 190
+          },
+          "anchor": {
+            "x": 980,
+            "y": 709
+          }
+        }
+      ]
+    },
+    {
+      "name": "power_core_fly",
+      "frames": [
+        {
+          "name": "power_core_fly_1",
+          "source": {
+            "x": 56,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 92,
+            "y": 780,
+            "w": 256,
+            "h": 289
+          },
+          "anchor": {
+            "x": 220,
+            "y": 1068
+          }
+        },
+        {
+          "name": "power_core_fly_2",
+          "source": {
+            "x": 440,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 415,
+            "y": 892,
+            "w": 375,
+            "h": 176
+          },
+          "anchor": {
+            "x": 603,
+            "y": 1067
+          }
+        },
+        {
+          "name": "power_core_fly_3",
+          "source": {
+            "x": 824,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 849,
+            "y": 899,
+            "w": 281,
+            "h": 174
+          },
+          "anchor": {
+            "x": 990,
+            "y": 1072
+          }
+        }
+      ]
+    },
+    {
+      "name": "power_core_bird",
+      "frames": [
+        {
+          "name": "power_core_bird_1",
+          "source": {
+            "x": 56,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 65,
+            "y": 1145,
+            "w": 269,
+            "h": 312
+          },
+          "anchor": {
+            "x": 200,
+            "y": 1456
+          }
+        },
+        {
+          "name": "power_core_bird_2",
+          "source": {
+            "x": 440,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 422,
+            "y": 1273,
+            "w": 364,
+            "h": 184
+          },
+          "anchor": {
+            "x": 604,
+            "y": 1456
+          }
+        },
+        {
+          "name": "power_core_bird_3",
+          "source": {
+            "x": 824,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 843,
+            "y": 1288,
+            "w": 288,
+            "h": 170
+          },
+          "anchor": {
+            "x": 987,
+            "y": 1457
+          }
+        }
+      ]
+    },
+    {
+      "name": "mars_colony_fly",
+      "frames": [
+        {
+          "name": "mars_colony_fly_1",
+          "source": {
+            "x": 56,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 72,
+            "y": 1550,
+            "w": 276,
+            "h": 290
+          },
+          "anchor": {
+            "x": 210,
+            "y": 1839
+          }
+        },
+        {
+          "name": "mars_colony_fly_2",
+          "source": {
+            "x": 440,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 427,
+            "y": 1627,
+            "w": 339,
+            "h": 212
+          },
+          "anchor": {
+            "x": 597,
+            "y": 1838
+          }
+        },
+        {
+          "name": "mars_colony_fly_3",
+          "source": {
+            "x": 824,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 844,
+            "y": 1643,
+            "w": 289,
+            "h": 195
+          },
+          "anchor": {
+            "x": 989,
+            "y": 1837
+          }
+        }
+      ]
+    },
+    {
+      "name": "mars_colony_bird",
+      "frames": [
+        {
+          "name": "mars_colony_bird_1",
+          "source": {
+            "x": 56,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 70,
+            "y": 1895,
+            "w": 263,
+            "h": 308
+          },
+          "anchor": {
+            "x": 202,
+            "y": 2202
+          }
+        },
+        {
+          "name": "mars_colony_bird_2",
+          "source": {
+            "x": 440,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 426,
+            "y": 2005,
+            "w": 356,
+            "h": 197
+          },
+          "anchor": {
+            "x": 604,
+            "y": 2201
+          }
+        },
+        {
+          "name": "mars_colony_bird_3",
+          "source": {
+            "x": 824,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 829,
+            "y": 2017,
+            "w": 305,
+            "h": 184
+          },
+          "anchor": {
+            "x": 982,
+            "y": 2200
+          }
+        }
+      ]
+    },
+    {
+      "name": "cheese_mountain_fly",
+      "frames": [
+        {
+          "name": "cheese_mountain_fly_1",
+          "source": {
+            "x": 56,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 70,
+            "y": 2317,
+            "w": 275,
+            "h": 280
+          },
+          "anchor": {
+            "x": 208,
+            "y": 2596
+          }
+        },
+        {
+          "name": "cheese_mountain_fly_2",
+          "source": {
+            "x": 440,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 444,
+            "y": 2369,
+            "w": 307,
+            "h": 228
+          },
+          "anchor": {
+            "x": 598,
+            "y": 2596
+          }
+        },
+        {
+          "name": "cheese_mountain_fly_3",
+          "source": {
+            "x": 824,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 834,
+            "y": 2388,
+            "w": 287,
+            "h": 210
+          },
+          "anchor": {
+            "x": 978,
+            "y": 2597
+          }
+        }
+      ]
+    },
+    {
+      "name": "cheese_mountain_bird",
+      "frames": [
+        {
+          "name": "cheese_mountain_bird_1",
+          "source": {
+            "x": 56,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 72,
+            "y": 2691,
+            "w": 273,
+            "h": 298
+          },
+          "anchor": {
+            "x": 209,
+            "y": 2988
+          }
+        },
+        {
+          "name": "cheese_mountain_bird_2",
+          "source": {
+            "x": 440,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 432,
+            "y": 2729,
+            "w": 336,
+            "h": 261
+          },
+          "anchor": {
+            "x": 600,
+            "y": 2989
+          }
+        },
+        {
+          "name": "cheese_mountain_bird_3",
+          "source": {
+            "x": 824,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 827,
+            "y": 2777,
+            "w": 299,
+            "h": 214
+          },
+          "anchor": {
+            "x": 977,
+            "y": 2990
+          }
+        }
+      ]
+    }
+  ]
+}

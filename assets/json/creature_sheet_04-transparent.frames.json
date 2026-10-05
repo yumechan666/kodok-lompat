@@ -1,0 +1,965 @@
+{
+  "image": "/generated-assets/creature_sheet_04-transparent.webp",
+  "grid": {
+    "cols": 3,
+    "rows": 8,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "frozen_mountain_fly_1",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 68,
+        "y": 26,
+        "w": 297,
+        "h": 351
+      },
+      "anchor": {
+        "x": 217,
+        "y": 376
+      }
+    },
+    {
+      "name": "frozen_mountain_fly_2",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 412,
+        "y": 135,
+        "w": 345,
+        "h": 246
+      },
+      "anchor": {
+        "x": 585,
+        "y": 380
+      }
+    },
+    {
+      "name": "frozen_mountain_fly_3",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 819,
+        "y": 124,
+        "w": 313,
+        "h": 257
+      },
+      "anchor": {
+        "x": 976,
+        "y": 380
+      }
+    },
+    {
+      "name": "frozen_mountain_bird_1",
+      "source": {
+        "x": 56,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 64,
+        "y": 404,
+        "w": 308,
+        "h": 393
+      },
+      "anchor": {
+        "x": 218,
+        "y": 796
+      }
+    },
+    {
+      "name": "frozen_mountain_bird_2",
+      "source": {
+        "x": 440,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 413,
+        "y": 547,
+        "w": 356,
+        "h": 249
+      },
+      "anchor": {
+        "x": 591,
+        "y": 795
+      }
+    },
+    {
+      "name": "frozen_mountain_bird_3",
+      "source": {
+        "x": 824,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 857,
+        "y": 554,
+        "w": 271,
+        "h": 249
+      },
+      "anchor": {
+        "x": 993,
+        "y": 802
+      }
+    },
+    {
+      "name": "desert_oasis_fly_1",
+      "source": {
+        "x": 56,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 68,
+        "y": 813,
+        "w": 297,
+        "h": 349
+      },
+      "anchor": {
+        "x": 217,
+        "y": 1161
+      }
+    },
+    {
+      "name": "desert_oasis_fly_2",
+      "source": {
+        "x": 440,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 412,
+        "y": 926,
+        "w": 346,
+        "h": 240
+      },
+      "anchor": {
+        "x": 585,
+        "y": 1165
+      }
+    },
+    {
+      "name": "desert_oasis_fly_3",
+      "source": {
+        "x": 824,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 818,
+        "y": 913,
+        "w": 316,
+        "h": 251
+      },
+      "anchor": {
+        "x": 976,
+        "y": 1163
+      }
+    },
+    {
+      "name": "desert_oasis_bird_1",
+      "source": {
+        "x": 56,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 49,
+        "y": 1189,
+        "w": 356,
+        "h": 360
+      },
+      "anchor": {
+        "x": 227,
+        "y": 1548
+      }
+    },
+    {
+      "name": "desert_oasis_bird_2",
+      "source": {
+        "x": 440,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 409,
+        "y": 1239,
+        "w": 392,
+        "h": 276
+      },
+      "anchor": {
+        "x": 605,
+        "y": 1514
+      }
+    },
+    {
+      "name": "desert_oasis_bird_3",
+      "source": {
+        "x": 824,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 832,
+        "y": 1236,
+        "w": 330,
+        "h": 318
+      },
+      "anchor": {
+        "x": 997,
+        "y": 1553
+      }
+    },
+    {
+      "name": "cactus_canyon_fly_1",
+      "source": {
+        "x": 56,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 63,
+        "y": 1568,
+        "w": 300,
+        "h": 315
+      },
+      "anchor": {
+        "x": 213,
+        "y": 1882
+      }
+    },
+    {
+      "name": "cactus_canyon_fly_2",
+      "source": {
+        "x": 440,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 414,
+        "y": 1575,
+        "w": 340,
+        "h": 304
+      },
+      "anchor": {
+        "x": 584,
+        "y": 1878
+      }
+    },
+    {
+      "name": "cactus_canyon_fly_3",
+      "source": {
+        "x": 824,
+        "y": 1592,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 853,
+        "y": 1649,
+        "w": 275,
+        "h": 246
+      },
+      "anchor": {
+        "x": 991,
+        "y": 1894
+      }
+    },
+    {
+      "name": "cactus_canyon_bird_1",
+      "source": {
+        "x": 56,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 51,
+        "y": 1936,
+        "w": 364,
+        "h": 344
+      },
+      "anchor": {
+        "x": 233,
+        "y": 2279
+      }
+    },
+    {
+      "name": "cactus_canyon_bird_2",
+      "source": {
+        "x": 440,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 415,
+        "y": 1974,
+        "w": 385,
+        "h": 275
+      },
+      "anchor": {
+        "x": 608,
+        "y": 2248
+      }
+    },
+    {
+      "name": "cactus_canyon_bird_3",
+      "source": {
+        "x": 824,
+        "y": 1976,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 834,
+        "y": 1978,
+        "w": 328,
+        "h": 309
+      },
+      "anchor": {
+        "x": 998,
+        "y": 2286
+      }
+    },
+    {
+      "name": "tropical_island_fly_1",
+      "source": {
+        "x": 56,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 68,
+        "y": 2312,
+        "w": 290,
+        "h": 330
+      },
+      "anchor": {
+        "x": 213,
+        "y": 2641
+      }
+    },
+    {
+      "name": "tropical_island_fly_2",
+      "source": {
+        "x": 440,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 412,
+        "y": 2432,
+        "w": 342,
+        "h": 203
+      },
+      "anchor": {
+        "x": 583,
+        "y": 2634
+      }
+    },
+    {
+      "name": "tropical_island_fly_3",
+      "source": {
+        "x": 824,
+        "y": 2360,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 816,
+        "y": 2427,
+        "w": 313,
+        "h": 227
+      },
+      "anchor": {
+        "x": 973,
+        "y": 2653
+      }
+    },
+    {
+      "name": "tropical_island_bird_1",
+      "source": {
+        "x": 56,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 39,
+        "y": 2696,
+        "w": 371,
+        "h": 358
+      },
+      "anchor": {
+        "x": 225,
+        "y": 3053
+      }
+    },
+    {
+      "name": "tropical_island_bird_2",
+      "source": {
+        "x": 440,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 416,
+        "y": 2803,
+        "w": 384,
+        "h": 247
+      },
+      "anchor": {
+        "x": 608,
+        "y": 3049
+      }
+    },
+    {
+      "name": "tropical_island_bird_3",
+      "source": {
+        "x": 824,
+        "y": 2744,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 809,
+        "y": 2832,
+        "w": 353,
+        "h": 259
+      },
+      "anchor": {
+        "x": 986,
+        "y": 3090
+      }
+    }
+  ],
+  "animations": [
+    {
+      "name": "frozen_mountain_fly",
+      "frames": [
+        {
+          "name": "frozen_mountain_fly_1",
+          "source": {
+            "x": 56,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 68,
+            "y": 26,
+            "w": 297,
+            "h": 351
+          },
+          "anchor": {
+            "x": 217,
+            "y": 376
+          }
+        },
+        {
+          "name": "frozen_mountain_fly_2",
+          "source": {
+            "x": 440,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 412,
+            "y": 135,
+            "w": 345,
+            "h": 246
+          },
+          "anchor": {
+            "x": 585,
+            "y": 380
+          }
+        },
+        {
+          "name": "frozen_mountain_fly_3",
+          "source": {
+            "x": 824,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 819,
+            "y": 124,
+            "w": 313,
+            "h": 257
+          },
+          "anchor": {
+            "x": 976,
+            "y": 380
+          }
+        }
+      ]
+    },
+    {
+      "name": "frozen_mountain_bird",
+      "frames": [
+        {
+          "name": "frozen_mountain_bird_1",
+          "source": {
+            "x": 56,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 64,
+            "y": 404,
+            "w": 308,
+            "h": 393
+          },
+          "anchor": {
+            "x": 218,
+            "y": 796
+          }
+        },
+        {
+          "name": "frozen_mountain_bird_2",
+          "source": {
+            "x": 440,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 413,
+            "y": 547,
+            "w": 356,
+            "h": 249
+          },
+          "anchor": {
+            "x": 591,
+            "y": 795
+          }
+        },
+        {
+          "name": "frozen_mountain_bird_3",
+          "source": {
+            "x": 824,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 857,
+            "y": 554,
+            "w": 271,
+            "h": 249
+          },
+          "anchor": {
+            "x": 993,
+            "y": 802
+          }
+        }
+      ]
+    },
+    {
+      "name": "desert_oasis_fly",
+      "frames": [
+        {
+          "name": "desert_oasis_fly_1",
+          "source": {
+            "x": 56,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 68,
+            "y": 813,
+            "w": 297,
+            "h": 349
+          },
+          "anchor": {
+            "x": 217,
+            "y": 1161
+          }
+        },
+        {
+          "name": "desert_oasis_fly_2",
+          "source": {
+            "x": 440,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 412,
+            "y": 926,
+            "w": 346,
+            "h": 240
+          },
+          "anchor": {
+            "x": 585,
+            "y": 1165
+          }
+        },
+        {
+          "name": "desert_oasis_fly_3",
+          "source": {
+            "x": 824,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 818,
+            "y": 913,
+            "w": 316,
+            "h": 251
+          },
+          "anchor": {
+            "x": 976,
+            "y": 1163
+          }
+        }
+      ]
+    },
+    {
+      "name": "desert_oasis_bird",
+      "frames": [
+        {
+          "name": "desert_oasis_bird_1",
+          "source": {
+            "x": 56,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 49,
+            "y": 1189,
+            "w": 356,
+            "h": 360
+          },
+          "anchor": {
+            "x": 227,
+            "y": 1548
+          }
+        },
+        {
+          "name": "desert_oasis_bird_2",
+          "source": {
+            "x": 440,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 409,
+            "y": 1239,
+            "w": 392,
+            "h": 276
+          },
+          "anchor": {
+            "x": 605,
+            "y": 1514
+          }
+        },
+        {
+          "name": "desert_oasis_bird_3",
+          "source": {
+            "x": 824,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 832,
+            "y": 1236,
+            "w": 330,
+            "h": 318
+          },
+          "anchor": {
+            "x": 997,
+            "y": 1553
+          }
+        }
+      ]
+    },
+    {
+      "name": "cactus_canyon_fly",
+      "frames": [
+        {
+          "name": "cactus_canyon_fly_1",
+          "source": {
+            "x": 56,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 63,
+            "y": 1568,
+            "w": 300,
+            "h": 315
+          },
+          "anchor": {
+            "x": 213,
+            "y": 1882
+          }
+        },
+        {
+          "name": "cactus_canyon_fly_2",
+          "source": {
+            "x": 440,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 414,
+            "y": 1575,
+            "w": 340,
+            "h": 304
+          },
+          "anchor": {
+            "x": 584,
+            "y": 1878
+          }
+        },
+        {
+          "name": "cactus_canyon_fly_3",
+          "source": {
+            "x": 824,
+            "y": 1592,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 853,
+            "y": 1649,
+            "w": 275,
+            "h": 246
+          },
+          "anchor": {
+            "x": 991,
+            "y": 1894
+          }
+        }
+      ]
+    },
+    {
+      "name": "cactus_canyon_bird",
+      "frames": [
+        {
+          "name": "cactus_canyon_bird_1",
+          "source": {
+            "x": 56,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 51,
+            "y": 1936,
+            "w": 364,
+            "h": 344
+          },
+          "anchor": {
+            "x": 233,
+            "y": 2279
+          }
+        },
+        {
+          "name": "cactus_canyon_bird_2",
+          "source": {
+            "x": 440,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 415,
+            "y": 1974,
+            "w": 385,
+            "h": 275
+          },
+          "anchor": {
+            "x": 608,
+            "y": 2248
+          }
+        },
+        {
+          "name": "cactus_canyon_bird_3",
+          "source": {
+            "x": 824,
+            "y": 1976,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 834,
+            "y": 1978,
+            "w": 328,
+            "h": 309
+          },
+          "anchor": {
+            "x": 998,
+            "y": 2286
+          }
+        }
+      ]
+    },
+    {
+      "name": "tropical_island_fly",
+      "frames": [
+        {
+          "name": "tropical_island_fly_1",
+          "source": {
+            "x": 56,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 68,
+            "y": 2312,
+            "w": 290,
+            "h": 330
+          },
+          "anchor": {
+            "x": 213,
+            "y": 2641
+          }
+        },
+        {
+          "name": "tropical_island_fly_2",
+          "source": {
+            "x": 440,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 412,
+            "y": 2432,
+            "w": 342,
+            "h": 203
+          },
+          "anchor": {
+            "x": 583,
+            "y": 2634
+          }
+        },
+        {
+          "name": "tropical_island_fly_3",
+          "source": {
+            "x": 824,
+            "y": 2360,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 816,
+            "y": 2427,
+            "w": 313,
+            "h": 227
+          },
+          "anchor": {
+            "x": 973,
+            "y": 2653
+          }
+        }
+      ]
+    },
+    {
+      "name": "tropical_island_bird",
+      "frames": [
+        {
+          "name": "tropical_island_bird_1",
+          "source": {
+            "x": 56,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 39,
+            "y": 2696,
+            "w": 371,
+            "h": 358
+          },
+          "anchor": {
+            "x": 225,
+            "y": 3053
+          }
+        },
+        {
+          "name": "tropical_island_bird_2",
+          "source": {
+            "x": 440,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 416,
+            "y": 2803,
+            "w": 384,
+            "h": 247
+          },
+          "anchor": {
+            "x": 608,
+            "y": 3049
+          }
+        },
+        {
+          "name": "tropical_island_bird_3",
+          "source": {
+            "x": 824,
+            "y": 2744,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 809,
+            "y": 2832,
+            "w": 353,
+            "h": 259
+          },
+          "anchor": {
+            "x": 986,
+            "y": 3090
+          }
+        }
+      ]
+    }
+  ]
+}
